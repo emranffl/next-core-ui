@@ -37,17 +37,13 @@ jobs:
     steps:
 
     - name: Get package info
-      id: package
-      uses: codex-team/action-nodejs-package-info@v1.1
-      with:
-        path: '../../'
+      id: package-version
+      uses: martinbeentjes/npm-get-version-action@v1.3.1
 
     - name: Get the output
       run: |
-        echo "name: ${{ steps.package.outputs.name }}"
-        echo "version: ${{ steps.package.outputs.version }}"
-        echo "npmjs-link: ${{ steps.package.outputs.npmjs-link }}"
-        echo "is-release-candidate: ${{ steps.package.outputs.is-release-candidate }}"
+        echo "name: ${{ steps.package-version.outputs.current-version}}
+        echo "version: ${{ steps.package-version.outputs.current-version}}
 
 
     # - name: Create Release
