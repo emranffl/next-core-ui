@@ -40,7 +40,7 @@ jobs:
 
     - name: Get package info
       id: package-version
-      uses: justincy/npm-version-action@2.1.0
+      uses: nyaa8/package-version@v1.0.3
 #       with:
 #         path: ".."
 
