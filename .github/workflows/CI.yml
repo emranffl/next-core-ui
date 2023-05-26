@@ -36,16 +36,16 @@ jobs:
 
     steps:
 
-    - name: Read node from package.json
-      uses: culshaw/read-package-node-version-actions@v1
-      id: package-node-version
+    - name: Extract version
+      id: extract_version
+      uses: Saionaro/extract-package-version@v1.2.1
 
 
     - name: Create Release
       uses: actions/create-release@v1
       with:
-        tag_name: v${{ steps.package-node-version.outputs.version }}"
-        release_name: Release library v${{ steps.package-node-version.outputs.version }}"
+        tag_name: v${{ steps.extract_version.outputs.version }}
+        release_name: Release library v${{ steps.extract_version.outputs.version }}
       env: 
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
