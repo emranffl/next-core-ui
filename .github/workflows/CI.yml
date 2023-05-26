@@ -36,19 +36,19 @@ jobs:
 
     steps:
 
-    - name: Get Version
-      id: get_version
-      uses: martinbeentjes/npm-get-version-action@v1.3.1
+    - name: Read node from package.json
+      uses: culshaw/read-package-node-version-actions@v1
+      id: package-node-version
 
 
     - name: Create Release
       uses: actions/create-release@v1
       with:
-        tag_name: v${{ steps.get_version.outputs.current-version }}
-        release_name: Release library v${{ steps.get_version.outputs.current-version }}
+        tag_name: v${{ steps.package-node-version.outputs.version }}"
+        release_name: Release library v${{ steps.package-node-version.outputs.version }}"
       env: 
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        
+
         # body: |
         #   Changes in this Release
         #   - First Change
