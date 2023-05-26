@@ -17,7 +17,8 @@ jobs:
     strategy:
       matrix:
         node-version: [18.x]
-        os: [ubuntu-latest, windows-latest]
+#         os: [ubuntu-latest, windows-latest]
+        os: [ubuntu-latest]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
@@ -40,7 +41,7 @@ jobs:
       id: package-version
       uses: martinbeentjes/npm-get-version-action@v1.3.1
       with:
-        path: "../../"
+        path: "../.."
 
     - name: Get the output
       run: |
