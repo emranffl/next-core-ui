@@ -39,6 +39,8 @@ jobs:
     - name: Get package info
       id: package-version
       uses: martinbeentjes/npm-get-version-action@v1.3.1
+      with:
+        path: "../../"
 
     - name: Get the output
       run: |
