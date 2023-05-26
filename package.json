@@ -5,7 +5,7 @@
 	"scripts": {
 		"commit": "git-cz",
 		"rollup": "rm -r dist && rollup -c --bundleConfigAsCjs",
-		"semantic-release": "semantic-release --branch main"
+		"semantic-release": "semantic-release --branches main"
 	},
 	"type": "module",
 	"keywords": [],
