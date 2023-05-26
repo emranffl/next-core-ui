@@ -38,7 +38,7 @@ jobs:
 
     - name: Extract version
       id: extract_version
-      uses: Saionaro/extract-package-version@v1.2.1
+      uses: technote-space/package-version-check-action@v1
 
 
     - name: Create Release
