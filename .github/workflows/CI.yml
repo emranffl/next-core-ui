@@ -37,11 +37,12 @@ jobs:
 
     steps:
 
+
     - name: Get package info
       id: package-version
-      uses: martinbeentjes/npm-get-version-action@v1.3.1
-      with:
-        path: ".."
+      uses: justincy/npm-version-action@2.1.0
+#       with:
+#         path: ".."
 
     - name: Get the output
       run: |
