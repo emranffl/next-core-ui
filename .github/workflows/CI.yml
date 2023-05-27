@@ -30,7 +30,8 @@ jobs:
           cache: "npm"
       - run: npm ci
 
-  publish:
+  publish-tag:
+    name: Publish Tag
     runs-on: ubuntu-latest
     needs: [build]
     
@@ -46,3 +47,22 @@ jobs:
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  
+  publish-release:
+    name: Publish Release
+    runs-on: ubuntu-latest
+    needs: [publish-tag]
+    
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Publish release
+        uses: ghalactic/github-release-from-tag@v4
+        if: github.ref_type == 'tag'
+        with:
+          prerelease: "true"
+          generateReleaseNotes: "true"
+#           token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
+  
