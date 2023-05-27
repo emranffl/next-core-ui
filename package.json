@@ -4,7 +4,7 @@
 	"description": "",
 	"scripts": {
 		"commit": "git-cz",
-		"docify": "node_modules/markdown-include/bin/cli.js ./markdown.json",
+		"docify": "npx typedoc --plugin typedoc-plugin-markdown --out docs src/index.ts --hideBreadcrumbs --hideInPageTOC",
 		"rollup": "rm -r dist && rollup -c --bundleConfigAsCjs",
 		"semantic-release": "semantic-release --branches main",
 		"update-icon-names": "node ./src/components/Icon/bootstrap-icons/names-generator.js && node ./src/components/Icon/material-icons/names-generator.js"
@@ -14,8 +14,7 @@
 	"author": "Emran Hossain",
 	"license": "MIT",
 	"dependencies": {
-		"commitizen": "^4.3.0",
-		"markdown-include": "^0.4.3"
+		"commitizen": "^4.3.0"
 	},
 	"devDependencies": {
 		"@babel/plugin-transform-runtime": "^7.21.4",

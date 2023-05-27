@@ -1,26 +1,26 @@
 # Next Core UI
 
-Next Core UI is a library of React components styled with [Tailwind CSS](https://tailwindcss.com/)
+## Next Core UI is a library of React components styled with [Tailwind CSS](https://tailwindcss.com/)
 
-## Installation
-
-To install Next Core UI, run with `npm`:
+To install Next Core UI, run:
 
 ```bash
 npm install next-core-ui
 ```
 
-or with `yarn`:
+with `npm`, or
 
 ```bash
 yarn add next-core-ui
 ```
 
-or with `pnpm`:
+with `yarn`, or
 
 ```bash
 pnpm add next-core-ui
 ```
+
+with `pnpm`.
 
 ## Used Packages
 
@@ -30,5 +30,10 @@ pnpm add next-core-ui
 
 ## Components
 
-- [Spinner](./docs/interfaces/SpinnerProps.md)
-- [Icon](./docs/interfaces/IconProps.md)
+- [Spinner](./typedoc/interfaces/SpinnerProps.md)
+
+## Documentation
+
+## Usage
+
+### Spinner Usage
