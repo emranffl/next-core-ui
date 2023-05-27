@@ -1,10 +1,10 @@
 {
 	"name": "next-core-ui",
-	"version": "0.0.0-development",
+	"version": "v1.0.0",
 	"description": "",
 	"scripts": {
 		"commit": "git-cz",
-		"docify": "npx typedoc --plugin typedoc-plugin-markdown --out docs src/index.ts --hideBreadcrumbs --hideInPageTOC",
+		"docify": "npx typedoc --plugin typedoc-plugin-markdown --out docs src/index.ts --hideBreadcrumbs --hideInPageTOC && rm -r docs/README.md",
 		"rollup": "rm -r dist && rollup -c --bundleConfigAsCjs",
 		"semantic-release": "semantic-release --branches main",
 		"update-icon-names": "node ./src/components/Icon/bootstrap-icons/names-generator.js && node ./src/components/Icon/material-icons/names-generator.js"
