@@ -40,17 +40,19 @@
 		"rollup-plugin-flat-dts": "^2.1.0",
 		"rollup-plugin-peer-deps-external": "^2.2.4",
 		"rollup-plugin-postcss": "^4.0.2",
-		"semantic-release": "^21.0.2 --branch main",
+		"semantic-release": "^21.0.2",
 		"tslib": "^2.5.0",
 		"typedoc": "^0.24.7",
 		"typedoc-plugin-markdown": "^3.15.3",
 		"typescript": "^5.0.4"
 	},
-	"main": "dist/cjs/index.js",
-	"module": "dist/esm/index.js",
-	"types": "dist/esm/types/index.d.ts",
+	"source": "src/index.ts",
+	"main": "dist/main.js",
+	"module": "dist/module.js",
+	"types": "dist/index.d.ts",
 	"files": [
-		"dist"
+		"dist",
+		"LICENSE"
 	],
 	"publishConfig": {
 		"access": "public",
