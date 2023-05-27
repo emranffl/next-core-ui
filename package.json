@@ -47,7 +47,6 @@
 		"typescript": "^5.0.4"
 	},
 	"source": "src/index.ts",
-	"main": "dist/main.js",
 	"module": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"files": [
