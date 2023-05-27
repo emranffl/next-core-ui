@@ -78,7 +78,7 @@ export const colors = {
 	heartColor: "#f59e0b",
 
 	//for light theme
-	navBg: "#FFFFFF",
+	navBg: "#FFFFA8",
 	navText: "#212326",
 	navActiveLink: "transparent",
 	navActiveLinkText: "#00804B",
