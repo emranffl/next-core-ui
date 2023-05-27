@@ -1,6 +1,6 @@
 {
 	"name": "next-core-ui",
-	"version": "1.1.0",
+	"version": "0.0.0-development",
 	"description": "",
 	"scripts": {
 		"commit": "git-cz",
@@ -10,7 +10,11 @@
 		"update-icon-names": "node ./src/components/Icon/bootstrap-icons/names-generator.js && node ./src/components/Icon/material-icons/names-generator.js"
 	},
 	"type": "module",
-	"keywords": [],
+	"keywords": [
+		"next.js",
+		"tailwindcss",
+		"components"
+	],
 	"author": "Emran Hossain",
 	"license": "MIT",
 	"dependencies": {
