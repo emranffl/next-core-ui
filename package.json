@@ -4,13 +4,19 @@
 	"description": "",
 	"scripts": {
 		"commit": "git-cz",
+		"docify": "node_modules/markdown-include/bin/cli.js ./markdown.json",
 		"rollup": "rm -r dist && rollup -c --bundleConfigAsCjs",
-		"semantic-release": "semantic-release --branches main"
+		"semantic-release": "semantic-release --branches main",
+		"update-icon-names": "node ./src/components/Icon/bootstrap-icons/names-generator.js && node ./src/components/Icon/material-icons/names-generator.js"
 	},
 	"type": "module",
 	"keywords": [],
 	"author": "Emran Hossain",
 	"license": "MIT",
+	"dependencies": {
+		"commitizen": "^4.3.0",
+		"markdown-include": "^0.4.3"
+	},
 	"devDependencies": {
 		"@babel/plugin-transform-runtime": "^7.21.4",
 		"@babel/preset-env": "^7.21.5",
@@ -21,7 +27,9 @@
 		"@rollup/plugin-terser": "^0.4.1",
 		"@rollup/plugin-typescript": "^11.1.1",
 		"@types/react": "^18.2.6",
+		"bootstrap-icons": "^1.10.5",
 		"cz-conventional-changelog": "^3.3.0",
+		"material-icons": "^1.13.7",
 		"prettier": "^2.8.8",
 		"react": "^18.2.0",
 		"rollup": "^3.21.6",
@@ -31,6 +39,8 @@
 		"rollup-plugin-postcss": "^4.0.2",
 		"semantic-release": "^21.0.2 --branch main",
 		"tslib": "^2.5.0",
+		"typedoc": "^0.24.7",
+		"typedoc-plugin-markdown": "^3.15.3",
 		"typescript": "^5.0.4"
 	},
 	"main": "dist/cjs/index.js",
@@ -46,9 +56,6 @@
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/emranffl/next-core-ui.git"
-	},
-	"dependencies": {
-		"commitizen": "^4.3.0"
 	},
 	"config": {
 		"commitizen": {

@@ -1,3 +1,4 @@
+// + Spinner component
 export {
 	default as Spinner,
 	VARIANTS,
@@ -5,3 +6,6 @@ export {
 	POSITIONS,
 	SpinnerProps,
 } from "./Spinner"
+
+// + Icon component
+export { default as Icon, IconProps } from "./Icon"
