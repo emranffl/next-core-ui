@@ -5,9 +5,9 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   pull_request:
-    branches: [ "main", "production" ]
+    branches: ["main", "production"]
 
 jobs:
   build:
@@ -17,68 +17,32 @@ jobs:
     strategy:
       matrix:
         node-version: [18.x]
-#         os: [ubuntu-latest, windows-latest]
+        # os: [ubuntu-latest, windows-latest]
         os: [ubuntu-latest]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-    - uses: actions/checkout@v3
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-    - run: npm ci
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: "npm"
+      - run: npm ci
 
   publish:
     runs-on: ubuntu-latest
     if: ${{ github.ref == 'refs/heads/main' }}
     needs: [build]
-
     steps:
-
-
-    - name: Get package info
-      id: package-version
-      uses: nyaa8/package-version@v1.0.3
-#       with:
-#         path: ".."
-
-    - name: Get the output
-      run: |
-        echo "name: ${{ steps.package-version.outputs.current-version}}
-        echo "version: ${{ steps.package-version.outputs.current-version}}
-
-
-    # - name: Create Release
-    #   uses: actions/create-release@v1
-    #   with:
-    #     tag_name: v${{ steps.get-version.outputs.version }}
-    #     release_name: Release library v${{ steps.get-version.outputs.version }}
-    #   env: 
-    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-        # body: |
-        #   Changes in this Release
-        #   - First Change
-        #   - Second Change
-        # draft: false
-        # prerelease: false
-
-  # publish:
-  #   runs-on: ubuntu-latest
-  #   if: ${{ github.ref == 'refs/heads/main' }}
-  #   needs: [build]
-  #   steps:
-  #   - uses: actions/checkout@v3
-  #   - name: Use Node.js ${{ matrix.node-version }}
-  #     uses: actions/setup-node@v3
-  #     with:
-  #       node-version: ${{ matrix.node-version }}
-  #       cache: 'npm'
-  #   - run: npm ci
-  #   - run: npm run semantic-release
-  #     env: 
-  #       NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-  #       GITHUB_TOKEN: ${{ secrets.Next_Core_UI_CI }}
-    
+      - uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: "npm"
+      # - run: npm ci
+      - run: npm run semantic-release
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
