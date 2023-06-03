@@ -2,14 +2,29 @@
 
 ## Enumerations
 
-- [POSITIONS](enums/POSITIONS.md)
-- [TRACK\_COLORS](enums/TRACK_COLORS.md)
-- [VARIANTS](enums/VARIANTS.md)
+- [BUTTON\_ICON\_POSITIONS](enums/BUTTON_ICON_POSITIONS.md)
+- [BUTTON\_SIZES](enums/BUTTON_SIZES.md)
+- [BUTTON\_TYPES](enums/BUTTON_TYPES.md)
+- [BUTTON\_VARIANTS](enums/BUTTON_VARIANTS.md)
+- [SPINNER\_TEXT\_POSITIONS](enums/SPINNER_TEXT_POSITIONS.md)
+- [SPINNER\_TRACK\_COLORS](enums/SPINNER_TRACK_COLORS.md)
+- [SPINNER\_VARIANTS](enums/SPINNER_VARIANTS.md)
 
 ## Interfaces
 
+- [ButtonParams](interfaces/ButtonParams.md)
 - [IconProps](interfaces/IconProps.md)
 - [SpinnerProps](interfaces/SpinnerProps.md)
+
+## Type Aliases
+
+### ButtonProps
+
+Ƭ **ButtonProps**: [`ButtonParams`](interfaces/ButtonParams.md) & { `link`: `NonNullable`<[`ButtonParams`](interfaces/ButtonParams.md)[``"link"``]\>  } \| [`ButtonParams`](interfaces/ButtonParams.md) & { `onClick`: `NonNullable`<[`ButtonParams`](interfaces/ButtonParams.md)[``"onClick"``]\>  }
+
+#### Defined in
+
+src/components/Button/index.tsx:212
 
 ## Variables
 
@@ -31,7 +46,7 @@
 
 #### Defined in
 
-[src/utility/tailwind.config.ts:77](https://github.com/emranffl/next-core-ui/blob/45212db/src/utility/tailwind.config.ts#L77)
+[src/utility/tailwind.config.ts:77](https://github.com/emranffl/next-core-ui/blob/ec3e5e8/src/utility/tailwind.config.ts#L77)
 
 ___
 
@@ -117,9 +132,31 @@ ___
 
 #### Defined in
 
-[src/utility/tailwind.config.ts:3](https://github.com/emranffl/next-core-ui/blob/45212db/src/utility/tailwind.config.ts#L3)
+[src/utility/tailwind.config.ts:3](https://github.com/emranffl/next-core-ui/blob/ec3e5e8/src/utility/tailwind.config.ts#L3)
 
 ## Functions
+
+### Button
+
+▸ **Button**(`props`): ``null`` \| `ReactElement`<`any`, `string` \| `JSXElementConstructor`<`any`\>\>
+
+**NOTE**: Exotic components are not callable.
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `props` | `Object` |
+
+#### Returns
+
+``null`` \| `ReactElement`<`any`, `string` \| `JSXElementConstructor`<`any`\>\>
+
+#### Defined in
+
+node_modules/@types/react/ts5.0/index.d.ts:351
+
+___
 
 ### Icon
 
