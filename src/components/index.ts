@@ -20,3 +20,6 @@ export {
   ButtonParams,
   ButtonProps,
 } from "./Button"
+
+// + Button component
+export { default as ButtonIcon, ButtonIconProps } from "./Button/ButtonIcon"

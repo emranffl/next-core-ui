@@ -32,3 +32,5 @@ pnpm add next-core-ui
 
 - [Spinner](./docs/interfaces/SpinnerProps.md)
 - [Icon](./docs/interfaces/IconProps.md)
+- [Button](./docs/interfaces/ButtonParams.md)
+- [ButtonIcon](./docs/interfaces/ButtonIconProps.md)

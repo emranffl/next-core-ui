@@ -12,6 +12,7 @@
 
 ## Interfaces
 
+- [ButtonIconProps](interfaces/ButtonIconProps.md)
 - [ButtonParams](interfaces/ButtonParams.md)
 - [IconProps](interfaces/IconProps.md)
 - [SpinnerProps](interfaces/SpinnerProps.md)
@@ -24,7 +25,7 @@
 
 #### Defined in
 
-src/components/Button/index.tsx:212
+[src/components/Button/index.tsx:212](https://github.com/emranffl/next-core-ui/blob/7c46585/src/components/Button/index.tsx#L212)
 
 ## Variables
 
@@ -46,7 +47,7 @@ src/components/Button/index.tsx:212
 
 #### Defined in
 
-[src/utility/tailwind.config.ts:77](https://github.com/emranffl/next-core-ui/blob/ec3e5e8/src/utility/tailwind.config.ts#L77)
+[src/utility/tailwind.config.ts:77](https://github.com/emranffl/next-core-ui/blob/7c46585/src/utility/tailwind.config.ts#L77)
 
 ___
 
@@ -132,7 +133,7 @@ ___
 
 #### Defined in
 
-[src/utility/tailwind.config.ts:3](https://github.com/emranffl/next-core-ui/blob/ec3e5e8/src/utility/tailwind.config.ts#L3)
+[src/utility/tailwind.config.ts:3](https://github.com/emranffl/next-core-ui/blob/7c46585/src/utility/tailwind.config.ts#L3)
 
 ## Functions
 
@@ -147,6 +148,28 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `props` | `Object` |
+
+#### Returns
+
+``null`` \| `ReactElement`<`any`, `string` \| `JSXElementConstructor`<`any`\>\>
+
+#### Defined in
+
+node_modules/@types/react/ts5.0/index.d.ts:351
+
+___
+
+### ButtonIcon
+
+▸ **ButtonIcon**(`props`): ``null`` \| `ReactElement`<`any`, `string` \| `JSXElementConstructor`<`any`\>\>
+
+**NOTE**: Exotic components are not callable.
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `props` | [`ButtonIconProps`](interfaces/ButtonIconProps.md) & `RefAttributes`<`HTMLButtonElement`\> |
 
 #### Returns
 

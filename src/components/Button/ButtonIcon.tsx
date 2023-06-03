@@ -65,6 +65,7 @@ export interface ButtonIconProps {
 /**
  * @name ButtonIcon
  * @author Emran
+ * @type `Client Component`
  *
  * @example
  ```tsx
