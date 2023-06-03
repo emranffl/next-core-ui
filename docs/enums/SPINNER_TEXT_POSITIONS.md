@@ -8,7 +8,7 @@
 
 #### Defined in
 
-[src/components/Spinner/index.tsx:22](https://github.com/emranffl/next-core-ui/blob/aebf215/src/components/Spinner/index.tsx#L22)
+[src/components/Spinner/index.tsx:22](https://github.com/emranffl/next-core-ui/blob/6d8b6ba/src/components/Spinner/index.tsx#L22)
 
 ___
 
@@ -18,4 +18,4 @@ ___
 
 #### Defined in
 
-[src/components/Spinner/index.tsx:21](https://github.com/emranffl/next-core-ui/blob/aebf215/src/components/Spinner/index.tsx#L21)
+[src/components/Spinner/index.tsx:21](https://github.com/emranffl/next-core-ui/blob/6d8b6ba/src/components/Spinner/index.tsx#L21)

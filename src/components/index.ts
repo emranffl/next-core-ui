@@ -1,4 +1,4 @@
-// + Spinner component
+// + Spinner component - 1
 export {
   default as Spinner,
   SPINNER_VARIANTS,
@@ -7,10 +7,10 @@ export {
   SpinnerProps,
 } from "./Spinner"
 
-// + Icon component
+// + Icon component - 2
 export { default as Icon, IconProps } from "./Icon"
 
-// + Button component
+// + Button component - 3
 export {
   default as Button,
   BUTTON_VARIANTS,
@@ -21,13 +21,16 @@ export {
   ButtonProps,
 } from "./Button"
 
-// + ButtonIcon component
+// + ButtonIcon component - 4
 export { default as ButtonIcon, ButtonIconProps } from "./Button/ButtonIcon"
 
-// + Badge component
+// + Badge component - 5
 export {
   default as Badge,
   BADGE_VARIANTS,
   BADGE_ICON_POSITIONS,
   BadgeProps,
 } from "./Badge"
+
+// + BadgeIcon component - 6
+export { default as BadgeIcon, BadgeIconProps } from "./Badge/BadgeIcon"

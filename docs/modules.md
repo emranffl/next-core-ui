@@ -14,6 +14,7 @@
 
 ## Interfaces
 
+- [BadgeIconProps](interfaces/BadgeIconProps.md)
 - [BadgeProps](interfaces/BadgeProps.md)
 - [ButtonIconProps](interfaces/ButtonIconProps.md)
 - [ButtonParams](interfaces/ButtonParams.md)
@@ -28,7 +29,7 @@
 
 #### Defined in
 
-[src/components/Button/index.tsx:212](https://github.com/emranffl/next-core-ui/blob/aebf215/src/components/Button/index.tsx#L212)
+[src/components/Button/index.tsx:212](https://github.com/emranffl/next-core-ui/blob/6d8b6ba/src/components/Button/index.tsx#L212)
 
 ## Variables
 
@@ -50,7 +51,7 @@
 
 #### Defined in
 
-[src/utility/tailwind.config.ts:77](https://github.com/emranffl/next-core-ui/blob/aebf215/src/utility/tailwind.config.ts#L77)
+[src/utility/tailwind.config.ts:77](https://github.com/emranffl/next-core-ui/blob/6d8b6ba/src/utility/tailwind.config.ts#L77)
 
 ___
 
@@ -136,7 +137,7 @@ ___
 
 #### Defined in
 
-[src/utility/tailwind.config.ts:3](https://github.com/emranffl/next-core-ui/blob/aebf215/src/utility/tailwind.config.ts#L3)
+[src/utility/tailwind.config.ts:3](https://github.com/emranffl/next-core-ui/blob/6d8b6ba/src/utility/tailwind.config.ts#L3)
 
 ## Functions
 
@@ -151,6 +152,28 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `props` | [`BadgeProps`](interfaces/BadgeProps.md) & `RefAttributes`<`HTMLSpanElement`\> |
+
+#### Returns
+
+``null`` \| `ReactElement`<`any`, `string` \| `JSXElementConstructor`<`any`\>\>
+
+#### Defined in
+
+node_modules/@types/react/ts5.0/index.d.ts:351
+
+___
+
+### BadgeIcon
+
+▸ **BadgeIcon**(`props`): ``null`` \| `ReactElement`<`any`, `string` \| `JSXElementConstructor`<`any`\>\>
+
+**NOTE**: Exotic components are not callable.
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `props` | [`BadgeIconProps`](interfaces/BadgeIconProps.md) & `RefAttributes`<`HTMLSpanElement`\> |
 
 #### Returns
 

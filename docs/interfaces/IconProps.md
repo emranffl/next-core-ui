@@ -22,7 +22,7 @@ className="m-8"
 
 #### Defined in
 
-[src/components/Icon/index.tsx:57](https://github.com/emranffl/next-core-ui/blob/aebf215/src/components/Icon/index.tsx#L57)
+[src/components/Icon/index.tsx:57](https://github.com/emranffl/next-core-ui/blob/6d8b6ba/src/components/Icon/index.tsx#L57)
 
 ___
 
@@ -40,7 +40,7 @@ currentColor
 
 #### Defined in
 
-[src/components/Icon/index.tsx:31](https://github.com/emranffl/next-core-ui/blob/aebf215/src/components/Icon/index.tsx#L31)
+[src/components/Icon/index.tsx:31](https://github.com/emranffl/next-core-ui/blob/6d8b6ba/src/components/Icon/index.tsx#L31)
 
 ___
 
@@ -66,7 +66,7 @@ disabled
 
 #### Defined in
 
-[src/components/Icon/index.tsx:49](https://github.com/emranffl/next-core-ui/blob/aebf215/src/components/Icon/index.tsx#L49)
+[src/components/Icon/index.tsx:49](https://github.com/emranffl/next-core-ui/blob/6d8b6ba/src/components/Icon/index.tsx#L49)
 
 ___
 
@@ -78,7 +78,7 @@ The id of the icon
 
 #### Defined in
 
-[src/components/Icon/index.tsx:61](https://github.com/emranffl/next-core-ui/blob/aebf215/src/components/Icon/index.tsx#L61)
+[src/components/Icon/index.tsx:61](https://github.com/emranffl/next-core-ui/blob/6d8b6ba/src/components/Icon/index.tsx#L61)
 
 ___
 
@@ -90,7 +90,7 @@ The internal prop to pass reference to the component. Use `ref` prop to pass ref
 
 #### Defined in
 
-[src/components/Icon/index.tsx:65](https://github.com/emranffl/next-core-ui/blob/aebf215/src/components/Icon/index.tsx#L65)
+[src/components/Icon/index.tsx:65](https://github.com/emranffl/next-core-ui/blob/6d8b6ba/src/components/Icon/index.tsx#L65)
 
 ___
 
@@ -108,7 +108,7 @@ name="heart"
 
 #### Defined in
 
-[src/components/Icon/index.tsx:22](https://github.com/emranffl/next-core-ui/blob/aebf215/src/components/Icon/index.tsx#L22)
+[src/components/Icon/index.tsx:22](https://github.com/emranffl/next-core-ui/blob/6d8b6ba/src/components/Icon/index.tsx#L22)
 
 ___
 
@@ -120,7 +120,7 @@ Icon size in pixels
 
 #### Defined in
 
-[src/components/Icon/index.tsx:26](https://github.com/emranffl/next-core-ui/blob/aebf215/src/components/Icon/index.tsx#L26)
+[src/components/Icon/index.tsx:26](https://github.com/emranffl/next-core-ui/blob/6d8b6ba/src/components/Icon/index.tsx#L26)
 
 ___
 
@@ -144,4 +144,4 @@ strokeWidth={3}
 
 #### Defined in
 
-[src/components/Icon/index.tsx:39](https://github.com/emranffl/next-core-ui/blob/aebf215/src/components/Icon/index.tsx#L39)
+[src/components/Icon/index.tsx:39](https://github.com/emranffl/next-core-ui/blob/6d8b6ba/src/components/Icon/index.tsx#L39)
