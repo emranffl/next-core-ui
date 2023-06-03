@@ -21,5 +21,13 @@ export {
   ButtonProps,
 } from "./Button"
 
-// + Button component
+// + ButtonIcon component
 export { default as ButtonIcon, ButtonIconProps } from "./Button/ButtonIcon"
+
+// + Badge component
+export {
+  default as Badge,
+  BADGE_VARIANTS,
+  BADGE_ICON_POSITIONS,
+  BadgeProps,
+} from "./Badge"

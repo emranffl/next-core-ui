@@ -34,3 +34,4 @@ pnpm add next-core-ui
 - [Icon](./docs/interfaces/IconProps.md)
 - [Button](./docs/interfaces/ButtonParams.md)
 - [ButtonIcon](./docs/interfaces/ButtonIconProps.md)
+- [Badge](./docs/interfaces/BadgeProps.md)
