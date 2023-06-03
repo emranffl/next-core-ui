@@ -10,7 +10,7 @@ The class name of the button
 
 #### Defined in
 
-[src/components/Button/ButtonIcon.tsx:32](https://github.com/emranffl/next-core-ui/blob/6d8b6ba/src/components/Button/ButtonIcon.tsx#L32)
+[src/components/Button/ButtonIcon.tsx:32](https://github.com/emranffl/next-core-ui/blob/34617b4/src/components/Button/ButtonIcon.tsx#L32)
 
 ___
 
@@ -22,7 +22,7 @@ The disabled state of the button
 
 #### Defined in
 
-[src/components/Button/ButtonIcon.tsx:46](https://github.com/emranffl/next-core-ui/blob/6d8b6ba/src/components/Button/ButtonIcon.tsx#L46)
+[src/components/Button/ButtonIcon.tsx:46](https://github.com/emranffl/next-core-ui/blob/34617b4/src/components/Button/ButtonIcon.tsx#L46)
 
 ___
 
@@ -34,7 +34,7 @@ The full width state of the button
 
 #### Defined in
 
-[src/components/Button/ButtonIcon.tsx:50](https://github.com/emranffl/next-core-ui/blob/6d8b6ba/src/components/Button/ButtonIcon.tsx#L50)
+[src/components/Button/ButtonIcon.tsx:50](https://github.com/emranffl/next-core-ui/blob/34617b4/src/components/Button/ButtonIcon.tsx#L50)
 
 ___
 
@@ -50,7 +50,7 @@ Icon props {} to render an icon inside the button,
 
 #### Defined in
 
-[src/components/Button/ButtonIcon.tsx:16](https://github.com/emranffl/next-core-ui/blob/6d8b6ba/src/components/Button/ButtonIcon.tsx#L16)
+[src/components/Button/ButtonIcon.tsx:16](https://github.com/emranffl/next-core-ui/blob/34617b4/src/components/Button/ButtonIcon.tsx#L16)
 
 ___
 
@@ -62,7 +62,7 @@ The id of the button
 
 #### Defined in
 
-[src/components/Button/ButtonIcon.tsx:58](https://github.com/emranffl/next-core-ui/blob/6d8b6ba/src/components/Button/ButtonIcon.tsx#L58)
+[src/components/Button/ButtonIcon.tsx:58](https://github.com/emranffl/next-core-ui/blob/34617b4/src/components/Button/ButtonIcon.tsx#L58)
 
 ___
 
@@ -74,7 +74,7 @@ The internal prop to pass reference to the component. Use `ref` prop to pass ref
 
 #### Defined in
 
-[src/components/Button/ButtonIcon.tsx:62](https://github.com/emranffl/next-core-ui/blob/6d8b6ba/src/components/Button/ButtonIcon.tsx#L62)
+[src/components/Button/ButtonIcon.tsx:62](https://github.com/emranffl/next-core-ui/blob/34617b4/src/components/Button/ButtonIcon.tsx#L62)
 
 ___
 
@@ -94,7 +94,7 @@ onClick={() => console.log("clicked")}
 
 #### Defined in
 
-[src/components/Button/ButtonIcon.tsx:42](https://github.com/emranffl/next-core-ui/blob/6d8b6ba/src/components/Button/ButtonIcon.tsx#L42)
+[src/components/Button/ButtonIcon.tsx:42](https://github.com/emranffl/next-core-ui/blob/34617b4/src/components/Button/ButtonIcon.tsx#L42)
 
 ___
 
@@ -106,7 +106,7 @@ The outline state of the button
 
 #### Defined in
 
-[src/components/Button/ButtonIcon.tsx:54](https://github.com/emranffl/next-core-ui/blob/6d8b6ba/src/components/Button/ButtonIcon.tsx#L54)
+[src/components/Button/ButtonIcon.tsx:54](https://github.com/emranffl/next-core-ui/blob/34617b4/src/components/Button/ButtonIcon.tsx#L54)
 
 ___
 
@@ -122,7 +122,7 @@ The size of the button,
 
 #### Defined in
 
-[src/components/Button/ButtonIcon.tsx:24](https://github.com/emranffl/next-core-ui/blob/6d8b6ba/src/components/Button/ButtonIcon.tsx#L24)
+[src/components/Button/ButtonIcon.tsx:24](https://github.com/emranffl/next-core-ui/blob/34617b4/src/components/Button/ButtonIcon.tsx#L24)
 
 ___
 
@@ -134,7 +134,7 @@ The title of the button
 
 #### Defined in
 
-[src/components/Button/ButtonIcon.tsx:28](https://github.com/emranffl/next-core-ui/blob/6d8b6ba/src/components/Button/ButtonIcon.tsx#L28)
+[src/components/Button/ButtonIcon.tsx:28](https://github.com/emranffl/next-core-ui/blob/34617b4/src/components/Button/ButtonIcon.tsx#L28)
 
 ___
 
@@ -150,4 +150,4 @@ The variant of the button,
 
 #### Defined in
 
-[src/components/Button/ButtonIcon.tsx:20](https://github.com/emranffl/next-core-ui/blob/6d8b6ba/src/components/Button/ButtonIcon.tsx#L20)
+[src/components/Button/ButtonIcon.tsx:20](https://github.com/emranffl/next-core-ui/blob/34617b4/src/components/Button/ButtonIcon.tsx#L20)

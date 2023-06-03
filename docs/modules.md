@@ -8,6 +8,9 @@
 - [BUTTON\_SIZES](enums/BUTTON_SIZES.md)
 - [BUTTON\_TYPES](enums/BUTTON_TYPES.md)
 - [BUTTON\_VARIANTS](enums/BUTTON_VARIANTS.md)
+- [CHIP\_SHAPES](enums/CHIP_SHAPES.md)
+- [CHIP\_SIZES](enums/CHIP_SIZES.md)
+- [CHIP\_VARIANTS](enums/CHIP_VARIANTS.md)
 - [SPINNER\_TEXT\_POSITIONS](enums/SPINNER_TEXT_POSITIONS.md)
 - [SPINNER\_TRACK\_COLORS](enums/SPINNER_TRACK_COLORS.md)
 - [SPINNER\_VARIANTS](enums/SPINNER_VARIANTS.md)
@@ -18,6 +21,7 @@
 - [BadgeProps](interfaces/BadgeProps.md)
 - [ButtonIconProps](interfaces/ButtonIconProps.md)
 - [ButtonParams](interfaces/ButtonParams.md)
+- [ChipProps](interfaces/ChipProps.md)
 - [IconProps](interfaces/IconProps.md)
 - [SpinnerProps](interfaces/SpinnerProps.md)
 
@@ -29,7 +33,7 @@
 
 #### Defined in
 
-[src/components/Button/index.tsx:212](https://github.com/emranffl/next-core-ui/blob/6d8b6ba/src/components/Button/index.tsx#L212)
+[src/components/Button/index.tsx:212](https://github.com/emranffl/next-core-ui/blob/34617b4/src/components/Button/index.tsx#L212)
 
 ## Variables
 
@@ -51,7 +55,7 @@
 
 #### Defined in
 
-[src/utility/tailwind.config.ts:77](https://github.com/emranffl/next-core-ui/blob/6d8b6ba/src/utility/tailwind.config.ts#L77)
+[src/utility/tailwind.config.ts:77](https://github.com/emranffl/next-core-ui/blob/34617b4/src/utility/tailwind.config.ts#L77)
 
 ___
 
@@ -137,7 +141,7 @@ ___
 
 #### Defined in
 
-[src/utility/tailwind.config.ts:3](https://github.com/emranffl/next-core-ui/blob/6d8b6ba/src/utility/tailwind.config.ts#L3)
+[src/utility/tailwind.config.ts:3](https://github.com/emranffl/next-core-ui/blob/34617b4/src/utility/tailwind.config.ts#L3)
 
 ## Functions
 
@@ -218,6 +222,28 @@ ___
 | Name | Type |
 | :------ | :------ |
 | `props` | [`ButtonIconProps`](interfaces/ButtonIconProps.md) & `RefAttributes`<`HTMLButtonElement`\> |
+
+#### Returns
+
+``null`` \| `ReactElement`<`any`, `string` \| `JSXElementConstructor`<`any`\>\>
+
+#### Defined in
+
+node_modules/@types/react/ts5.0/index.d.ts:351
+
+___
+
+### Chip
+
+▸ **Chip**(`props`): ``null`` \| `ReactElement`<`any`, `string` \| `JSXElementConstructor`<`any`\>\>
+
+**NOTE**: Exotic components are not callable.
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `props` | [`ChipProps`](interfaces/ChipProps.md) & `RefAttributes`<`HTMLSpanElement`\> |
 
 #### Returns
 

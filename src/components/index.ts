@@ -34,3 +34,12 @@ export {
 
 // + BadgeIcon component - 6
 export { default as BadgeIcon, BadgeIconProps } from "./Badge/BadgeIcon"
+
+// + Chip component - 7
+export {
+  default as Chip,
+  CHIP_SHAPES,
+  CHIP_VARIANTS,
+  CHIP_SIZES,
+  ChipProps,
+} from "./Chip"
