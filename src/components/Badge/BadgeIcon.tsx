@@ -1,6 +1,6 @@
 import React, { LegacyRef, forwardRef, memo } from "react"
-import { cleanClassName } from "@utility/helper/clean-class-name"
-import Icon, { IconProps } from "@components/Icon"
+import { classManipulator } from "../../utility/helpers/class-manipulator"
+import Icon, { IconProps } from "../../components/Icon"
 import { BADGE_VARIANTS } from "./"
 
 export interface BadgeIconProps {
@@ -72,7 +72,7 @@ const BadgeIcon = ({
 
   return (
     <span
-      className={cleanClassName(
+      className={classManipulator(
         `${
           variant == "primary"
             ? "rounded border border-primary-200 bg-primary-300 px-8 text-slate-50 dark:bg-primary-200 dark:text-primary-800"
@@ -99,7 +99,7 @@ const BadgeIcon = ({
         size={mergedIcon.size}
         color={mergedIcon.color}
         strokeWidth={mergedIcon.strokeWidth}
-        className={cleanClassName(
+        className={classManipulator(
           `${mergedIcon.className} pointer-events-none`
         )}
       />

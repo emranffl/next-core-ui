@@ -8,7 +8,7 @@
 
 #### Defined in
 
-[src/components/Badge/index.tsx:11](https://github.com/emranffl/next-core-ui/blob/34617b4/src/components/Badge/index.tsx#L11)
+[src/components/Badge/index.tsx:11](https://github.com/emranffl/next-core-ui/blob/81afa89/src/components/Badge/index.tsx#L11)
 
 ___
 
@@ -18,7 +18,7 @@ ___
 
 #### Defined in
 
-[src/components/Badge/index.tsx:8](https://github.com/emranffl/next-core-ui/blob/34617b4/src/components/Badge/index.tsx#L8)
+[src/components/Badge/index.tsx:8](https://github.com/emranffl/next-core-ui/blob/81afa89/src/components/Badge/index.tsx#L8)
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 #### Defined in
 
-[src/components/Badge/index.tsx:12](https://github.com/emranffl/next-core-ui/blob/34617b4/src/components/Badge/index.tsx#L12)
+[src/components/Badge/index.tsx:12](https://github.com/emranffl/next-core-ui/blob/81afa89/src/components/Badge/index.tsx#L12)
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 #### Defined in
 
-[src/components/Badge/index.tsx:6](https://github.com/emranffl/next-core-ui/blob/34617b4/src/components/Badge/index.tsx#L6)
+[src/components/Badge/index.tsx:6](https://github.com/emranffl/next-core-ui/blob/81afa89/src/components/Badge/index.tsx#L6)
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 #### Defined in
 
-[src/components/Badge/index.tsx:7](https://github.com/emranffl/next-core-ui/blob/34617b4/src/components/Badge/index.tsx#L7)
+[src/components/Badge/index.tsx:7](https://github.com/emranffl/next-core-ui/blob/81afa89/src/components/Badge/index.tsx#L7)
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 #### Defined in
 
-[src/components/Badge/index.tsx:9](https://github.com/emranffl/next-core-ui/blob/34617b4/src/components/Badge/index.tsx#L9)
+[src/components/Badge/index.tsx:9](https://github.com/emranffl/next-core-ui/blob/81afa89/src/components/Badge/index.tsx#L9)
 
 ___
 
@@ -68,4 +68,4 @@ ___
 
 #### Defined in
 
-[src/components/Badge/index.tsx:10](https://github.com/emranffl/next-core-ui/blob/34617b4/src/components/Badge/index.tsx#L10)
+[src/components/Badge/index.tsx:10](https://github.com/emranffl/next-core-ui/blob/81afa89/src/components/Badge/index.tsx#L10)

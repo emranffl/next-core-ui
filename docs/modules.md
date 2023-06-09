@@ -33,13 +33,13 @@
 
 #### Defined in
 
-[src/components/Button/index.tsx:212](https://github.com/emranffl/next-core-ui/blob/34617b4/src/components/Button/index.tsx#L212)
+[src/components/Button/index.tsx:212](https://github.com/emranffl/next-core-ui/blob/81afa89/src/components/Button/index.tsx#L212)
 
 ## Variables
 
-### colors
+### NEXT\_CORE\_UI\_COLORS
 
-• `Const` **colors**: `Object`
+• `Const` **NEXT\_CORE\_UI\_COLORS**: `Object`
 
 #### Type declaration
 
@@ -55,13 +55,13 @@
 
 #### Defined in
 
-[src/utility/tailwind.config.ts:77](https://github.com/emranffl/next-core-ui/blob/34617b4/src/utility/tailwind.config.ts#L77)
+[src/utility/tailwind.config.ts:77](https://github.com/emranffl/next-core-ui/blob/81afa89/src/utility/tailwind.config.ts#L77)
 
 ___
 
-### spacing
+### NEXT\_CORE\_UI\_SPACING
 
-• `Const` **spacing**: `Object`
+• `Const` **NEXT\_CORE\_UI\_SPACING**: `Object`
 
 #### Type declaration
 
@@ -141,7 +141,7 @@ ___
 
 #### Defined in
 
-[src/utility/tailwind.config.ts:3](https://github.com/emranffl/next-core-ui/blob/34617b4/src/utility/tailwind.config.ts#L3)
+[src/utility/tailwind.config.ts:3](https://github.com/emranffl/next-core-ui/blob/81afa89/src/utility/tailwind.config.ts#L3)
 
 ## Functions
 

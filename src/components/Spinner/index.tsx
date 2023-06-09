@@ -1,5 +1,5 @@
 import React, { LegacyRef, forwardRef, memo } from "react"
-import { cleanClassName } from "@utility/helper/clean-class-name"
+import { classManipulator } from "../../utility/helpers/class-manipulator"
 
 export enum SPINNER_VARIANTS {
   primary = "primary",
@@ -111,7 +111,7 @@ const Spinner = ({
 
   return (
     <div
-      className={cleanClassName(
+      className={classManipulator(
         `flex gap-16 ${
           mergeText?.position === "top" || mergeText?.position === "bottom"
             ? "flex-col"
@@ -125,7 +125,7 @@ const Spinner = ({
 
       <svg
         role="status"
-        className={cleanClassName(
+        className={classManipulator(
           `${
             variant == "primary"
               ? "fill-primary-400"

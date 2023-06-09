@@ -1,6 +1,6 @@
-import Icon, { IconProps } from "@components/Icon"
+import Icon, { IconProps } from "../../components/Icon"
 import React, { LegacyRef, forwardRef, memo } from "react"
-import { cleanClassName } from "@utility/helper/clean-class-name"
+import { classManipulator } from "../../utility/helpers/class-manipulator"
 
 export enum BADGE_VARIANTS {
   primary = "primary",
@@ -119,7 +119,7 @@ const Badge = ({
         size={mergedIcon.size}
         color={mergedIcon.color}
         strokeWidth={mergedIcon.strokeWidth}
-        className={cleanClassName(
+        className={classManipulator(
           `${iconPosition === "right" ? "ml-6" : "mr-6"} ${
             mergedIcon.className
           } pointer-events-none`
@@ -130,7 +130,7 @@ const Badge = ({
 
   return (
     <span
-      className={cleanClassName(
+      className={classManipulator(
         `${
           variant == "primary"
             ? "rounded border border-primary-200 bg-primary-300 px-8 text-slate-50 dark:bg-primary-200 dark:text-primary-800"
@@ -153,7 +153,7 @@ const Badge = ({
       ref={internalRef}
     >
       <ConditionalIcon iconPosition="left" />
-      <span className={text?.className && cleanClassName(text.className)}>
+      <span className={text?.className && classManipulator(text.className)}>
         {text.value}
       </span>
       <ConditionalIcon iconPosition="right" />

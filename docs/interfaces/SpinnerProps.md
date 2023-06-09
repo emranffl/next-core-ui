@@ -10,7 +10,7 @@ The class names of the spinner
 
 #### Defined in
 
-[src/components/Spinner/index.tsx:41](https://github.com/emranffl/next-core-ui/blob/34617b4/src/components/Spinner/index.tsx#L41)
+[src/components/Spinner/index.tsx:41](https://github.com/emranffl/next-core-ui/blob/81afa89/src/components/Spinner/index.tsx#L41)
 
 ___
 
@@ -22,7 +22,7 @@ The id of the spinner
 
 #### Defined in
 
-[src/components/Spinner/index.tsx:58](https://github.com/emranffl/next-core-ui/blob/34617b4/src/components/Spinner/index.tsx#L58)
+[src/components/Spinner/index.tsx:58](https://github.com/emranffl/next-core-ui/blob/81afa89/src/components/Spinner/index.tsx#L58)
 
 ___
 
@@ -34,7 +34,7 @@ The internal prop to pass reference to the component. Use `ref` prop to pass ref
 
 #### Defined in
 
-[src/components/Spinner/index.tsx:62](https://github.com/emranffl/next-core-ui/blob/34617b4/src/components/Spinner/index.tsx#L62)
+[src/components/Spinner/index.tsx:62](https://github.com/emranffl/next-core-ui/blob/81afa89/src/components/Spinner/index.tsx#L62)
 
 ___
 
@@ -46,7 +46,7 @@ The size of the spinner in pixels
 
 #### Defined in
 
-[src/components/Spinner/index.tsx:33](https://github.com/emranffl/next-core-ui/blob/34617b4/src/components/Spinner/index.tsx#L33)
+[src/components/Spinner/index.tsx:33](https://github.com/emranffl/next-core-ui/blob/81afa89/src/components/Spinner/index.tsx#L33)
 
 ___
 
@@ -65,7 +65,7 @@ The text to show with the spinner
 
 #### Defined in
 
-[src/components/Spinner/index.tsx:45](https://github.com/emranffl/next-core-ui/blob/34617b4/src/components/Spinner/index.tsx#L45)
+[src/components/Spinner/index.tsx:45](https://github.com/emranffl/next-core-ui/blob/81afa89/src/components/Spinner/index.tsx#L45)
 
 ___
 
@@ -81,7 +81,7 @@ The track color of the spinner,
 
 #### Defined in
 
-[src/components/Spinner/index.tsx:37](https://github.com/emranffl/next-core-ui/blob/34617b4/src/components/Spinner/index.tsx#L37)
+[src/components/Spinner/index.tsx:37](https://github.com/emranffl/next-core-ui/blob/81afa89/src/components/Spinner/index.tsx#L37)
 
 ___
 
@@ -97,4 +97,4 @@ The variant of the spinner,
 
 #### Defined in
 
-[src/components/Spinner/index.tsx:29](https://github.com/emranffl/next-core-ui/blob/34617b4/src/components/Spinner/index.tsx#L29)
+[src/components/Spinner/index.tsx:29](https://github.com/emranffl/next-core-ui/blob/81afa89/src/components/Spinner/index.tsx#L29)

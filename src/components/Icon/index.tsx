@@ -2,7 +2,7 @@ import "material-icons/iconfont/material-icons.css"
 import "bootstrap-icons/font/bootstrap-icons.css"
 
 import React, { LegacyRef, forwardRef, memo } from "react"
-import { cleanClassName } from "@utility/helper/clean-class-name"
+import { classManipulator } from "../../utility/helpers/class-manipulator"
 import { BOOTSTRAP_ICON_NAMES } from "./bootstrap-icons/names"
 import { MATERIAL_ICON_NAMES } from "./material-icons/names"
 import { OUTLINE_ICON_NAMES } from "./outline-icons/names"
@@ -111,7 +111,7 @@ const Icon = ({
         // + bootstrap icons
         <i
           style={{ fontSize: size, color: color }}
-          className={cleanClassName(
+          className={classManipulator(
             `${name} box-content inline-flex shrink-0 grow-0 rounded m-0 ${
               disabled && "hover:cursor-not-allowed"
             } ${className}`
@@ -123,7 +123,7 @@ const Icon = ({
         // + material icons
         <span
           style={{ fontSize: size, color: color }}
-          className={cleanClassName(
+          className={classManipulator(
             `material-icons box-content inline-flex shrink-0 grow-0 rounded ${
               disabled && "hover:cursor-not-allowed hover:stroke-slate-300"
             } ${className} `
@@ -137,7 +137,7 @@ const Icon = ({
         // + default outlined icon
         <svg
           aria-disabled={disabled}
-          className={cleanClassName(`box-content inline-flex shrink-0 grow-0 rounded ${className}
+          className={classManipulator(`box-content inline-flex shrink-0 grow-0 rounded ${className}
 			${
         disabled &&
         "stroke-slate-300 hover:cursor-not-allowed hover:stroke-slate-300"

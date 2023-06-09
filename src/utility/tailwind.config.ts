@@ -1,6 +1,6 @@
 /* eslint-disable */
 
-export const spacing = {
+export const NEXT_CORE_UI_SPACING = {
 	px: "1px",
 	0: "0",
 	0.5: "0.5008px",
@@ -74,7 +74,7 @@ export const spacing = {
 	220: "220px",
 } as const
 
-export const colors = {
+export const NEXT_CORE_UI_COLORS = {
 	heartColor: "#f59e0b",
 
 	//for light theme

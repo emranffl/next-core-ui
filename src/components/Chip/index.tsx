@@ -5,8 +5,8 @@ import React, {
   memo,
   useCallback,
 } from "react"
-import ButtonIcon from "@components/Button/ButtonIcon"
-import { cleanClassName } from "@utility/helper/clean-class-name"
+import ButtonIcon from "../../components/Button/ButtonIcon"
+import { classManipulator } from "../../utility/helpers/class-manipulator"
 
 export enum CHIP_SIZES {
   sm = "sm",
@@ -131,7 +131,7 @@ const Chip = ({
   return (
     <>
       <span
-        className={cleanClassName(
+        className={classManipulator(
           `flex place-items-center w-max font-semibold text-slate-500 active:text-slate-200
           ${shape == "pill" ? "rounded-3xl" : "rounded"}
           ${
@@ -183,7 +183,7 @@ const Chip = ({
               color: variant === "neutral" ? "grey" : "white",
             }}
             variant="link"
-            className={cleanClassName(
+            className={classManipulator(
               `relative !p-0 ms-4 ${size === "sm" ? "-right-1" : null}`
             )}
           />

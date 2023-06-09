@@ -1,5 +1,5 @@
-import Icon, { IconProps } from "@components/Icon"
-import { cleanClassName } from "@utility/helper/clean-class-name"
+import Icon, { IconProps } from "../../components/Icon"
+import { classManipulator } from "../../utility/helpers/class-manipulator"
 import React, {
   LegacyRef,
   MouseEventHandler,
@@ -184,7 +184,7 @@ const ButtonIcon = ({
       disabled={disabled}
       onClick={handleClick}
       key={id}
-      className={cleanClassName(defaultStyles)}
+      className={classManipulator(defaultStyles)}
       id={id}
       ref={internalRef}
     >
