@@ -8,7 +8,7 @@
 
 #### Defined in
 
-[src/components/Badge/index.tsx:16](https://github.com/emranffl/next-core-ui/blob/81afa89/src/components/Badge/index.tsx#L16)
+[src/components/Badge/index.tsx:16](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Badge/index.tsx#L16)
 
 ___
 
@@ -18,4 +18,4 @@ ___
 
 #### Defined in
 
-[src/components/Badge/index.tsx:17](https://github.com/emranffl/next-core-ui/blob/81afa89/src/components/Badge/index.tsx#L17)
+[src/components/Badge/index.tsx:17](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Badge/index.tsx#L17)

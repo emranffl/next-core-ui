@@ -10,7 +10,7 @@ import dts from "rollup-plugin-dts"
 import packageJson from "./package.json" assert { type: "json" }
 import tailwindcss from "tailwindcss"
 import nodePolyfills from "rollup-plugin-polyfill-node"
-import scss from "rollup-plugin-scss"
+// import scss from "rollup-plugin-scss"
 
 const extensions = [".js", ".jsx", ".ts", ".tsx"]
 
@@ -59,19 +59,19 @@ export default [
         exclude: ["node_modules/**"],
         sourceMap: true,
       }),
-      scss({
-        output: "dist/styles.css",
-        include: ["src/scss/**/*.scss"],
-        sass: require("sass"),
-        failOnError: true,
-        sourceMap: true,
-        outputStyle: "compressed",
-        processor: () => postcss([autoprefixer()]),
-        // includePaths: [
-        //   path.join(__dirname, "../../node_modules/"),
-        //   "node_modules/",
-        // ],
-      }),
+      // scss({
+      //   output: "dist/styles.css",
+      //   include: ["src/scss/**/*.scss"],
+      //   sass: require("sass"),
+      //   failOnError: true,
+      //   sourceMap: true,
+      //   outputStyle: "compressed",
+      //   processor: () => postcss([autoprefixer()]),
+      //   // includePaths: [
+      //   //   path.join(__dirname, "../../node_modules/"),
+      //   //   "node_modules/",
+      //   // ],
+      // }),
       // flatDts(),
     ],
     external: ["react", "react-dom", "styled-components", "node"],

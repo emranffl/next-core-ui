@@ -10,7 +10,7 @@ The class names for the badge component
 
 #### Defined in
 
-[src/components/Badge/index.tsx:49](https://github.com/emranffl/next-core-ui/blob/81afa89/src/components/Badge/index.tsx#L49)
+[src/components/Badge/index.tsx:49](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Badge/index.tsx#L49)
 
 ___
 
@@ -26,7 +26,7 @@ Icon props {} to render an icon inside the button,
 
 #### Defined in
 
-[src/components/Badge/index.tsx:45](https://github.com/emranffl/next-core-ui/blob/81afa89/src/components/Badge/index.tsx#L45)
+[src/components/Badge/index.tsx:45](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Badge/index.tsx#L45)
 
 ___
 
@@ -38,7 +38,7 @@ The id for the badge component
 
 #### Defined in
 
-[src/components/Badge/index.tsx:53](https://github.com/emranffl/next-core-ui/blob/81afa89/src/components/Badge/index.tsx#L53)
+[src/components/Badge/index.tsx:53](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Badge/index.tsx#L53)
 
 ___
 
@@ -50,7 +50,7 @@ The internal prop to pass reference to the component. Use `ref` prop to pass ref
 
 #### Defined in
 
-[src/components/Badge/index.tsx:57](https://github.com/emranffl/next-core-ui/blob/81afa89/src/components/Badge/index.tsx#L57)
+[src/components/Badge/index.tsx:57](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Badge/index.tsx#L57)
 
 ___
 
@@ -69,7 +69,7 @@ The text to display on the badge
 
 #### Defined in
 
-[src/components/Badge/index.tsx:28](https://github.com/emranffl/next-core-ui/blob/81afa89/src/components/Badge/index.tsx#L28)
+[src/components/Badge/index.tsx:28](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Badge/index.tsx#L28)
 
 ___
 
@@ -85,4 +85,4 @@ The visual variant of the badge,
 
 #### Defined in
 
-[src/components/Badge/index.tsx:41](https://github.com/emranffl/next-core-ui/blob/81afa89/src/components/Badge/index.tsx#L41)
+[src/components/Badge/index.tsx:41](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Badge/index.tsx#L41)

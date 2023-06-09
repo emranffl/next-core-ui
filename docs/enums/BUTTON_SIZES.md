@@ -8,7 +8,7 @@
 
 #### Defined in
 
-[src/components/Button/index.tsx:31](https://github.com/emranffl/next-core-ui/blob/81afa89/src/components/Button/index.tsx#L31)
+[src/components/Button/index.tsx:31](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Button/index.tsx#L31)
 
 ___
 
@@ -18,7 +18,7 @@ ___
 
 #### Defined in
 
-[src/components/Button/index.tsx:30](https://github.com/emranffl/next-core-ui/blob/81afa89/src/components/Button/index.tsx#L30)
+[src/components/Button/index.tsx:30](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Button/index.tsx#L30)
 
 ___
 
@@ -28,4 +28,4 @@ ___
 
 #### Defined in
 
-[src/components/Button/index.tsx:29](https://github.com/emranffl/next-core-ui/blob/81afa89/src/components/Button/index.tsx#L29)
+[src/components/Button/index.tsx:29](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Button/index.tsx#L29)

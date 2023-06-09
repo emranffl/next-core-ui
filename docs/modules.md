@@ -14,6 +14,8 @@
 - [SPINNER\_TEXT\_POSITIONS](enums/SPINNER_TEXT_POSITIONS.md)
 - [SPINNER\_TRACK\_COLORS](enums/SPINNER_TRACK_COLORS.md)
 - [SPINNER\_VARIANTS](enums/SPINNER_VARIANTS.md)
+- [TOAST\_POSITIONS](enums/TOAST_POSITIONS.md)
+- [TOAST\_VARIANTS](enums/TOAST_VARIANTS.md)
 
 ## Interfaces
 
@@ -24,6 +26,8 @@
 - [ChipProps](interfaces/ChipProps.md)
 - [IconProps](interfaces/IconProps.md)
 - [SpinnerProps](interfaces/SpinnerProps.md)
+- [ToastContextProps](interfaces/ToastContextProps.md)
+- [ToastParams](interfaces/ToastParams.md)
 
 ## Type Aliases
 
@@ -33,7 +37,17 @@
 
 #### Defined in
 
-[src/components/Button/index.tsx:212](https://github.com/emranffl/next-core-ui/blob/81afa89/src/components/Button/index.tsx#L212)
+[src/components/Button/index.tsx:212](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Button/index.tsx#L212)
+
+___
+
+### ToastProps
+
+Ƭ **ToastProps**: [`ToastParams`](interfaces/ToastParams.md) & { `children`: [`ToastParams`](interfaces/ToastParams.md)[``"children"``] ; `message?`: `never`  } \| { `children?`: `never` ; `message`: [`ToastParams`](interfaces/ToastParams.md)[``"message"``]  }
+
+#### Defined in
+
+[src/components/Toast/index.tsx:81](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Toast/index.tsx#L81)
 
 ## Variables
 
@@ -55,7 +69,7 @@
 
 #### Defined in
 
-[src/utility/tailwind.config.ts:77](https://github.com/emranffl/next-core-ui/blob/81afa89/src/utility/tailwind.config.ts#L77)
+[src/utility/tailwind.config.ts:77](https://github.com/emranffl/next-core-ui/blob/0536197/src/utility/tailwind.config.ts#L77)
 
 ___
 
@@ -141,7 +155,17 @@ ___
 
 #### Defined in
 
-[src/utility/tailwind.config.ts:3](https://github.com/emranffl/next-core-ui/blob/81afa89/src/utility/tailwind.config.ts#L3)
+[src/utility/tailwind.config.ts:3](https://github.com/emranffl/next-core-ui/blob/0536197/src/utility/tailwind.config.ts#L3)
+
+___
+
+### ToastContext
+
+• `Const` **ToastContext**: `Context`<[`ToastContextProps`](interfaces/ToastContextProps.md) \| `Record`<`string`, `never`\>\>
+
+#### Defined in
+
+[src/components/Toast/Context.tsx:9](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Toast/Context.tsx#L9)
 
 ## Functions
 
@@ -277,6 +301,29 @@ node_modules/@types/react/ts5.0/index.d.ts:351
 
 ___
 
+### LibraryContextProviderWrapper
+
+▸ **LibraryContextProviderWrapper**(`props`): ``null`` \| `ReactElement`<`any`, `string` \| `JSXElementConstructor`<`any`\>\>
+
+**NOTE**: Exotic components are not callable.
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `props` | `Object` |
+| `props.children` | `ReactNode` |
+
+#### Returns
+
+``null`` \| `ReactElement`<`any`, `string` \| `JSXElementConstructor`<`any`\>\>
+
+#### Defined in
+
+node_modules/@types/react/ts5.0/index.d.ts:351
+
+___
+
 ### Spinner
 
 ▸ **Spinner**(`props`): ``null`` \| `ReactElement`<`any`, `string` \| `JSXElementConstructor`<`any`\>\>
@@ -296,3 +343,73 @@ ___
 #### Defined in
 
 node_modules/@types/react/ts5.0/index.d.ts:351
+
+___
+
+### Toast
+
+▸ **Toast**(`«destructured»`): `Element`
+
+**`Name`**
+
+Toast
+
+**`Author`**
+
+Emran
+
+**`Example`**
+
+```tsx
+ // - rendering examples
+ // render a toast with a message
+ renderToast([
+   {
+     message: "This is a toast message",
+   }
+ ])
+ // render a toast with children
+ renderToast([
+   {
+     children: (
+       <div className="flex place-content-center">
+         <Icon name="telescope" size={18} strokeWidth={2} color="#6B7280" />
+         <span className="ml-2">This is a toast message</span>
+       </div>
+     ),
+   },
+ ])
+ // - implementation examples
+ // complete example with all props
+ <Toast
+   message="This is a toast message"
+   variant="primary"
+   className="flex place-content-center"
+   id="toast"
+   icon={{
+     name: "telescope",
+     size: 18,
+     strokeWidth: 2,
+     color: "#6B7280",
+   }}
+   closeButtonVisibility={true}
+   closeOnClick={true}
+   autoClose={false}
+   position="top-right"
+   onClose={(e) => console.log("closed", e)}
+ />
+ ```
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `«destructured»` | [`ToastProps`](modules.md#toastprops) |
+
+#### Returns
+
+`Element`
+
+#### Defined in
+
+[src/components/Toast/index.tsx:134](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Toast/index.tsx#L134)

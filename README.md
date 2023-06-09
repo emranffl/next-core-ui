@@ -37,3 +37,5 @@ pnpm add next-core-ui
 - [Badge](./docs/interfaces/BadgeProps.md)
 - [BadgeIcon](./docs/interfaces/BadgeIconProps.md)
 - [Chip](./docs/interfaces/ChipProps.md)
+- [Toast](./docs/interfaces/ToastParams.md)
+- [Toast Context](./docs/interfaces/ToastContextProps.md)

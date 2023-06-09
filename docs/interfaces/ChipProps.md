@@ -10,7 +10,7 @@ Additional class names
 
 #### Defined in
 
-[src/components/Chip/index.tsx:69](https://github.com/emranffl/next-core-ui/blob/81afa89/src/components/Chip/index.tsx#L69)
+[src/components/Chip/index.tsx:69](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Chip/index.tsx#L69)
 
 ___
 
@@ -22,7 +22,7 @@ The id of the component
 
 #### Defined in
 
-[src/components/Chip/index.tsx:77](https://github.com/emranffl/next-core-ui/blob/81afa89/src/components/Chip/index.tsx#L77)
+[src/components/Chip/index.tsx:77](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Chip/index.tsx#L77)
 
 ___
 
@@ -34,7 +34,7 @@ The internal prop to pass reference to the component. Use `ref` prop to pass ref
 
 #### Defined in
 
-[src/components/Chip/index.tsx:81](https://github.com/emranffl/next-core-ui/blob/81afa89/src/components/Chip/index.tsx#L81)
+[src/components/Chip/index.tsx:81](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Chip/index.tsx#L81)
 
 ___
 
@@ -46,7 +46,7 @@ The function to be called when the close icon is clicked
 
 #### Defined in
 
-[src/components/Chip/index.tsx:73](https://github.com/emranffl/next-core-ui/blob/81afa89/src/components/Chip/index.tsx#L73)
+[src/components/Chip/index.tsx:73](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Chip/index.tsx#L73)
 
 ___
 
@@ -70,7 +70,7 @@ rounded
 
 #### Defined in
 
-[src/components/Chip/index.tsx:56](https://github.com/emranffl/next-core-ui/blob/81afa89/src/components/Chip/index.tsx#L56)
+[src/components/Chip/index.tsx:56](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Chip/index.tsx#L56)
 
 ___
 
@@ -94,7 +94,7 @@ md
 
 #### Defined in
 
-[src/components/Chip/index.tsx:46](https://github.com/emranffl/next-core-ui/blob/81afa89/src/components/Chip/index.tsx#L46)
+[src/components/Chip/index.tsx:46](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Chip/index.tsx#L46)
 
 ___
 
@@ -106,7 +106,7 @@ The text to be displayed
 
 #### Defined in
 
-[src/components/Chip/index.tsx:36](https://github.com/emranffl/next-core-ui/blob/81afa89/src/components/Chip/index.tsx#L36)
+[src/components/Chip/index.tsx:36](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Chip/index.tsx#L36)
 
 ___
 
@@ -130,4 +130,4 @@ neutral
 
 #### Defined in
 
-[src/components/Chip/index.tsx:65](https://github.com/emranffl/next-core-ui/blob/81afa89/src/components/Chip/index.tsx#L65)
+[src/components/Chip/index.tsx:65](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Chip/index.tsx#L65)
