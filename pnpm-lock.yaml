@@ -4,9 +4,6 @@ dependencies:
   commitizen:
     specifier: ^4.3.0
     version: 4.3.0
-  tailwind-merge:
-    specifier: ^1.13.1
-    version: 1.13.1
 
 devDependencies:
   '@babel/core':
@@ -102,6 +99,9 @@ devDependencies:
   semantic-release:
     specifier: ^21.0.2
     version: 21.0.2
+  tailwind-merge:
+    specifier: ^1.13.1
+    version: 1.13.1
   tailwindcss:
     specifier: ^3.3.2
     version: 3.3.2(ts-node@10.9.1)
@@ -5626,7 +5626,7 @@ packages:
 
   /tailwind-merge@1.13.1:
     resolution: {integrity: sha512-tRtRN22TDokGi2TuYSvuHQuuW6BJ/zlUEG+iYpAQ9i66msc/0eU/+HPccbPnNNH0mCPp0Ob8thaC8Uy9CxHitQ==}
-    dev: false
+    dev: true
 
   /tailwindcss@3.3.2(ts-node@10.9.1):
     resolution: {integrity: sha512-9jPkMiIBXvPc2KywkraqsUfbfj+dHDb+JPWtSJa9MLFdrPyazI7q6WX2sUrm7R9eVR7qqv3Pas7EvQFzxKnI6w==}

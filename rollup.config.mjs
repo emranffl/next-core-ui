@@ -33,7 +33,7 @@ export default [
 				sourcemap: true,
 				assetFileNames: "[name][extname]",
 				preserveModules: true,
-				preserveModulesRoot: 'src',
+				preserveModulesRoot: "src",
 			},
 		],
 		onwarn(warning, warn) {
@@ -99,7 +99,13 @@ export default [
 			}),
 			preserveDirectives.default({ supressPreserveModulesWarning: true }),
 		],
-		external: ["react", "react-dom", "styled-components", "node"],
+		external: [
+			"react",
+			"react-dom",
+			"styled-components",
+			"node",
+			"tailwind-merge",
+		],
 	},
 	{
 		input: "dist/types/index.d.ts",

@@ -18,8 +18,7 @@
 	"author": "Emran Hossain",
 	"license": "MIT",
 	"dependencies": {
-		"commitizen": "^4.3.0",
-		"tailwind-merge": "^1.13.1"
+		"commitizen": "^4.3.0"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.22.5",
@@ -53,6 +52,7 @@
 		"rollup-plugin-scss": "^4.0.0",
 		"sass": "^1.62.1",
 		"semantic-release": "^21.0.2",
+		"tailwind-merge": "^1.13.1",
 		"tailwindcss": "^3.3.2",
 		"tslib": "^2.5.0",
 		"typedoc": "^0.24.7",
