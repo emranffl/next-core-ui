@@ -33,6 +33,7 @@ export default [
 				sourcemap: true,
 				assetFileNames: "[name][extname]",
 				preserveModules: true,
+				preserveModulesRoot: 'src',
 			},
 		],
 		onwarn(warning, warn) {
