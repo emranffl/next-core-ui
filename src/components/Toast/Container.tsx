@@ -1,3 +1,5 @@
+"use client"
+
 import React, { useContext } from "react"
 import Toast, { ToastProps, TOAST_POSITIONS as ToastPositions } from "."
 import { ToastContext } from "./Context"
