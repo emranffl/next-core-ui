@@ -104,7 +104,6 @@ export default [
 			"react-dom",
 			"styled-components",
 			"node",
-			"tailwind-merge",
 		],
 	},
 	{
