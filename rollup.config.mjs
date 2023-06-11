@@ -100,10 +100,10 @@ export default [
 			preserveDirectives.default({ supressPreserveModulesWarning: true }),
 		],
 		external: [
-			"react",
-			"react-dom",
-			"styled-components",
-			"node",
+			// "react",
+			// "react-dom",
+			// "styled-components",
+			// "node",
 		],
 	},
 	{
