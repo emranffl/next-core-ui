@@ -65,8 +65,7 @@
 	"files": [
 		"dist",
 		"LICENSE",
-		"src/scss",
-		"index.js"
+		"src/scss"
 	],
 	"publishConfig": {
 		"access": "public",

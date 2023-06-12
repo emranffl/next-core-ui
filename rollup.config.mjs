@@ -58,7 +58,7 @@ export default [
 		plugins: [
 			gzipPlugin.default(),
 			peerDepsExternal(),
-			resolve({ extensions, browser: true, jsnext: true, module: true }),
+			resolve({ extensions, browser: true }),
 			commonjs(),
 			typescript({
 				tsconfig: "./tsconfig.json",
@@ -100,8 +100,9 @@ export default [
 			preserveDirectives.default({ supressPreserveModulesWarning: true }),
 		],
 		external: [
-			// "react",
-			// "react-dom",
+			"react",
+			"react-dom",
+			"next",
 			// "styled-components",
 			// "node",
 		],
