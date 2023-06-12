@@ -34,6 +34,7 @@ export default [
 				assetFileNames: "[name][extname]",
 				preserveModules: true,
 				preserveModulesRoot: "src",
+				exports: "named"
 			},
 		],
 		onwarn(warning, warn) {
