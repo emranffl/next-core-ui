@@ -1,56 +1,58 @@
 {
-	"name": "next-core-ui",
-	"version": "0.0.0-development",
-	"description": "",
-	"scripts": {
-		"clean-install": "rm -rf node_modules pnpm-lock.yaml && pnpm install",
-		"commit": "git-cz",
-		"docify": "npx typedoc --plugin typedoc-plugin-markdown --out docs src/index.ts --hideBreadcrumbs --hideInPageTOC && rm -r docs/README.md",
-		"semantic-release": "semantic-release --branches main",
-		"update-icon-names": "node ./src/components/Icon/bootstrap-icons/names-generator.js && node ./src/components/Icon/material-icons/names-generator.js"
-	},
-	"type": "module",
-	"keywords": [
-		"next.js",
-		"tailwindcss",
-		"components"
-	],
-	"author": "Emran Hossain",
-	"license": "MIT",
-	"source": "index.ts",
-	"files": [
-		"src",
-		"index.ts",
-		"LICENSE",
-		"README.md"
-	],
-	"publishConfig": {
-		"access": "public",
-		"registry": "https://registry.npmjs.org/"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/emranffl/next-core-ui"
-	},
-	"config": {
-		"commitizen": {
-			"path": "./node_modules/cz-conventional-changelog"
-		}
-	},
-	"release": {
-		"branches": [
-			{
-				"name": "main"
-			}
-		]
-	},
-	"dependencies": {
-		"commitizen": "^4.3.0",
-		"cz-conventional-changelog": "^3.3.0"
-	},
-	"devDependencies": {
-		"semantic-release": "^21.0.2",
-		"typedoc": "^0.24.7",
-		"typedoc-plugin-markdown": "^3.15.3"
-	}
+  "name": "next-core-ui",
+  "version": "0.0.0-development",
+  "description": "",
+  "scripts": {
+    "clean-install": "rm -rf node_modules pnpm-lock.yaml && pnpm install",
+    "commit": "git-cz",
+    "docify": "npx typedoc --plugin typedoc-plugin-markdown --out docs src/index.ts --hideBreadcrumbs --hideInPageTOC && rm -r docs/README.md",
+    "format": "prettier --write .",
+    "semantic-release": "semantic-release --branches main",
+    "update-icon-names": "node ./src/components/Icon/bootstrap-icons/names-generator.js && node ./src/components/Icon/material-icons/names-generator.js"
+  },
+  "type": "module",
+  "keywords": [
+    "next.js",
+    "tailwindcss",
+    "components"
+  ],
+  "author": "Emran Hossain",
+  "license": "MIT",
+  "source": "index.ts",
+  "files": [
+    "src",
+    "index.ts",
+    "LICENSE",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emranffl/next-core-ui"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "release": {
+    "branches": [
+      {
+        "name": "main"
+      }
+    ]
+  },
+  "dependencies": {
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.1",
+    "semantic-release": "^21.0.2",
+    "typedoc": "^0.24.7",
+    "typedoc-plugin-markdown": "^3.15.3"
+  }
 }

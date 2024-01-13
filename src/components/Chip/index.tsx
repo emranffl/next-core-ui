@@ -147,9 +147,9 @@ const Chip = ({
                   ? "px-12 py-6 text-base"
                   : null,
           variant === "primary"
-            ? "bg-primary-500 text-white active:bg-primary-600"
+            ? "bg-primary-500 active:bg-primary-600 text-white"
             : variant === "secondary"
-              ? "bg-secondary-500 text-white active:bg-secondary-600"
+              ? "bg-secondary-500 active:bg-secondary-600 text-white"
               : variant === "info"
                 ? "bg-sky-500 text-white active:bg-sky-600"
                 : variant === "success"

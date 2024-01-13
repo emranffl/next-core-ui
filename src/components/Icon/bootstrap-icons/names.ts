@@ -2048,5 +2048,5 @@ export const BOOTSTRAP_ICON_NAMES = [
   "bi-suitcase",
   "bi-suitcase2-fill",
   "bi-suitcase2",
-  "bi-vignette"
+  "bi-vignette",
 ] as const

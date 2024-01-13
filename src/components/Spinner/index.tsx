@@ -103,7 +103,7 @@ const Spinner = ({
 
   // + spinner text content
   const Content = () => (
-    <p className={cn("text-lg text-primary-500 transition-all")}>
+    <p className={cn("text-primary-500 text-lg transition-all")}>
       {mergeText?.value}
       <span className="ml-2 animate-pulse font-bold">.</span>
       <span className="ml-1 animate-pulse font-bold">.</span>

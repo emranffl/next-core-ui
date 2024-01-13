@@ -13,6 +13,9 @@ dependencies:
     version: 3.3.0(@types/node@20.11.0)(typescript@5.1.6)
 
 devDependencies:
+  prettier:
+    specifier: ^3.2.1
+    version: 3.2.1
   semantic-release:
     specifier: ^21.0.2
     version: 21.1.2(typescript@5.1.6)
@@ -2120,6 +2123,12 @@ packages:
     dependencies:
       find-up: 2.1.0
       load-json-file: 4.0.0
+    dev: true
+
+  /prettier@3.2.1:
+    resolution: {integrity: sha512-qSUWshj1IobVbKc226Gw2pync27t0Kf0EdufZa9j7uBSJay1CC+B3K5lAAZoqgX3ASiKuWsk6OmzKRetXNObWg==}
+    engines: {node: '>=14'}
+    hasBin: true
     dev: true
 
   /process-nextick-args@2.0.1:

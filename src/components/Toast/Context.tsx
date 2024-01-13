@@ -8,13 +8,10 @@ export interface ToastContextProps {
   renderToast: (toastPropsData: ToastContextProps["toastProps"]) => void
 }
 
-export const ToastContext = createContext<
-  ToastContextProps | Record<string, never>
->({})
+export const ToastContext = createContext<ToastContextProps | Record<string, never>>({})
 
 export const ToastProvider = ({ children }: { children: ReactNode }) => {
-  const [toastProps, updateToastProps] =
-    useState<ToastContextProps["toastProps"]>(null)
+  const [toastProps, updateToastProps] = useState<ToastContextProps["toastProps"]>(null)
 
   /**
    * Renders the toast component with the given props
@@ -25,9 +22,5 @@ export const ToastProvider = ({ children }: { children: ReactNode }) => {
     updateToastProps([...(toastProps ?? []), ...(toastPropsData ?? [])]) // - coalesce operator for null check
   }
 
-  return (
-    <ToastContext.Provider value={{ toastProps, renderToast }}>
-      {children}
-    </ToastContext.Provider>
-  )
+  return <ToastContext.Provider value={{ toastProps, renderToast }}>{children}</ToastContext.Provider>
 }

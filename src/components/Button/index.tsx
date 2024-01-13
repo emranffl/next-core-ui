@@ -5,7 +5,6 @@ import React, {
   HTMLAttributeAnchorTarget,
   LegacyRef,
   memo,
-  MouseEvent,
   MouseEventHandler,
   Ref,
   useCallback,
@@ -48,7 +47,7 @@ type Icon = IconProps & {
   position?: keyof typeof BUTTON_ICON_POSITIONS
 }
 
-export interface ButtonParams {
+export interface ButtonParams extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   /**
    * The text {} that takes the following params
    * @param {string} [value] The text to display on the button
@@ -116,7 +115,7 @@ export interface ButtonParams {
   /**
    * The onClick event handler
    */
-  onClick?: MouseEventHandler<MouseEvent>
+  onClick?: MouseEventHandler<HTMLButtonElement>
   /**
    * The link {} that takes the following params
    * @param {string} [href] The href for the link
@@ -274,6 +273,7 @@ const Button = ({
   link = undefined,
   id = undefined,
   internalRef = undefined,
+  ...rest
 }: ButtonProps) => {
   const handleClick = useCallback(
     (_event: any) => {
@@ -346,61 +346,54 @@ const Button = ({
     )
   }
 
-  const defaultStyles = `
-      ${fullWidth ? "w-full justify-center" : null}
-      ${
-        !disabled
-          ? variant === "primary"
-            ? "btn-primary"
-            : variant === "secondary"
-              ? "btn-secondary"
-              : variant === "success"
-                ? "btn-success"
-                : variant === "info"
-                  ? "btn-info"
-                  : variant === "warning"
-                    ? "btn-warning"
-                    : variant === "danger"
-                      ? "btn-danger"
-                      : variant === "neutral"
-                        ? "btn-neutral"
-                        : variant === "link"
-                          ? "btn-link"
-                          : "btn-primary"
-          : outline === true
-            ? "btn-disabled-outline"
-            : "btn-disabled"
-      }
-
-      ${
-        size === "lg"
-          ? "h-52 px-24 text-sm md:text-base"
-          : size === "md"
-            ? "h-44 px-16 text-sm md:text-base"
-            : size === "sm"
-              ? "h-28 px-12 text-sm"
-              : null
-      }
-
-      ${
-        !disabled && outline === true && variant == "primary"
-          ? "btn-primary-outline"
-          : outline === true && variant == "secondary"
-            ? "btn-secondary-outline"
-            : outline === true && variant == "success"
-              ? "btn-success-outline"
-              : outline === true && variant == "info"
-                ? "btn-info-outline"
-                : outline === true && variant == "warning"
-                  ? "btn-warning-outline"
-                  : outline === true && variant == "danger"
-                    ? "btn-danger-outline"
-                    : outline === true && variant == "neutral"
-                      ? "btn-neutral-outline"
-                      : null
-      }
-
-		inline-flex items-center justify-center rounded-md font-normal leading-none focus-visible:outline-0 ${className}`
+  const defaultStyles = cn(
+    fullWidth ? "w-full justify-center" : null,
+    !disabled
+      ? variant === "primary"
+        ? "btn-primary"
+        : variant === "secondary"
+          ? "btn-secondary"
+          : variant === "success"
+            ? "btn-success"
+            : variant === "info"
+              ? "btn-info"
+              : variant === "warning"
+                ? "btn-warning"
+                : variant === "danger"
+                  ? "btn-danger"
+                  : variant === "neutral"
+                    ? "btn-neutral"
+                    : variant === "link"
+                      ? "btn-link"
+                      : "btn-primary"
+      : outline === true
+        ? "btn-disabled-outline"
+        : "btn-disabled",
+    size === "lg"
+      ? "h-52 px-24 text-sm md:text-base"
+      : size === "md"
+        ? "h-44 px-16 text-sm md:text-base"
+        : size === "sm"
+          ? "h-28 px-12 text-sm"
+          : null,
+    !disabled && outline === true && variant == "primary"
+      ? "btn-primary-outline"
+      : outline === true && variant == "secondary"
+        ? "btn-secondary-outline"
+        : outline === true && variant == "success"
+          ? "btn-success-outline"
+          : outline === true && variant == "info"
+            ? "btn-info-outline"
+            : outline === true && variant == "warning"
+              ? "btn-warning-outline"
+              : outline === true && variant == "danger"
+                ? "btn-danger-outline"
+                : outline === true && variant == "neutral"
+                  ? "btn-neutral-outline"
+                  : null,
+    "inline-flex items-center justify-center rounded-md font-normal leading-none focus-visible:outline-0",
+    className
+  )
 
   return link ? (
     <Link
@@ -409,7 +402,7 @@ const Button = ({
       target={link.target}
       replace={link.replace}
       rel={link.rel}
-      className={cn(defaultStyles)}
+      className={defaultStyles}
       onClick={handleClick}
       id={id}
       ref={internalRef as Ref<HTMLAnchorElement>}
@@ -422,9 +415,10 @@ const Button = ({
       disabled={disabled}
       type={type}
       onClick={handleClick}
-      className={cn(defaultStyles)}
+      className={defaultStyles}
       id={id}
       ref={internalRef as LegacyRef<HTMLButtonElement>}
+      {...rest}
     >
       <ConditionalContent />
     </button>

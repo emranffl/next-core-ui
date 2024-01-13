@@ -24,11 +24,7 @@ const LayoutPartial = ({ children }: LayoutPartialProps) => {
  * @author Emran
  * @type `Client Component`
  */
-const LibraryContextProviderWrapper = ({
-  children,
-}: {
-  children: ReactNode
-}) => {
+const LibraryContextProviderWrapper = ({ children }: { children: ReactNode }) => {
   return (
     <>
       <ToastProvider>

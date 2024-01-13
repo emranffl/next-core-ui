@@ -5,7 +5,7 @@ import React, { LegacyRef, MouseEventHandler, forwardRef, memo, useCallback } fr
 import { BUTTON_VARIANTS, BUTTON_SIZES } from "."
 import { cn } from "tailwind-cn"
 
-export interface ButtonIconProps {
+export interface ButtonIconProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   /**
    * Icon props {} to render an icon inside the button, @see `Icon` component
    */
@@ -35,7 +35,7 @@ export interface ButtonIconProps {
    * />
    * ```
    */
-  onClick: MouseEventHandler<MouseEvent>
+  onClick: MouseEventHandler<HTMLButtonElement>
   /**
    * The disabled state of the button
    */
@@ -98,6 +98,7 @@ const ButtonIcon = ({
   outline = undefined,
   id = undefined,
   internalRef = undefined,
+  ...rest
 }: ButtonIconProps) => {
   const mergedIcon = {
     ...{
@@ -110,61 +111,54 @@ const ButtonIcon = ({
     ...icon,
   } as IconProps
 
-  const defaultStyles = `
-      ${fullWidth ? "w-full justify-center" : null}
-      ${
-        !disabled
-          ? variant === "primary"
-            ? "btn-primary"
-            : variant === "secondary"
-              ? "btn-secondary"
-              : variant === "success"
-                ? "btn-success"
-                : variant === "info"
-                  ? "btn-info"
-                  : variant === "warning"
-                    ? "btn-warning"
-                    : variant === "danger"
-                      ? "btn-danger"
-                      : variant === "neutral"
-                        ? "btn-neutral"
-                        : variant === "link"
-                          ? "btn-link"
-                          : "btn-primary"
-          : outline === true
-            ? "btn-disabled-outline"
-            : "btn-disabled"
-      }
-
-      ${
-        size === "lg"
-          ? "h-52 px-24 text-sm md:text-base"
-          : size === "md"
-            ? "h-44 px-16 text-sm md:text-base"
-            : size === "sm"
-              ? "h-28 px-12 text-sm"
-              : null
-      }
-
-      ${
-        !disabled && outline === true && variant == "primary"
-          ? "btn-primary-outline"
-          : outline === true && variant == "secondary"
-            ? "btn-secondary-outline"
-            : outline === true && variant == "success"
-              ? "btn-success-outline"
-              : outline === true && variant == "info"
-                ? "btn-info-outline"
-                : outline === true && variant == "warning"
-                  ? "btn-warning-outline"
-                  : outline === true && variant == "danger"
-                    ? "btn-danger-outline"
-                    : outline === true && variant == "neutral"
-                      ? "btn-neutral-outline"
-                      : null
-      }
-
-		inline-flex items-center justify-center rounded-md font-normal leading-none focus-visible:outline-0 ${className}`
+  const defaultStyles = cn(
+    fullWidth ? "w-full justify-center" : null,
+    !disabled
+      ? variant === "primary"
+        ? "btn-primary"
+        : variant === "secondary"
+          ? "btn-secondary"
+          : variant === "success"
+            ? "btn-success"
+            : variant === "info"
+              ? "btn-info"
+              : variant === "warning"
+                ? "btn-warning"
+                : variant === "danger"
+                  ? "btn-danger"
+                  : variant === "neutral"
+                    ? "btn-neutral"
+                    : variant === "link"
+                      ? "btn-link"
+                      : "btn-primary"
+      : outline === true
+        ? "btn-disabled-outline"
+        : "btn-disabled",
+    size === "lg"
+      ? "h-52 px-24 text-sm md:text-base"
+      : size === "md"
+        ? "h-44 px-16 text-sm md:text-base"
+        : size === "sm"
+          ? "h-28 px-12 text-sm"
+          : null,
+    !disabled && outline === true && variant == "primary"
+      ? "btn-primary-outline"
+      : outline === true && variant == "secondary"
+        ? "btn-secondary-outline"
+        : outline === true && variant == "success"
+          ? "btn-success-outline"
+          : outline === true && variant == "info"
+            ? "btn-info-outline"
+            : outline === true && variant == "warning"
+              ? "btn-warning-outline"
+              : outline === true && variant == "danger"
+                ? "btn-danger-outline"
+                : outline === true && variant == "neutral"
+                  ? "btn-neutral-outline"
+                  : null,
+    "inline-flex items-center justify-center rounded-md font-normal leading-none focus-visible:outline-0",
+    className
+  )
 
   const handleClick = useCallback(
     (_event: any) => {
@@ -180,9 +174,10 @@ const ButtonIcon = ({
       disabled={disabled}
       onClick={handleClick}
       key={id}
-      className={cn(defaultStyles)}
+      className={defaultStyles}
       id={id}
       ref={internalRef}
+      {...rest}
     >
       <Icon
         name={mergedIcon.name}

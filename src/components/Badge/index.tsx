@@ -128,9 +128,9 @@ const Badge = ({
     <span
       className={cn(
         variant == "primary"
-          ? "rounded border border-primary-200 bg-primary-300 px-8 text-slate-50 dark:bg-primary-200 dark:text-primary-800"
+          ? "border-primary-200 bg-primary-300 dark:bg-primary-200 dark:text-primary-800 rounded border px-8 text-slate-50"
           : variant == "secondary"
-            ? "rounded border border-secondary-200 bg-secondary-200 px-8 text-slate-50 dark:bg-secondary-200 dark:text-secondary-800"
+            ? "border-secondary-200 bg-secondary-200 dark:bg-secondary-200 dark:text-secondary-800 rounded border px-8 text-slate-50"
             : variant == "success"
               ? "rounded border border-emerald-200 bg-emerald-100 px-8 text-emerald-800 dark:bg-emerald-200 dark:text-emerald-800"
               : variant == "danger"

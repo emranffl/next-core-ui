@@ -2274,5 +2274,5 @@ export const MATERIAL_ICON_NAMES = [
   "mi_zoom_in",
   "mi_zoom_in_map",
   "mi_zoom_out",
-  "mi_zoom_out_map"
+  "mi_zoom_out_map",
 ] as const

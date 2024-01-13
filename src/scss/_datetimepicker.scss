@@ -15,7 +15,7 @@
   }
   select,
   input {
-    @apply text-slate-600 focus:outline-none focus:ring-0 focus:ring-primary-500;
+    @apply focus:ring-primary-500 text-slate-600 focus:outline-none focus:ring-0;
   }
   input {
     height: 34px;

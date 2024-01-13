@@ -25,7 +25,7 @@ export { default as Badge, BADGE_VARIANTS, BADGE_ICON_POSITIONS } from "./Badge"
 export type { BadgeProps } from "./Badge"
 
 // + BadgeIcon component - 6
-export { default as BadgeIcon,  } from "./Badge/BadgeIcon"
+export { default as BadgeIcon } from "./Badge/BadgeIcon"
 export type { BadgeIconProps } from "./Badge/BadgeIcon"
 
 // + Chip component - 7
