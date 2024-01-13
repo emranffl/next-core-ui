@@ -3,16 +3,16 @@ import ToastContainer from "../Toast/Container"
 import React, { ReactNode, memo } from "react"
 
 interface LayoutPartialProps {
-	children: ReactNode
+  children: ReactNode
 }
 
 const LayoutPartial = ({ children }: LayoutPartialProps) => {
-	return (
-		<>
-			{children}
-			<ToastContainer />
-		</>
-	)
+  return (
+    <>
+      {children}
+      <ToastContainer />
+    </>
+  )
 }
 
 /**
@@ -25,17 +25,17 @@ const LayoutPartial = ({ children }: LayoutPartialProps) => {
  * @type `Client Component`
  */
 const LibraryContextProviderWrapper = ({
-	children,
+  children,
 }: {
-	children: ReactNode
+  children: ReactNode
 }) => {
-	return (
-		<>
-			<ToastProvider>
-				<LayoutPartial>{children}</LayoutPartial>
-			</ToastProvider>
-		</>
-	)
+  return (
+    <>
+      <ToastProvider>
+        <LayoutPartial>{children}</LayoutPartial>
+      </ToastProvider>
+    </>
+  )
 }
 
 export default memo(LibraryContextProviderWrapper)

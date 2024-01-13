@@ -8,7 +8,7 @@
 
 #### Defined in
 
-[src/components/Button/index.tsx:31](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Button/index.tsx#L31)
+app/library/src/components/Button/index.tsx:33
 
 ___
 
@@ -18,7 +18,7 @@ ___
 
 #### Defined in
 
-[src/components/Button/index.tsx:30](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Button/index.tsx#L30)
+app/library/src/components/Button/index.tsx:32
 
 ___
 
@@ -28,4 +28,4 @@ ___
 
 #### Defined in
 
-[src/components/Button/index.tsx:29](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Button/index.tsx#L29)
+app/library/src/components/Button/index.tsx:31

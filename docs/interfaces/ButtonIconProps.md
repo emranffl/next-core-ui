@@ -10,7 +10,7 @@ The class name of the button
 
 #### Defined in
 
-[src/components/Button/ButtonIcon.tsx:32](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Button/ButtonIcon.tsx#L32)
+app/library/src/components/Button/ButtonIcon.tsx:28
 
 ___
 
@@ -22,7 +22,7 @@ The disabled state of the button
 
 #### Defined in
 
-[src/components/Button/ButtonIcon.tsx:46](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Button/ButtonIcon.tsx#L46)
+app/library/src/components/Button/ButtonIcon.tsx:42
 
 ___
 
@@ -34,7 +34,7 @@ The full width state of the button
 
 #### Defined in
 
-[src/components/Button/ButtonIcon.tsx:50](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Button/ButtonIcon.tsx#L50)
+app/library/src/components/Button/ButtonIcon.tsx:46
 
 ___
 
@@ -50,7 +50,7 @@ Icon props {} to render an icon inside the button,
 
 #### Defined in
 
-[src/components/Button/ButtonIcon.tsx:16](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Button/ButtonIcon.tsx#L16)
+app/library/src/components/Button/ButtonIcon.tsx:12
 
 ___
 
@@ -62,25 +62,25 @@ The id of the button
 
 #### Defined in
 
-[src/components/Button/ButtonIcon.tsx:58](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Button/ButtonIcon.tsx#L58)
+app/library/src/components/Button/ButtonIcon.tsx:54
 
 ___
 
 ### internalRef
 
-• `Optional` **internalRef**: `LegacyRef`<`HTMLButtonElement`\>
+• `Optional` **internalRef**: `LegacyRef`\<`HTMLButtonElement`\>
 
 The internal prop to pass reference to the component. Use `ref` prop to pass ref.
 
 #### Defined in
 
-[src/components/Button/ButtonIcon.tsx:62](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Button/ButtonIcon.tsx#L62)
+app/library/src/components/Button/ButtonIcon.tsx:58
 
 ___
 
 ### onClick
 
-• **onClick**: `MouseEventHandler`<`MouseEvent`\>
+• **onClick**: `MouseEventHandler`\<`MouseEvent`\>
 
 The function to be called when the button is clicked
 
@@ -94,7 +94,7 @@ onClick={() => console.log("clicked")}
 
 #### Defined in
 
-[src/components/Button/ButtonIcon.tsx:42](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Button/ButtonIcon.tsx#L42)
+app/library/src/components/Button/ButtonIcon.tsx:38
 
 ___
 
@@ -106,7 +106,7 @@ The outline state of the button
 
 #### Defined in
 
-[src/components/Button/ButtonIcon.tsx:54](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Button/ButtonIcon.tsx#L54)
+app/library/src/components/Button/ButtonIcon.tsx:50
 
 ___
 
@@ -122,7 +122,7 @@ The size of the button,
 
 #### Defined in
 
-[src/components/Button/ButtonIcon.tsx:24](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Button/ButtonIcon.tsx#L24)
+app/library/src/components/Button/ButtonIcon.tsx:20
 
 ___
 
@@ -134,13 +134,13 @@ The title of the button
 
 #### Defined in
 
-[src/components/Button/ButtonIcon.tsx:28](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Button/ButtonIcon.tsx#L28)
+app/library/src/components/Button/ButtonIcon.tsx:24
 
 ___
 
 ### variant
 
-• `Optional` **variant**: ``"primary"`` \| ``"secondary"`` \| ``"success"`` \| ``"warning"`` \| ``"danger"`` \| ``"info"`` \| ``"neutral"`` \| ``"link"``
+• `Optional` **variant**: ``"primary"`` \| ``"link"`` \| ``"secondary"`` \| ``"success"`` \| ``"warning"`` \| ``"danger"`` \| ``"info"`` \| ``"neutral"``
 
 The variant of the button,
 
@@ -150,4 +150,4 @@ The variant of the button,
 
 #### Defined in
 
-[src/components/Button/ButtonIcon.tsx:20](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Button/ButtonIcon.tsx#L20)
+app/library/src/components/Button/ButtonIcon.tsx:16

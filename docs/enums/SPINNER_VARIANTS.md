@@ -8,7 +8,7 @@
 
 #### Defined in
 
-[src/components/Spinner/index.tsx:9](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Spinner/index.tsx#L9)
+app/library/src/components/Spinner/index.tsx:9
 
 ___
 
@@ -18,7 +18,7 @@ ___
 
 #### Defined in
 
-[src/components/Spinner/index.tsx:10](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Spinner/index.tsx#L10)
+app/library/src/components/Spinner/index.tsx:10
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 #### Defined in
 
-[src/components/Spinner/index.tsx:11](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Spinner/index.tsx#L11)
+app/library/src/components/Spinner/index.tsx:11
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 #### Defined in
 
-[src/components/Spinner/index.tsx:5](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Spinner/index.tsx#L5)
+app/library/src/components/Spinner/index.tsx:5
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 #### Defined in
 
-[src/components/Spinner/index.tsx:6](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Spinner/index.tsx#L6)
+app/library/src/components/Spinner/index.tsx:6
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 #### Defined in
 
-[src/components/Spinner/index.tsx:7](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Spinner/index.tsx#L7)
+app/library/src/components/Spinner/index.tsx:7
 
 ___
 
@@ -68,4 +68,4 @@ ___
 
 #### Defined in
 
-[src/components/Spinner/index.tsx:8](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Spinner/index.tsx#L8)
+app/library/src/components/Spinner/index.tsx:8

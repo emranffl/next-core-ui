@@ -1,58 +1,42 @@
 // + Spinner component - 1
-export {
-	default as Spinner,
-	SPINNER_VARIANTS,
-	SPINNER_TRACK_COLORS,
-	SPINNER_TEXT_POSITIONS,
-	SpinnerProps,
-} from "./Spinner"
+export { default as Spinner, SPINNER_VARIANTS, SPINNER_TRACK_COLORS, SPINNER_TEXT_POSITIONS } from "./Spinner"
+export type { SpinnerProps } from "./Spinner"
 
 // + Icon component - 2
-export { default as Icon, IconProps } from "./Icon"
+export { default as Icon } from "./Icon"
+export type { IconProps } from "./Icon"
 
 // + Button component - 3
 export {
-	default as Button,
-	BUTTON_VARIANTS,
-	BUTTON_SIZES,
-	BUTTON_ICON_POSITIONS,
-	BUTTON_TYPES,
-	ButtonParams,
-	ButtonProps,
+  default as Button,
+  BUTTON_VARIANTS,
+  BUTTON_SIZES,
+  BUTTON_TYPES,
+  BUTTON_ICON_POSITIONS,
 } from "./Button"
+export type { ButtonParams, ButtonProps } from "./Button"
 
 // + ButtonIcon component - 4
-export { default as ButtonIcon, ButtonIconProps } from "./Button/ButtonIcon"
+export { default as ButtonIcon } from "./Button/ButtonIcon"
+export type { ButtonIconProps } from "./Button/ButtonIcon"
 
 // + Badge component - 5
-export {
-	default as Badge,
-	BADGE_VARIANTS,
-	BADGE_ICON_POSITIONS,
-	BadgeProps,
-} from "./Badge"
+export { default as Badge, BADGE_VARIANTS, BADGE_ICON_POSITIONS } from "./Badge"
+export type { BadgeProps } from "./Badge"
 
 // + BadgeIcon component - 6
-export { default as BadgeIcon, BadgeIconProps } from "./Badge/BadgeIcon"
+export { default as BadgeIcon,  } from "./Badge/BadgeIcon"
+export type { BadgeIconProps } from "./Badge/BadgeIcon"
 
 // + Chip component - 7
-export {
-	default as Chip,
-	CHIP_SHAPES,
-	CHIP_VARIANTS,
-	CHIP_SIZES,
-	ChipProps,
-} from "./Chip"
+export { default as Chip, CHIP_SHAPES, CHIP_VARIANTS, CHIP_SIZES } from "./Chip"
+export type { ChipProps } from "./Chip"
 
 // + Toast component - 8
-export {
-	default as Toast,
-	TOAST_VARIANTS,
-	TOAST_POSITIONS,
-	ToastParams,
-	ToastProps,
-} from "./Toast"
-export { ToastContext, ToastContextProps } from "./Toast/Context"
+export { default as Toast, TOAST_VARIANTS, TOAST_POSITIONS } from "./Toast"
+export type { ToastParams, ToastProps } from "./Toast"
+export { ToastContext } from "./Toast/Context"
+export type { ToastContextProps } from "./Toast/Context"
 
 // + Layout component - 9
 export { default as LibraryContextProviderWrapper } from "./Layout/ContextProviderWrapper"

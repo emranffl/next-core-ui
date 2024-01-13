@@ -22,7 +22,7 @@
 
 #### Defined in
 
-[src/components/Toast/Context.tsx:6](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Toast/Context.tsx#L6)
+app/library/src/components/Toast/Context.tsx:8
 
 ___
 
@@ -32,4 +32,4 @@ ___
 
 #### Defined in
 
-[src/components/Toast/Context.tsx:5](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Toast/Context.tsx#L5)
+app/library/src/components/Toast/Context.tsx:7

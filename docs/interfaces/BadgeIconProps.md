@@ -10,7 +10,7 @@ The class names for the badge component
 
 #### Defined in
 
-[src/components/Badge/BadgeIcon.tsx:18](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Badge/BadgeIcon.tsx#L18)
+app/library/src/components/Badge/BadgeIcon.tsx:18
 
 ___
 
@@ -26,7 +26,7 @@ Icon props {} to render an icon inside the button,
 
 #### Defined in
 
-[src/components/Badge/BadgeIcon.tsx:10](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Badge/BadgeIcon.tsx#L10)
+app/library/src/components/Badge/BadgeIcon.tsx:10
 
 ___
 
@@ -38,19 +38,19 @@ The id for the badge component
 
 #### Defined in
 
-[src/components/Badge/BadgeIcon.tsx:22](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Badge/BadgeIcon.tsx#L22)
+app/library/src/components/Badge/BadgeIcon.tsx:22
 
 ___
 
 ### internalRef
 
-• `Optional` **internalRef**: `LegacyRef`<`HTMLSpanElement`\>
+• `Optional` **internalRef**: `LegacyRef`\<`HTMLSpanElement`\>
 
 The internal prop to pass reference to the component. Use `ref` prop to pass ref.
 
 #### Defined in
 
-[src/components/Badge/BadgeIcon.tsx:26](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Badge/BadgeIcon.tsx#L26)
+app/library/src/components/Badge/BadgeIcon.tsx:26
 
 ___
 
@@ -66,4 +66,4 @@ The visual variant of the badge,
 
 #### Defined in
 
-[src/components/Badge/BadgeIcon.tsx:14](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Badge/BadgeIcon.tsx#L14)
+app/library/src/components/Badge/BadgeIcon.tsx:14

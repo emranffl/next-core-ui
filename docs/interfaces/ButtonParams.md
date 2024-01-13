@@ -10,7 +10,7 @@ The class names for the button component
 
 #### Defined in
 
-[src/components/Button/index.tsx:113](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Button/index.tsx#L113)
+app/library/src/components/Button/index.tsx:115
 
 ___
 
@@ -22,7 +22,7 @@ Disables the button
 
 #### Defined in
 
-[src/components/Button/index.tsx:81](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Button/index.tsx#L81)
+app/library/src/components/Button/index.tsx:83
 
 ___
 
@@ -34,7 +34,7 @@ The full width state of the button
 
 #### Defined in
 
-[src/components/Button/index.tsx:93](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Button/index.tsx#L93)
+app/library/src/components/Button/index.tsx:95
 
 ___
 
@@ -50,7 +50,7 @@ Icon props {} to render an icon inside the button,
 
 #### Defined in
 
-[src/components/Button/index.tsx:105](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Button/index.tsx#L105)
+app/library/src/components/Button/index.tsx:107
 
 ___
 
@@ -62,19 +62,19 @@ The id for the button component
 
 #### Defined in
 
-[src/components/Button/index.tsx:201](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Button/index.tsx#L201)
+app/library/src/components/Button/index.tsx:203
 
 ___
 
 ### internalRef
 
-• `Optional` **internalRef**: ``null`` \| `string` \| (`instance`: ``null`` \| `HTMLAnchorElement`) => `void` \| `RefObject`<`HTMLAnchorElement`\> \| (`instance`: ``null`` \| `HTMLButtonElement`) => `void` \| `RefObject`<`HTMLButtonElement`\>
+• `Optional` **internalRef**: ``null`` \| `string` \| (`instance`: ``null`` \| `HTMLAnchorElement`) => `void` \| `RefObject`\<`HTMLAnchorElement`\> \| (`instance`: ``null`` \| `HTMLButtonElement`) => `void` \| `RefObject`\<`HTMLButtonElement`\>
 
 The internal prop to pass reference to the component. Use `ref` prop to pass ref.
 
 #### Defined in
 
-[src/components/Button/index.tsx:205](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Button/index.tsx#L205)
+app/library/src/components/Button/index.tsx:207
 
 ___
 
@@ -124,19 +124,19 @@ link={{ }}
 
 #### Defined in
 
-[src/components/Button/index.tsx:133](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Button/index.tsx#L133)
+app/library/src/components/Button/index.tsx:135
 
 ___
 
 ### onClick
 
-• `Optional` **onClick**: `MouseEventHandler`<`MouseEvent`<`Element`, `MouseEvent`\>\>
+• `Optional` **onClick**: `MouseEventHandler`\<`MouseEvent`\<`Element`, `MouseEvent`\>\>
 
 The onClick event handler
 
 #### Defined in
 
-[src/components/Button/index.tsx:117](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Button/index.tsx#L117)
+app/library/src/components/Button/index.tsx:119
 
 ___
 
@@ -148,7 +148,7 @@ The outline state of the button
 
 #### Defined in
 
-[src/components/Button/index.tsx:89](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Button/index.tsx#L89)
+app/library/src/components/Button/index.tsx:91
 
 ___
 
@@ -164,7 +164,7 @@ The size of the button,
 
 #### Defined in
 
-[src/components/Button/index.tsx:101](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Button/index.tsx#L101)
+app/library/src/components/Button/index.tsx:103
 
 ___
 
@@ -176,7 +176,7 @@ The loading state of the button
 
 #### Defined in
 
-[src/components/Button/index.tsx:97](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Button/index.tsx#L97)
+app/library/src/components/Button/index.tsx:99
 
 ___
 
@@ -209,7 +209,7 @@ The class names for the button text
 
 #### Defined in
 
-[src/components/Button/index.tsx:60](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Button/index.tsx#L60)
+app/library/src/components/Button/index.tsx:62
 
 ___
 
@@ -225,13 +225,13 @@ The type of the button,
 
 #### Defined in
 
-[src/components/Button/index.tsx:109](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Button/index.tsx#L109)
+app/library/src/components/Button/index.tsx:111
 
 ___
 
 ### variant
 
-• `Optional` **variant**: ``"primary"`` \| ``"secondary"`` \| ``"success"`` \| ``"warning"`` \| ``"danger"`` \| ``"info"`` \| ``"neutral"`` \| ``"link"``
+• `Optional` **variant**: ``"primary"`` \| ``"link"`` \| ``"secondary"`` \| ``"success"`` \| ``"warning"`` \| ``"danger"`` \| ``"info"`` \| ``"neutral"``
 
 The variant of the button,
 
@@ -241,4 +241,4 @@ The variant of the button,
 
 #### Defined in
 
-[src/components/Button/index.tsx:85](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Button/index.tsx#L85)
+app/library/src/components/Button/index.tsx:87

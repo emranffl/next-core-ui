@@ -1,5 +1,5 @@
 import React, { LegacyRef, forwardRef, memo } from "react"
-import { classManipulator } from "../../utility/helpers/class-manipulator"
+import { cn } from "tailwind-cn"
 
 export enum SPINNER_VARIANTS {
   primary = "primary",
@@ -25,6 +25,7 @@ export enum SPINNER_TEXT_POSITIONS {
 export interface SpinnerProps {
   /**
    * The variant of the spinner, @see `SPINNER_VARIANTS` enum
+   * @default "primary"
    */
   variant?: keyof typeof SPINNER_VARIANTS
   /**
@@ -33,6 +34,7 @@ export interface SpinnerProps {
   size?: number
   /**
    * The track color of the spinner, @see `SPINNER_TRACK_COLORS` enum
+   * @default "light"
    */
   trackColor?: keyof typeof SPINNER_TRACK_COLORS
   /**
@@ -87,7 +89,7 @@ export interface SpinnerProps {
 
 const Spinner = ({
   variant = "primary",
-  size = 40,
+  size = 30,
   trackColor = "light",
   className = undefined,
   text = undefined,
@@ -101,7 +103,7 @@ const Spinner = ({
 
   // + spinner text content
   const Content = () => (
-    <p className="text-lg text-primary-500 transition-all">
+    <p className={cn("text-lg text-primary-500 transition-all")}>
       {mergeText?.value}
       <span className="ml-2 animate-pulse font-bold">.</span>
       <span className="ml-1 animate-pulse font-bold">.</span>
@@ -111,12 +113,9 @@ const Spinner = ({
 
   return (
     <div
-      className={classManipulator(
-        `flex gap-16 ${
-          mergeText?.position === "top" || mergeText?.position === "bottom"
-            ? "flex-col"
-            : "align-items-center"
-        } justify-center items-center`
+      className={cn(
+        "flex items-center justify-center gap-16",
+        mergeText?.position === "top" || mergeText?.position === "bottom" ? "flex-col" : "align-items-center"
       )}
       id={id}
       ref={internalRef}
@@ -124,33 +123,35 @@ const Spinner = ({
       {text && mergeText?.position === "top" && <Content />}
 
       <svg
-        role="status"
-        className={classManipulator(
-          `${
-            variant == "primary"
-              ? "fill-primary-400"
-              : variant == "secondary"
+        style={{
+          width: size,
+          height: size,
+        }}
+        className={cn(
+          "animate-spin dark:text-gray-600",
+          variant == "primary"
+            ? "fill-primary-400"
+            : variant == "secondary"
               ? "fill-secondary-400"
               : variant == "success"
-              ? "fill-green-400"
-              : variant == "danger"
-              ? "fill-rose-400"
-              : variant == "warning"
-              ? "fill-amber-400"
-              : variant == "info"
-              ? "fill-sky-400"
-              : variant == "neutral"
-              ? "fill-slate-400"
-              : null
-          } ${
-            trackColor == "light"
-              ? "text-slate-200 dark:text-slate-600"
-              : trackColor == "dark"
+                ? "fill-green-400"
+                : variant == "danger"
+                  ? "fill-rose-400"
+                  : variant == "warning"
+                    ? "fill-amber-400"
+                    : variant == "info"
+                      ? "fill-sky-400"
+                      : variant == "neutral"
+                        ? "fill-slate-400"
+                        : null,
+          trackColor == "light"
+            ? "text-slate-200 dark:text-slate-600"
+            : trackColor == "dark"
               ? "text-slate-600 dark:text-slate-400"
               : trackColor == "white"
-              ? "text-white dark:text-slate-400"
-              : null
-          } w-${size} min-w-${size} min-h-${size} animate-spin dark:text-gray-600 ${className}`
+                ? "text-white dark:text-slate-400"
+                : null,
+          className
         )}
         viewBox="0 0 100 101"
         fill="none"

@@ -16,7 +16,7 @@ The duration for which the toast should be visible in milliseconds, or `false` t
 
 #### Defined in
 
-[src/components/Toast/index.tsx:62](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Toast/index.tsx#L62)
+app/library/src/components/Toast/index.tsx:58
 
 ___
 
@@ -28,7 +28,7 @@ Any React nodes to be displayed in the toast instead of the message
 
 #### Defined in
 
-[src/components/Toast/index.tsx:37](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Toast/index.tsx#L37)
+app/library/src/components/Toast/index.tsx:33
 
 ___
 
@@ -40,7 +40,7 @@ Additional class names to be applied to the toast container element
 
 #### Defined in
 
-[src/components/Toast/index.tsx:41](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Toast/index.tsx#L41)
+app/library/src/components/Toast/index.tsx:37
 
 ___
 
@@ -52,7 +52,7 @@ Whether to display a close button for the toast
 
 #### Defined in
 
-[src/components/Toast/index.tsx:53](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Toast/index.tsx#L53)
+app/library/src/components/Toast/index.tsx:49
 
 ___
 
@@ -64,7 +64,7 @@ Whether to close the toast when it is clicked
 
 #### Defined in
 
-[src/components/Toast/index.tsx:49](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Toast/index.tsx#L49)
+app/library/src/components/Toast/index.tsx:45
 
 ___
 
@@ -80,7 +80,7 @@ Icon to be displayed in the toast,
 
 #### Defined in
 
-[src/components/Toast/index.tsx:57](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Toast/index.tsx#L57)
+app/library/src/components/Toast/index.tsx:53
 
 ___
 
@@ -92,7 +92,7 @@ The ID of the toast element
 
 #### Defined in
 
-[src/components/Toast/index.tsx:74](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Toast/index.tsx#L74)
+app/library/src/components/Toast/index.tsx:70
 
 ___
 
@@ -104,19 +104,19 @@ The message to be displayed in the toast
 
 #### Defined in
 
-[src/components/Toast/index.tsx:33](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Toast/index.tsx#L33)
+app/library/src/components/Toast/index.tsx:29
 
 ___
 
 ### onClose
 
-• `Optional` **onClose**: `MouseEventHandler`<`MouseEvent`\>
+• `Optional` **onClose**: `MouseEventHandler`\<`MouseEvent`\>
 
 A function to be called when the toast is closed
 
 #### Defined in
 
-[src/components/Toast/index.tsx:70](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Toast/index.tsx#L70)
+app/library/src/components/Toast/index.tsx:66
 
 ___
 
@@ -132,7 +132,7 @@ The position of the toast on the screen,
 
 #### Defined in
 
-[src/components/Toast/index.tsx:66](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Toast/index.tsx#L66)
+app/library/src/components/Toast/index.tsx:62
 
 ___
 
@@ -148,4 +148,4 @@ The variant of toast to display,
 
 #### Defined in
 
-[src/components/Toast/index.tsx:45](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Toast/index.tsx#L45)
+app/library/src/components/Toast/index.tsx:41

@@ -8,7 +8,7 @@
 
 #### Defined in
 
-[src/components/Chip/index.tsx:18](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Chip/index.tsx#L18)
+app/library/src/components/Chip/index.tsx:14
 
 ___
 
@@ -18,4 +18,4 @@ ___
 
 #### Defined in
 
-[src/components/Chip/index.tsx:19](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Chip/index.tsx#L19)
+app/library/src/components/Chip/index.tsx:15

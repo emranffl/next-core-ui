@@ -1,11 +1,12 @@
 import "material-icons/iconfont/material-icons.css"
 import "bootstrap-icons/font/bootstrap-icons.css"
+// import oi from "./outline-icons-sprite.svg"
 
 import React, { LegacyRef, forwardRef, memo } from "react"
-import { classManipulator } from "../../utility/helpers/class-manipulator"
 import { BOOTSTRAP_ICON_NAMES } from "./bootstrap-icons/names"
 import { MATERIAL_ICON_NAMES } from "./material-icons/names"
 import { OUTLINE_ICON_NAMES } from "./outline-icons/names"
+import { cn } from "tailwind-cn"
 
 // * Type declaration for icon names, used to restrict the type of icon names that can be used in this components.
 type BootstrapIconName = (typeof BOOTSTRAP_ICON_NAMES)[number]
@@ -111,10 +112,11 @@ const Icon = ({
         // + bootstrap icons
         <i
           style={{ fontSize: size, color: color }}
-          className={classManipulator(
-            `${name} box-content inline-flex shrink-0 grow-0 rounded m-0 ${
-              disabled && "hover:cursor-not-allowed"
-            } ${className}`
+          className={cn(
+            "m-0 box-content inline-flex shrink-0 grow-0 rounded",
+            disabled && "hover:cursor-not-allowed",
+            name,
+            className
           )}
           id={id}
           ref={internalRef as LegacyRef<HTMLElement>}
@@ -123,10 +125,10 @@ const Icon = ({
         // + material icons
         <span
           style={{ fontSize: size, color: color }}
-          className={classManipulator(
-            `material-icons box-content inline-flex shrink-0 grow-0 rounded ${
-              disabled && "hover:cursor-not-allowed hover:stroke-slate-300"
-            } ${className} `
+          className={cn(
+            "material-icons box-content inline-flex shrink-0 grow-0 rounded",
+            disabled && "hover:cursor-not-allowed hover:stroke-slate-300",
+            className
           )}
           id={id}
           ref={internalRef as LegacyRef<HTMLSpanElement>}
@@ -137,12 +139,11 @@ const Icon = ({
         // + default outlined icon
         <svg
           aria-disabled={disabled}
-          className={classManipulator(`box-content inline-flex shrink-0 grow-0 rounded ${className}
-			${
-        disabled &&
-        "stroke-slate-300 hover:cursor-not-allowed hover:stroke-slate-300"
-      }
-			`)}
+          className={cn(
+            "box-content inline-flex shrink-0 grow-0 rounded",
+            disabled && "stroke-slate-300 hover:cursor-not-allowed hover:stroke-slate-300",
+            className
+          )}
           width={size}
           height={size}
           fill="none"
@@ -154,7 +155,8 @@ const Icon = ({
           id={id}
           ref={internalRef as LegacyRef<SVGSVGElement>}
         >
-          <use xlinkHref={`./outline-icons-sprite.svg#${name}`} />
+          <use xlinkHref={`/icons/outline-icons-sprite.svg#${name}`} />
+          {/* <use xlinkHref={`${oi()}#${name}`} /> */}
         </svg>
       )}
     </>
@@ -162,10 +164,7 @@ const Icon = ({
 }
 
 export default memo(
-  forwardRef(
-    (
-      props: IconProps,
-      ref: LegacyRef<HTMLElement | HTMLSpanElement | SVGSVGElement>
-    ) => <Icon {...props} internalRef={ref} />
-  )
+  forwardRef((props: IconProps, ref: LegacyRef<HTMLElement | HTMLSpanElement | SVGSVGElement>) => (
+    <Icon {...props} internalRef={ref} />
+  ))
 )

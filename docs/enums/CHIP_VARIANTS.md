@@ -8,7 +8,7 @@
 
 #### Defined in
 
-[src/components/Chip/index.tsx:28](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Chip/index.tsx#L28)
+app/library/src/components/Chip/index.tsx:24
 
 ___
 
@@ -18,7 +18,7 @@ ___
 
 #### Defined in
 
-[src/components/Chip/index.tsx:25](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Chip/index.tsx#L25)
+app/library/src/components/Chip/index.tsx:21
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 #### Defined in
 
-[src/components/Chip/index.tsx:29](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Chip/index.tsx#L29)
+app/library/src/components/Chip/index.tsx:25
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 #### Defined in
 
-[src/components/Chip/index.tsx:23](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Chip/index.tsx#L23)
+app/library/src/components/Chip/index.tsx:19
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 #### Defined in
 
-[src/components/Chip/index.tsx:24](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Chip/index.tsx#L24)
+app/library/src/components/Chip/index.tsx:20
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 #### Defined in
 
-[src/components/Chip/index.tsx:26](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Chip/index.tsx#L26)
+app/library/src/components/Chip/index.tsx:22
 
 ___
 
@@ -68,4 +68,4 @@ ___
 
 #### Defined in
 
-[src/components/Chip/index.tsx:27](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Chip/index.tsx#L27)
+app/library/src/components/Chip/index.tsx:23

@@ -8,7 +8,7 @@
 
 #### Defined in
 
-[src/components/Toast/index.tsx:25](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Toast/index.tsx#L25)
+app/library/src/components/Toast/index.tsx:21
 
 ___
 
@@ -18,7 +18,7 @@ ___
 
 #### Defined in
 
-[src/components/Toast/index.tsx:26](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Toast/index.tsx#L26)
+app/library/src/components/Toast/index.tsx:22
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 #### Defined in
 
-[src/components/Toast/index.tsx:24](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Toast/index.tsx#L24)
+app/library/src/components/Toast/index.tsx:20
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 #### Defined in
 
-[src/components/Toast/index.tsx:23](https://github.com/emranffl/next-core-ui/blob/0536197/src/components/Toast/index.tsx#L23)
+app/library/src/components/Toast/index.tsx:19

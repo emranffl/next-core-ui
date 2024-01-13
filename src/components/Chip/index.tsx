@@ -1,14 +1,8 @@
 "use client"
 
-import React, {
-  LegacyRef,
-  MouseEventHandler,
-  forwardRef,
-  memo,
-  useCallback,
-} from "react"
-import ButtonIcon from "../../components/Button/ButtonIcon"
-import { classManipulator } from "../../utility/helpers/class-manipulator"
+import React, { LegacyRef, MouseEventHandler, forwardRef, memo, useCallback } from "react"
+import ButtonIcon from "../Button/ButtonIcon"
+import { cn } from "tailwind-cn"
 
 export enum CHIP_SIZES {
   sm = "sm",
@@ -133,44 +127,41 @@ const Chip = ({
   return (
     <>
       <span
-        className={classManipulator(
-          `flex place-items-center w-max font-semibold text-slate-500 active:text-slate-200
-          ${shape == "pill" ? "rounded-3xl" : "rounded"}
-          ${
-            onCloseIconClick
-              ? size === "sm"
-                ? "ps-6 pe-4 py-0 text-xs"
-                : size === "md"
-                ? "ps-8 pe-4 py-4 text-sm"
+        className={cn(
+          "flex w-max place-items-center font-semibold text-slate-500 active:text-slate-200",
+          shape == "pill" ? "rounded-3xl" : "rounded",
+
+          onCloseIconClick
+            ? size === "sm"
+              ? "py-0 pe-4 ps-6 text-xs"
+              : size === "md"
+                ? "py-4 pe-4 ps-8 text-sm"
                 : size === "lg"
-                ? "ps-12 pe-6 py-6 text-base"
-                : null
-              : size === "sm"
+                  ? "py-6 pe-6 ps-12 text-base"
+                  : null
+            : size === "sm"
               ? "px-6 py-2 text-xs"
               : size === "md"
-              ? "px-8 py-4 text-sm"
-              : size === "lg"
-              ? "px-12 py-6 text-base"
-              : null
-          }
-          ${
-            variant === "primary"
-              ? "text-white bg-primary-500 active:bg-primary-600"
-              : variant === "secondary"
-              ? "text-white bg-secondary-500 active:bg-secondary-600"
+                ? "px-8 py-4 text-sm"
+                : size === "lg"
+                  ? "px-12 py-6 text-base"
+                  : null,
+          variant === "primary"
+            ? "bg-primary-500 text-white active:bg-primary-600"
+            : variant === "secondary"
+              ? "bg-secondary-500 text-white active:bg-secondary-600"
               : variant === "info"
-              ? "text-white bg-sky-500 active:bg-sky-600"
-              : variant === "success"
-              ? "text-white bg-teal-500 active:bg-teal-600"
-              : variant === "warning"
-              ? "text-white bg-amber-500 active:bg-amber-600"
-              : variant === "danger"
-              ? "text-white bg-rose-500 active:bg-rose-600"
-              : variant === "neutral"
-              ? "text-slate-600 bg-slate-300 active:bg-slate-500"
-              : null
-          }
-          ${className}`
+                ? "bg-sky-500 text-white active:bg-sky-600"
+                : variant === "success"
+                  ? "bg-teal-500 text-white active:bg-teal-600"
+                  : variant === "warning"
+                    ? "bg-amber-500 text-white active:bg-amber-600"
+                    : variant === "danger"
+                      ? "bg-rose-500 text-white active:bg-rose-600"
+                      : variant === "neutral"
+                        ? "bg-slate-300 text-slate-600 active:bg-slate-500"
+                        : null,
+          className
         )}
         id={id}
         ref={internalRef}
@@ -185,9 +176,7 @@ const Chip = ({
               color: variant === "neutral" ? "grey" : "white",
             }}
             variant="link"
-            className={classManipulator(
-              `relative !p-0 ms-4 ${size === "sm" ? "-right-1" : null}`
-            )}
+            className={cn("relative ms-4 !p-0", size === "sm" ? "-right-1" : null)}
           />
         )}
       </span>
@@ -196,7 +185,5 @@ const Chip = ({
 }
 
 export default memo(
-  forwardRef((props: ChipProps, ref: LegacyRef<HTMLSpanElement>) => (
-    <Chip {...props} internalRef={ref} />
-  ))
+  forwardRef((props: ChipProps, ref: LegacyRef<HTMLSpanElement>) => <Chip {...props} internalRef={ref} />)
 )
