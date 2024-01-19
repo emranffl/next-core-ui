@@ -38,5 +38,8 @@ export type { ToastParams, ToastProps } from "./Toast"
 export { ToastContext } from "./Toast/Context"
 export type { ToastContextProps } from "./Toast/Context"
 
+export { default as Modal, MODAL_SIZES } from "./Modal"
+export type { ModalProps } from "./Modal"
+
 // + Layout component - 9
 export { default as LibraryContextProviderWrapper } from "./Layout/ContextProviderWrapper"

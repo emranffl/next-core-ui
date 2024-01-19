@@ -5,6 +5,7 @@ import ButtonIcon from "../Button/ButtonIcon"
 import Icon, { IconProps } from "../Icon/index"
 import Fade from "react-reveal/Fade"
 import { cn } from "tailwind-cn"
+import { Z_INDEX } from "../z-index.config"
 
 export enum TOAST_VARIANTS {
   primary = "primary",
@@ -63,7 +64,7 @@ export interface ToastParams {
   /**
    * A function to be called when the toast is closed
    */
-  onClose?: MouseEventHandler<MouseEvent>
+  onClose?: MouseEventHandler<HTMLButtonElement>
   /**
    * The ID of the toast element
    */
@@ -171,14 +172,14 @@ ToastProps) => {
   const onCloseInternalCallback = () => {
     updateVisibilityState(false)
   }
-
   return (
     <>
       {visibilityState ? (
         <Fade right={position?.includes("right")} left={position?.includes("left")} key={uid}>
           <div
+            style={{ zIndex: Z_INDEX.toast }}
             className={cn(
-              "z-10 m-8 flex w-full max-w-md items-center space-x-4 rounded-lg border p-12 shadow-md dark:bg-slate-800 dark:text-slate-400",
+              "m-8 flex w-full max-w-md items-center space-x-4 rounded-lg border p-12 shadow-md dark:bg-slate-800 dark:text-slate-400",
               variant === "primary" && "border-primary-500 bg-primary-50 text-primary-900",
               variant === "secondary" && "border-secondary-500 bg-secondary-50 text-secondary-900",
               variant === "success" && "border-teal-500 bg-teal-100 text-teal-900",

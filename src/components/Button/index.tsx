@@ -49,33 +49,16 @@ type Icon = IconProps & {
 
 export interface ButtonParams extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   /**
-   * The text {} that takes the following params
-   * @param {string} [value] The text to display on the button
-   * @param {string} [className] The class names for the button text
-   *
+   * The text of the button
    * @example
    * ```tsx
-   * <Button text={{ }} />
+   * <Button>
+   *  Click Me
+   * </Button>
    * ```
+   *
    */
-  text: {
-    /**
-     * The text to display on the button
-     * @example
-     * ```tsx
-     * <Button text={{ value: "Click me" }} />
-     * ```
-     */
-    value: string
-    /**
-     * The class names for the button text
-     * @example
-     * ```tsx
-     * <Button text={{ value: "Click me" , className: "uppercase" }} />
-     * ```
-     */
-    className?: string
-  }
+  children: React.ReactNode | React.ReactNode[]
   /**
    * Disables the button
    */
@@ -226,10 +209,6 @@ export type ButtonProps =
     variant="primary"
     type="submit"
     size="lg"
-    text={
-      value: "Button",
-      className: "text-sm",
-    }
     id="btn_1"
     // ref={ref}
     className="rounded-full"
@@ -254,12 +233,14 @@ export type ButtonProps =
     outline
     fullWidth
     disabled
-  />
+  >
+    Button Text
+  </Button>
   ```
  */
 
 const Button = ({
-  text,
+  children,
   disabled = undefined,
   variant = "primary",
   outline = undefined,
@@ -327,20 +308,20 @@ const Button = ({
   const ConditionalContent = () => {
     return (
       <>
-        {/* //+ button icon - left */}
+        {/* // - button icon - left */}
         <ConditionalIcon iconPosition="left" />
 
         {spinnerVisibility ? (
           // + spinner
           <Spinner size={20} variant="primary" trackColor="white" className="pointer-events-none" />
         ) : (
-          <span className={cn("leading-0 whitespace-nowrap", text.className)}>
-            {/* //+ button text */}
-            {text.value}
-          </span>
+          <>
+            {/* // - button text */}
+            {children}
+          </>
         )}
 
-        {/* //+ button icon - right */}
+        {/* // - button icon - right */}
         <ConditionalIcon iconPosition="right" />
       </>
     )
@@ -391,7 +372,7 @@ const Button = ({
                 : outline === true && variant == "neutral"
                   ? "btn-neutral-outline"
                   : null,
-    "inline-flex items-center justify-center rounded-md font-normal leading-none focus-visible:outline-0",
+    "inline-flex items-center justify-center rounded-md font-normal leading-none focus-visible:outline-0 whitespace-nowrap leading-0",
     className
   )
 

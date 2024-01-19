@@ -128,7 +128,7 @@ const Chip = ({
     <>
       <span
         className={cn(
-          "flex w-max place-items-center font-semibold text-slate-500 active:text-slate-200",
+          "flex w-max select-none place-items-center font-semibold text-slate-500 active:text-slate-200",
           shape == "pill" ? "rounded-3xl" : "rounded",
 
           onCloseIconClick

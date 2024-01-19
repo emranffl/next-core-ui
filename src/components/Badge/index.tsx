@@ -149,7 +149,7 @@ const Badge = ({
       ref={internalRef}
     >
       <ConditionalIcon iconPosition="left" />
-      <span className={text?.className && cn(text.className)}>{text.value}</span>
+      <span className={text?.className && cn("select-none", text.className)}>{text.value}</span>
       <ConditionalIcon iconPosition="right" />
     </span>
   )
