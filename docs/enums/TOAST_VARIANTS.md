@@ -1,4 +1,17 @@
+[next-core-ui](../README.md) / [Exports](../modules.md) / TOAST\_VARIANTS
+
 # Enumeration: TOAST\_VARIANTS
+
+## Table of contents
+
+### Enumeration Members
+
+- [danger](TOAST_VARIANTS.md#danger)
+- [info](TOAST_VARIANTS.md#info)
+- [primary](TOAST_VARIANTS.md#primary)
+- [secondary](TOAST_VARIANTS.md#secondary)
+- [success](TOAST_VARIANTS.md#success)
+- [warning](TOAST_VARIANTS.md#warning)
 
 ## Enumeration Members
 
@@ -8,7 +21,7 @@
 
 #### Defined in
 
-app/library/src/components/Toast/index.tsx:16
+src/components/Toast/index.tsx:16
 
 ___
 
@@ -18,7 +31,7 @@ ___
 
 #### Defined in
 
-app/library/src/components/Toast/index.tsx:13
+src/components/Toast/index.tsx:13
 
 ___
 
@@ -28,7 +41,7 @@ ___
 
 #### Defined in
 
-app/library/src/components/Toast/index.tsx:11
+src/components/Toast/index.tsx:11
 
 ___
 
@@ -38,7 +51,7 @@ ___
 
 #### Defined in
 
-app/library/src/components/Toast/index.tsx:12
+src/components/Toast/index.tsx:12
 
 ___
 
@@ -48,7 +61,7 @@ ___
 
 #### Defined in
 
-app/library/src/components/Toast/index.tsx:14
+src/components/Toast/index.tsx:14
 
 ___
 
@@ -58,4 +71,4 @@ ___
 
 #### Defined in
 
-app/library/src/components/Toast/index.tsx:15
+src/components/Toast/index.tsx:15

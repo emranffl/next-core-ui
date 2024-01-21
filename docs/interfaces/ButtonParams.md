@@ -1,3 +1,5 @@
+[next-core-ui](../README.md) / [Exports](../modules.md) / ButtonParams
+
 # Interface: ButtonParams
 
 ## Hierarchy
@@ -5,6 +7,294 @@
 - `ButtonHTMLAttributes`\<`HTMLButtonElement`\>
 
   ↳ **`ButtonParams`**
+
+## Table of contents
+
+### Properties
+
+- [about](ButtonParams.md#about)
+- [accessKey](ButtonParams.md#accesskey)
+- [aria-activedescendant](ButtonParams.md#aria-activedescendant)
+- [aria-atomic](ButtonParams.md#aria-atomic)
+- [aria-autocomplete](ButtonParams.md#aria-autocomplete)
+- [aria-braillelabel](ButtonParams.md#aria-braillelabel)
+- [aria-brailleroledescription](ButtonParams.md#aria-brailleroledescription)
+- [aria-busy](ButtonParams.md#aria-busy)
+- [aria-checked](ButtonParams.md#aria-checked)
+- [aria-colcount](ButtonParams.md#aria-colcount)
+- [aria-colindex](ButtonParams.md#aria-colindex)
+- [aria-colindextext](ButtonParams.md#aria-colindextext)
+- [aria-colspan](ButtonParams.md#aria-colspan)
+- [aria-controls](ButtonParams.md#aria-controls)
+- [aria-current](ButtonParams.md#aria-current)
+- [aria-describedby](ButtonParams.md#aria-describedby)
+- [aria-description](ButtonParams.md#aria-description)
+- [aria-details](ButtonParams.md#aria-details)
+- [aria-disabled](ButtonParams.md#aria-disabled)
+- [aria-dropeffect](ButtonParams.md#aria-dropeffect)
+- [aria-errormessage](ButtonParams.md#aria-errormessage)
+- [aria-expanded](ButtonParams.md#aria-expanded)
+- [aria-flowto](ButtonParams.md#aria-flowto)
+- [aria-grabbed](ButtonParams.md#aria-grabbed)
+- [aria-haspopup](ButtonParams.md#aria-haspopup)
+- [aria-hidden](ButtonParams.md#aria-hidden)
+- [aria-invalid](ButtonParams.md#aria-invalid)
+- [aria-keyshortcuts](ButtonParams.md#aria-keyshortcuts)
+- [aria-label](ButtonParams.md#aria-label)
+- [aria-labelledby](ButtonParams.md#aria-labelledby)
+- [aria-level](ButtonParams.md#aria-level)
+- [aria-live](ButtonParams.md#aria-live)
+- [aria-modal](ButtonParams.md#aria-modal)
+- [aria-multiline](ButtonParams.md#aria-multiline)
+- [aria-multiselectable](ButtonParams.md#aria-multiselectable)
+- [aria-orientation](ButtonParams.md#aria-orientation)
+- [aria-owns](ButtonParams.md#aria-owns)
+- [aria-placeholder](ButtonParams.md#aria-placeholder)
+- [aria-posinset](ButtonParams.md#aria-posinset)
+- [aria-pressed](ButtonParams.md#aria-pressed)
+- [aria-readonly](ButtonParams.md#aria-readonly)
+- [aria-relevant](ButtonParams.md#aria-relevant)
+- [aria-required](ButtonParams.md#aria-required)
+- [aria-roledescription](ButtonParams.md#aria-roledescription)
+- [aria-rowcount](ButtonParams.md#aria-rowcount)
+- [aria-rowindex](ButtonParams.md#aria-rowindex)
+- [aria-rowindextext](ButtonParams.md#aria-rowindextext)
+- [aria-rowspan](ButtonParams.md#aria-rowspan)
+- [aria-selected](ButtonParams.md#aria-selected)
+- [aria-setsize](ButtonParams.md#aria-setsize)
+- [aria-sort](ButtonParams.md#aria-sort)
+- [aria-valuemax](ButtonParams.md#aria-valuemax)
+- [aria-valuemin](ButtonParams.md#aria-valuemin)
+- [aria-valuenow](ButtonParams.md#aria-valuenow)
+- [aria-valuetext](ButtonParams.md#aria-valuetext)
+- [autoCapitalize](ButtonParams.md#autocapitalize)
+- [autoCorrect](ButtonParams.md#autocorrect)
+- [autoFocus](ButtonParams.md#autofocus)
+- [autoSave](ButtonParams.md#autosave)
+- [children](ButtonParams.md#children)
+- [className](ButtonParams.md#classname)
+- [color](ButtonParams.md#color)
+- [content](ButtonParams.md#content)
+- [contentEditable](ButtonParams.md#contenteditable)
+- [contextMenu](ButtonParams.md#contextmenu)
+- [dangerouslySetInnerHTML](ButtonParams.md#dangerouslysetinnerhtml)
+- [datatype](ButtonParams.md#datatype)
+- [defaultChecked](ButtonParams.md#defaultchecked)
+- [defaultValue](ButtonParams.md#defaultvalue)
+- [dir](ButtonParams.md#dir)
+- [disabled](ButtonParams.md#disabled)
+- [draggable](ButtonParams.md#draggable)
+- [form](ButtonParams.md#form)
+- [formAction](ButtonParams.md#formaction)
+- [formEncType](ButtonParams.md#formenctype)
+- [formMethod](ButtonParams.md#formmethod)
+- [formNoValidate](ButtonParams.md#formnovalidate)
+- [formTarget](ButtonParams.md#formtarget)
+- [fullWidth](ButtonParams.md#fullwidth)
+- [hidden](ButtonParams.md#hidden)
+- [icon](ButtonParams.md#icon)
+- [id](ButtonParams.md#id)
+- [inlist](ButtonParams.md#inlist)
+- [inputMode](ButtonParams.md#inputmode)
+- [internalRef](ButtonParams.md#internalref)
+- [is](ButtonParams.md#is)
+- [itemID](ButtonParams.md#itemid)
+- [itemProp](ButtonParams.md#itemprop)
+- [itemRef](ButtonParams.md#itemref)
+- [itemScope](ButtonParams.md#itemscope)
+- [itemType](ButtonParams.md#itemtype)
+- [lang](ButtonParams.md#lang)
+- [link](ButtonParams.md#link)
+- [name](ButtonParams.md#name)
+- [nonce](ButtonParams.md#nonce)
+- [onAbort](ButtonParams.md#onabort)
+- [onAbortCapture](ButtonParams.md#onabortcapture)
+- [onAnimationEnd](ButtonParams.md#onanimationend)
+- [onAnimationEndCapture](ButtonParams.md#onanimationendcapture)
+- [onAnimationIteration](ButtonParams.md#onanimationiteration)
+- [onAnimationIterationCapture](ButtonParams.md#onanimationiterationcapture)
+- [onAnimationStart](ButtonParams.md#onanimationstart)
+- [onAnimationStartCapture](ButtonParams.md#onanimationstartcapture)
+- [onAuxClick](ButtonParams.md#onauxclick)
+- [onAuxClickCapture](ButtonParams.md#onauxclickcapture)
+- [onBeforeInput](ButtonParams.md#onbeforeinput)
+- [onBeforeInputCapture](ButtonParams.md#onbeforeinputcapture)
+- [onBlur](ButtonParams.md#onblur)
+- [onBlurCapture](ButtonParams.md#onblurcapture)
+- [onCanPlay](ButtonParams.md#oncanplay)
+- [onCanPlayCapture](ButtonParams.md#oncanplaycapture)
+- [onCanPlayThrough](ButtonParams.md#oncanplaythrough)
+- [onCanPlayThroughCapture](ButtonParams.md#oncanplaythroughcapture)
+- [onChange](ButtonParams.md#onchange)
+- [onChangeCapture](ButtonParams.md#onchangecapture)
+- [onClick](ButtonParams.md#onclick)
+- [onClickCapture](ButtonParams.md#onclickcapture)
+- [onCompositionEnd](ButtonParams.md#oncompositionend)
+- [onCompositionEndCapture](ButtonParams.md#oncompositionendcapture)
+- [onCompositionStart](ButtonParams.md#oncompositionstart)
+- [onCompositionStartCapture](ButtonParams.md#oncompositionstartcapture)
+- [onCompositionUpdate](ButtonParams.md#oncompositionupdate)
+- [onCompositionUpdateCapture](ButtonParams.md#oncompositionupdatecapture)
+- [onContextMenu](ButtonParams.md#oncontextmenu)
+- [onContextMenuCapture](ButtonParams.md#oncontextmenucapture)
+- [onCopy](ButtonParams.md#oncopy)
+- [onCopyCapture](ButtonParams.md#oncopycapture)
+- [onCut](ButtonParams.md#oncut)
+- [onCutCapture](ButtonParams.md#oncutcapture)
+- [onDoubleClick](ButtonParams.md#ondoubleclick)
+- [onDoubleClickCapture](ButtonParams.md#ondoubleclickcapture)
+- [onDrag](ButtonParams.md#ondrag)
+- [onDragCapture](ButtonParams.md#ondragcapture)
+- [onDragEnd](ButtonParams.md#ondragend)
+- [onDragEndCapture](ButtonParams.md#ondragendcapture)
+- [onDragEnter](ButtonParams.md#ondragenter)
+- [onDragEnterCapture](ButtonParams.md#ondragentercapture)
+- [onDragExit](ButtonParams.md#ondragexit)
+- [onDragExitCapture](ButtonParams.md#ondragexitcapture)
+- [onDragLeave](ButtonParams.md#ondragleave)
+- [onDragLeaveCapture](ButtonParams.md#ondragleavecapture)
+- [onDragOver](ButtonParams.md#ondragover)
+- [onDragOverCapture](ButtonParams.md#ondragovercapture)
+- [onDragStart](ButtonParams.md#ondragstart)
+- [onDragStartCapture](ButtonParams.md#ondragstartcapture)
+- [onDrop](ButtonParams.md#ondrop)
+- [onDropCapture](ButtonParams.md#ondropcapture)
+- [onDurationChange](ButtonParams.md#ondurationchange)
+- [onDurationChangeCapture](ButtonParams.md#ondurationchangecapture)
+- [onEmptied](ButtonParams.md#onemptied)
+- [onEmptiedCapture](ButtonParams.md#onemptiedcapture)
+- [onEncrypted](ButtonParams.md#onencrypted)
+- [onEncryptedCapture](ButtonParams.md#onencryptedcapture)
+- [onEnded](ButtonParams.md#onended)
+- [onEndedCapture](ButtonParams.md#onendedcapture)
+- [onError](ButtonParams.md#onerror)
+- [onErrorCapture](ButtonParams.md#onerrorcapture)
+- [onFocus](ButtonParams.md#onfocus)
+- [onFocusCapture](ButtonParams.md#onfocuscapture)
+- [onGotPointerCapture](ButtonParams.md#ongotpointercapture)
+- [onGotPointerCaptureCapture](ButtonParams.md#ongotpointercapturecapture)
+- [onInput](ButtonParams.md#oninput)
+- [onInputCapture](ButtonParams.md#oninputcapture)
+- [onInvalid](ButtonParams.md#oninvalid)
+- [onInvalidCapture](ButtonParams.md#oninvalidcapture)
+- [onKeyDown](ButtonParams.md#onkeydown)
+- [onKeyDownCapture](ButtonParams.md#onkeydowncapture)
+- [onKeyPress](ButtonParams.md#onkeypress)
+- [onKeyPressCapture](ButtonParams.md#onkeypresscapture)
+- [onKeyUp](ButtonParams.md#onkeyup)
+- [onKeyUpCapture](ButtonParams.md#onkeyupcapture)
+- [onLoad](ButtonParams.md#onload)
+- [onLoadCapture](ButtonParams.md#onloadcapture)
+- [onLoadStart](ButtonParams.md#onloadstart)
+- [onLoadStartCapture](ButtonParams.md#onloadstartcapture)
+- [onLoadedData](ButtonParams.md#onloadeddata)
+- [onLoadedDataCapture](ButtonParams.md#onloadeddatacapture)
+- [onLoadedMetadata](ButtonParams.md#onloadedmetadata)
+- [onLoadedMetadataCapture](ButtonParams.md#onloadedmetadatacapture)
+- [onLostPointerCapture](ButtonParams.md#onlostpointercapture)
+- [onLostPointerCaptureCapture](ButtonParams.md#onlostpointercapturecapture)
+- [onMouseDown](ButtonParams.md#onmousedown)
+- [onMouseDownCapture](ButtonParams.md#onmousedowncapture)
+- [onMouseEnter](ButtonParams.md#onmouseenter)
+- [onMouseLeave](ButtonParams.md#onmouseleave)
+- [onMouseMove](ButtonParams.md#onmousemove)
+- [onMouseMoveCapture](ButtonParams.md#onmousemovecapture)
+- [onMouseOut](ButtonParams.md#onmouseout)
+- [onMouseOutCapture](ButtonParams.md#onmouseoutcapture)
+- [onMouseOver](ButtonParams.md#onmouseover)
+- [onMouseOverCapture](ButtonParams.md#onmouseovercapture)
+- [onMouseUp](ButtonParams.md#onmouseup)
+- [onMouseUpCapture](ButtonParams.md#onmouseupcapture)
+- [onPaste](ButtonParams.md#onpaste)
+- [onPasteCapture](ButtonParams.md#onpastecapture)
+- [onPause](ButtonParams.md#onpause)
+- [onPauseCapture](ButtonParams.md#onpausecapture)
+- [onPlay](ButtonParams.md#onplay)
+- [onPlayCapture](ButtonParams.md#onplaycapture)
+- [onPlaying](ButtonParams.md#onplaying)
+- [onPlayingCapture](ButtonParams.md#onplayingcapture)
+- [onPointerCancel](ButtonParams.md#onpointercancel)
+- [onPointerCancelCapture](ButtonParams.md#onpointercancelcapture)
+- [onPointerDown](ButtonParams.md#onpointerdown)
+- [onPointerDownCapture](ButtonParams.md#onpointerdowncapture)
+- [onPointerEnter](ButtonParams.md#onpointerenter)
+- [onPointerEnterCapture](ButtonParams.md#onpointerentercapture)
+- [onPointerLeave](ButtonParams.md#onpointerleave)
+- [onPointerLeaveCapture](ButtonParams.md#onpointerleavecapture)
+- [onPointerMove](ButtonParams.md#onpointermove)
+- [onPointerMoveCapture](ButtonParams.md#onpointermovecapture)
+- [onPointerOut](ButtonParams.md#onpointerout)
+- [onPointerOutCapture](ButtonParams.md#onpointeroutcapture)
+- [onPointerOver](ButtonParams.md#onpointerover)
+- [onPointerOverCapture](ButtonParams.md#onpointerovercapture)
+- [onPointerUp](ButtonParams.md#onpointerup)
+- [onPointerUpCapture](ButtonParams.md#onpointerupcapture)
+- [onProgress](ButtonParams.md#onprogress)
+- [onProgressCapture](ButtonParams.md#onprogresscapture)
+- [onRateChange](ButtonParams.md#onratechange)
+- [onRateChangeCapture](ButtonParams.md#onratechangecapture)
+- [onReset](ButtonParams.md#onreset)
+- [onResetCapture](ButtonParams.md#onresetcapture)
+- [onResize](ButtonParams.md#onresize)
+- [onResizeCapture](ButtonParams.md#onresizecapture)
+- [onScroll](ButtonParams.md#onscroll)
+- [onScrollCapture](ButtonParams.md#onscrollcapture)
+- [onSeeked](ButtonParams.md#onseeked)
+- [onSeekedCapture](ButtonParams.md#onseekedcapture)
+- [onSeeking](ButtonParams.md#onseeking)
+- [onSeekingCapture](ButtonParams.md#onseekingcapture)
+- [onSelect](ButtonParams.md#onselect)
+- [onSelectCapture](ButtonParams.md#onselectcapture)
+- [onStalled](ButtonParams.md#onstalled)
+- [onStalledCapture](ButtonParams.md#onstalledcapture)
+- [onSubmit](ButtonParams.md#onsubmit)
+- [onSubmitCapture](ButtonParams.md#onsubmitcapture)
+- [onSuspend](ButtonParams.md#onsuspend)
+- [onSuspendCapture](ButtonParams.md#onsuspendcapture)
+- [onTimeUpdate](ButtonParams.md#ontimeupdate)
+- [onTimeUpdateCapture](ButtonParams.md#ontimeupdatecapture)
+- [onTouchCancel](ButtonParams.md#ontouchcancel)
+- [onTouchCancelCapture](ButtonParams.md#ontouchcancelcapture)
+- [onTouchEnd](ButtonParams.md#ontouchend)
+- [onTouchEndCapture](ButtonParams.md#ontouchendcapture)
+- [onTouchMove](ButtonParams.md#ontouchmove)
+- [onTouchMoveCapture](ButtonParams.md#ontouchmovecapture)
+- [onTouchStart](ButtonParams.md#ontouchstart)
+- [onTouchStartCapture](ButtonParams.md#ontouchstartcapture)
+- [onTransitionEnd](ButtonParams.md#ontransitionend)
+- [onTransitionEndCapture](ButtonParams.md#ontransitionendcapture)
+- [onVolumeChange](ButtonParams.md#onvolumechange)
+- [onVolumeChangeCapture](ButtonParams.md#onvolumechangecapture)
+- [onWaiting](ButtonParams.md#onwaiting)
+- [onWaitingCapture](ButtonParams.md#onwaitingcapture)
+- [onWheel](ButtonParams.md#onwheel)
+- [onWheelCapture](ButtonParams.md#onwheelcapture)
+- [outline](ButtonParams.md#outline)
+- [prefix](ButtonParams.md#prefix)
+- [property](ButtonParams.md#property)
+- [radioGroup](ButtonParams.md#radiogroup)
+- [rel](ButtonParams.md#rel)
+- [resource](ButtonParams.md#resource)
+- [results](ButtonParams.md#results)
+- [rev](ButtonParams.md#rev)
+- [role](ButtonParams.md#role)
+- [security](ButtonParams.md#security)
+- [size](ButtonParams.md#size)
+- [slot](ButtonParams.md#slot)
+- [spellCheck](ButtonParams.md#spellcheck)
+- [spinnerVisibility](ButtonParams.md#spinnervisibility)
+- [style](ButtonParams.md#style)
+- [suppressContentEditableWarning](ButtonParams.md#suppresscontenteditablewarning)
+- [suppressHydrationWarning](ButtonParams.md#suppresshydrationwarning)
+- [tabIndex](ButtonParams.md#tabindex)
+- [title](ButtonParams.md#title)
+- [translate](ButtonParams.md#translate)
+- [type](ButtonParams.md#type)
+- [typeof](ButtonParams.md#typeof)
+- [unselectable](ButtonParams.md#unselectable)
+- [value](ButtonParams.md#value)
+- [variant](ButtonParams.md#variant)
+- [vocab](ButtonParams.md#vocab)
 
 ## Properties
 
@@ -18,7 +308,7 @@ React.ButtonHTMLAttributes.about
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1994
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1994
 
 ___
 
@@ -32,7 +322,7 @@ React.ButtonHTMLAttributes.accessKey
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1969
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1969
 
 ___
 
@@ -48,7 +338,7 @@ React.ButtonHTMLAttributes.aria-activedescendant
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1667
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1667
 
 ___
 
@@ -64,13 +354,13 @@ React.ButtonHTMLAttributes.aria-atomic
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1669
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1669
 
 ___
 
 ### aria-autocomplete
 
-• `Optional` **aria-autocomplete**: ``"none"`` \| ``"list"`` \| ``"inline"`` \| ``"both"``
+• `Optional` **aria-autocomplete**: ``"inline"`` \| ``"both"`` \| ``"none"`` \| ``"list"``
 
 Indicates whether inputting text could trigger display of one or more predictions of the user's intended value for an input and specifies how predictions would be
 presented if they are made.
@@ -81,7 +371,7 @@ React.ButtonHTMLAttributes.aria-autocomplete
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1674
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1674
 
 ___
 
@@ -101,7 +391,7 @@ React.ButtonHTMLAttributes.aria-braillelabel
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1680
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1680
 
 ___
 
@@ -121,7 +411,7 @@ React.ButtonHTMLAttributes.aria-brailleroledescription
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1685
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1685
 
 ___
 
@@ -135,13 +425,13 @@ React.ButtonHTMLAttributes.aria-busy
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1686
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1686
 
 ___
 
 ### aria-checked
 
-• `Optional` **aria-checked**: `boolean` \| ``"true"`` \| ``"false"`` \| ``"mixed"``
+• `Optional` **aria-checked**: `boolean` \| ``"false"`` \| ``"mixed"`` \| ``"true"``
 
 Indicates the current "checked" state of checkboxes, radio buttons, and other widgets.
 
@@ -156,7 +446,7 @@ React.ButtonHTMLAttributes.aria-checked
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1691
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1691
 
 ___
 
@@ -176,7 +466,7 @@ React.ButtonHTMLAttributes.aria-colcount
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1696
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1696
 
 ___
 
@@ -197,7 +487,7 @@ React.ButtonHTMLAttributes.aria-colindex
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1701
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1701
 
 ___
 
@@ -217,7 +507,7 @@ React.ButtonHTMLAttributes.aria-colindextext
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1706
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1706
 
 ___
 
@@ -238,7 +528,7 @@ React.ButtonHTMLAttributes.aria-colspan
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1711
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1711
 
 ___
 
@@ -258,13 +548,13 @@ React.ButtonHTMLAttributes.aria-controls
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1716
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1716
 
 ___
 
 ### aria-current
 
-• `Optional` **aria-current**: `boolean` \| ``"time"`` \| ``"true"`` \| ``"false"`` \| ``"step"`` \| ``"page"`` \| ``"location"`` \| ``"date"``
+• `Optional` **aria-current**: `boolean` \| ``"false"`` \| ``"time"`` \| ``"location"`` \| ``"page"`` \| ``"true"`` \| ``"step"`` \| ``"date"``
 
 Indicates the element that represents the current item within a container or set of related elements.
 
@@ -274,7 +564,7 @@ React.ButtonHTMLAttributes.aria-current
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1718
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1718
 
 ___
 
@@ -294,7 +584,7 @@ React.ButtonHTMLAttributes.aria-describedby
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1723
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1723
 
 ___
 
@@ -314,7 +604,7 @@ React.ButtonHTMLAttributes.aria-description
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1728
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1728
 
 ___
 
@@ -334,7 +624,7 @@ React.ButtonHTMLAttributes.aria-details
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1733
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1733
 
 ___
 
@@ -355,13 +645,13 @@ React.ButtonHTMLAttributes.aria-disabled
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1738
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1738
 
 ___
 
 ### aria-dropeffect
 
-• `Optional` **aria-dropeffect**: ``"link"`` \| ``"none"`` \| ``"move"`` \| ``"copy"`` \| ``"execute"`` \| ``"popup"``
+• `Optional` **aria-dropeffect**: ``"link"`` \| ``"none"`` \| ``"copy"`` \| ``"move"`` \| ``"execute"`` \| ``"popup"``
 
 Indicates what functions can be performed when a dragged object is released on the drop target.
 
@@ -375,7 +665,7 @@ React.ButtonHTMLAttributes.aria-dropeffect
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1743
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1743
 
 ___
 
@@ -396,7 +686,7 @@ React.ButtonHTMLAttributes.aria-errormessage
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1748
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1748
 
 ___
 
@@ -412,7 +702,7 @@ React.ButtonHTMLAttributes.aria-expanded
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1750
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1750
 
 ___
 
@@ -429,7 +719,7 @@ React.ButtonHTMLAttributes.aria-flowto
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1755
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1755
 
 ___
 
@@ -449,13 +739,13 @@ React.ButtonHTMLAttributes.aria-grabbed
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1760
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1760
 
 ___
 
 ### aria-haspopup
 
-• `Optional` **aria-haspopup**: `boolean` \| ``"dialog"`` \| ``"menu"`` \| ``"grid"`` \| ``"true"`` \| ``"false"`` \| ``"listbox"`` \| ``"tree"``
+• `Optional` **aria-haspopup**: `boolean` \| ``"false"`` \| ``"grid"`` \| ``"dialog"`` \| ``"menu"`` \| ``"listbox"`` \| ``"true"`` \| ``"tree"``
 
 Indicates the availability and type of interactive popup element, such as menu or dialog, that can be triggered by an element.
 
@@ -465,7 +755,7 @@ React.ButtonHTMLAttributes.aria-haspopup
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1762
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1762
 
 ___
 
@@ -485,13 +775,13 @@ React.ButtonHTMLAttributes.aria-hidden
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1767
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1767
 
 ___
 
 ### aria-invalid
 
-• `Optional` **aria-invalid**: `boolean` \| ``"true"`` \| ``"false"`` \| ``"grammar"`` \| ``"spelling"``
+• `Optional` **aria-invalid**: `boolean` \| ``"false"`` \| ``"true"`` \| ``"grammar"`` \| ``"spelling"``
 
 Indicates the entered value does not conform to the format expected by the application.
 
@@ -505,7 +795,7 @@ React.ButtonHTMLAttributes.aria-invalid
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1772
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1772
 
 ___
 
@@ -521,7 +811,7 @@ React.ButtonHTMLAttributes.aria-keyshortcuts
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1774
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1774
 
 ___
 
@@ -541,7 +831,7 @@ React.ButtonHTMLAttributes.aria-label
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1779
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1779
 
 ___
 
@@ -561,7 +851,7 @@ React.ButtonHTMLAttributes.aria-labelledby
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1784
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1784
 
 ___
 
@@ -577,7 +867,7 @@ React.ButtonHTMLAttributes.aria-level
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1786
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1786
 
 ___
 
@@ -593,7 +883,7 @@ React.ButtonHTMLAttributes.aria-live
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1788
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1788
 
 ___
 
@@ -609,7 +899,7 @@ React.ButtonHTMLAttributes.aria-modal
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1790
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1790
 
 ___
 
@@ -625,7 +915,7 @@ React.ButtonHTMLAttributes.aria-multiline
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1792
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1792
 
 ___
 
@@ -641,7 +931,7 @@ React.ButtonHTMLAttributes.aria-multiselectable
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1794
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1794
 
 ___
 
@@ -657,7 +947,7 @@ React.ButtonHTMLAttributes.aria-orientation
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1796
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1796
 
 ___
 
@@ -678,7 +968,7 @@ React.ButtonHTMLAttributes.aria-owns
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1802
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1802
 
 ___
 
@@ -695,7 +985,7 @@ React.ButtonHTMLAttributes.aria-placeholder
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1807
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1807
 
 ___
 
@@ -715,13 +1005,13 @@ React.ButtonHTMLAttributes.aria-posinset
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1812
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1812
 
 ___
 
 ### aria-pressed
 
-• `Optional` **aria-pressed**: `boolean` \| ``"true"`` \| ``"false"`` \| ``"mixed"``
+• `Optional` **aria-pressed**: `boolean` \| ``"false"`` \| ``"mixed"`` \| ``"true"``
 
 Indicates the current "pressed" state of toggle buttons.
 
@@ -736,7 +1026,7 @@ React.ButtonHTMLAttributes.aria-pressed
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1817
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1817
 
 ___
 
@@ -756,13 +1046,13 @@ React.ButtonHTMLAttributes.aria-readonly
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1822
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1822
 
 ___
 
 ### aria-relevant
 
-• `Optional` **aria-relevant**: ``"text"`` \| ``"additions"`` \| ``"additions removals"`` \| ``"additions text"`` \| ``"all"`` \| ``"removals"`` \| ``"removals additions"`` \| ``"removals text"`` \| ``"text additions"`` \| ``"text removals"``
+• `Optional` **aria-relevant**: ``"all"`` \| ``"text"`` \| ``"additions"`` \| ``"additions removals"`` \| ``"additions text"`` \| ``"removals"`` \| ``"removals additions"`` \| ``"removals text"`` \| ``"text additions"`` \| ``"text removals"``
 
 Indicates what notifications the user agent will trigger when the accessibility tree within a live region is modified.
 
@@ -776,7 +1066,7 @@ React.ButtonHTMLAttributes.aria-relevant
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1827
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1827
 
 ___
 
@@ -792,7 +1082,7 @@ React.ButtonHTMLAttributes.aria-required
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1840
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1840
 
 ___
 
@@ -808,7 +1098,7 @@ React.ButtonHTMLAttributes.aria-roledescription
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1842
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1842
 
 ___
 
@@ -828,7 +1118,7 @@ React.ButtonHTMLAttributes.aria-rowcount
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1847
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1847
 
 ___
 
@@ -849,7 +1139,7 @@ React.ButtonHTMLAttributes.aria-rowindex
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1852
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1852
 
 ___
 
@@ -869,7 +1159,7 @@ React.ButtonHTMLAttributes.aria-rowindextext
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1857
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1857
 
 ___
 
@@ -890,7 +1180,7 @@ React.ButtonHTMLAttributes.aria-rowspan
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1862
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1862
 
 ___
 
@@ -911,7 +1201,7 @@ React.ButtonHTMLAttributes.aria-selected
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1867
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1867
 
 ___
 
@@ -931,13 +1221,13 @@ React.ButtonHTMLAttributes.aria-setsize
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1872
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1872
 
 ___
 
 ### aria-sort
 
-• `Optional` **aria-sort**: ``"none"`` \| ``"ascending"`` \| ``"descending"`` \| ``"other"``
+• `Optional` **aria-sort**: ``"none"`` \| ``"other"`` \| ``"ascending"`` \| ``"descending"``
 
 Indicates if items in a table or grid are sorted in ascending or descending order.
 
@@ -947,7 +1237,7 @@ React.ButtonHTMLAttributes.aria-sort
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1874
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1874
 
 ___
 
@@ -963,7 +1253,7 @@ React.ButtonHTMLAttributes.aria-valuemax
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1876
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1876
 
 ___
 
@@ -979,7 +1269,7 @@ React.ButtonHTMLAttributes.aria-valuemin
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1878
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1878
 
 ___
 
@@ -999,7 +1289,7 @@ React.ButtonHTMLAttributes.aria-valuenow
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1883
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1883
 
 ___
 
@@ -1015,7 +1305,7 @@ React.ButtonHTMLAttributes.aria-valuetext
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1885
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1885
 
 ___
 
@@ -1029,7 +1319,7 @@ React.ButtonHTMLAttributes.autoCapitalize
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2007
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2007
 
 ___
 
@@ -1043,7 +1333,7 @@ React.ButtonHTMLAttributes.autoCorrect
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2008
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2008
 
 ___
 
@@ -1057,7 +1347,7 @@ React.ButtonHTMLAttributes.autoFocus
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1970
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1970
 
 ___
 
@@ -1071,7 +1361,7 @@ React.ButtonHTMLAttributes.autoSave
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2009
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2009
 
 ___
 
@@ -1095,7 +1385,7 @@ React.ButtonHTMLAttributes.children
 
 #### Defined in
 
-app/library/src/components/Button/index.tsx:61
+src/components/Button/index.tsx:61
 
 ___
 
@@ -1111,7 +1401,7 @@ React.ButtonHTMLAttributes.className
 
 #### Defined in
 
-app/library/src/components/Button/index.tsx:97
+src/components/Button/index.tsx:97
 
 ___
 
@@ -1125,7 +1415,7 @@ React.ButtonHTMLAttributes.color
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2010
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2010
 
 ___
 
@@ -1139,7 +1429,7 @@ React.ButtonHTMLAttributes.content
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1995
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1995
 
 ___
 
@@ -1153,7 +1443,7 @@ React.ButtonHTMLAttributes.contentEditable
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1972
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1972
 
 ___
 
@@ -1167,7 +1457,7 @@ React.ButtonHTMLAttributes.contextMenu
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1973
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1973
 
 ___
 
@@ -1187,7 +1477,7 @@ React.ButtonHTMLAttributes.dangerouslySetInnerHTML
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1452
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1452
 
 ___
 
@@ -1201,7 +1491,7 @@ React.ButtonHTMLAttributes.datatype
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1996
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1996
 
 ___
 
@@ -1215,7 +1505,7 @@ React.ButtonHTMLAttributes.defaultChecked
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1963
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1963
 
 ___
 
@@ -1229,7 +1519,7 @@ React.ButtonHTMLAttributes.defaultValue
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1964
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1964
 
 ___
 
@@ -1243,7 +1533,7 @@ React.ButtonHTMLAttributes.dir
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1974
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1974
 
 ___
 
@@ -1259,7 +1549,7 @@ React.ButtonHTMLAttributes.disabled
 
 #### Defined in
 
-app/library/src/components/Button/index.tsx:65
+src/components/Button/index.tsx:65
 
 ___
 
@@ -1273,7 +1563,7 @@ React.ButtonHTMLAttributes.draggable
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1975
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1975
 
 ___
 
@@ -1287,13 +1577,13 @@ React.ButtonHTMLAttributes.form
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2210
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2210
 
 ___
 
 ### formAction
 
-• `Optional` **formAction**: `string` \| (`formData`: `FormData`) => `void`
+• `Optional` **formAction**: `string`
 
 #### Inherited from
 
@@ -1301,7 +1591,7 @@ React.ButtonHTMLAttributes.formAction
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2211
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2211
 
 ___
 
@@ -1315,7 +1605,7 @@ React.ButtonHTMLAttributes.formEncType
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2217
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2217
 
 ___
 
@@ -1329,7 +1619,7 @@ React.ButtonHTMLAttributes.formMethod
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2218
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2218
 
 ___
 
@@ -1343,7 +1633,7 @@ React.ButtonHTMLAttributes.formNoValidate
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2219
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2219
 
 ___
 
@@ -1357,7 +1647,7 @@ React.ButtonHTMLAttributes.formTarget
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2220
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2220
 
 ___
 
@@ -1369,7 +1659,7 @@ The full width state of the button
 
 #### Defined in
 
-app/library/src/components/Button/index.tsx:77
+src/components/Button/index.tsx:77
 
 ___
 
@@ -1383,7 +1673,7 @@ React.ButtonHTMLAttributes.hidden
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1976
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1976
 
 ___
 
@@ -1399,7 +1689,7 @@ Icon props {} to render an icon inside the button,
 
 #### Defined in
 
-app/library/src/components/Button/index.tsx:89
+src/components/Button/index.tsx:89
 
 ___
 
@@ -1415,7 +1705,7 @@ React.ButtonHTMLAttributes.id
 
 #### Defined in
 
-app/library/src/components/Button/index.tsx:185
+src/components/Button/index.tsx:185
 
 ___
 
@@ -1429,13 +1719,13 @@ React.ButtonHTMLAttributes.inlist
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1997
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1997
 
 ___
 
 ### inputMode
 
-• `Optional` **inputMode**: ``"search"`` \| ``"text"`` \| ``"none"`` \| ``"tel"`` \| ``"url"`` \| ``"email"`` \| ``"numeric"`` \| ``"decimal"``
+• `Optional` **inputMode**: ``"search"`` \| ``"numeric"`` \| ``"none"`` \| ``"url"`` \| ``"text"`` \| ``"email"`` \| ``"tel"`` \| ``"decimal"``
 
 Hints at the type of data that might be entered by the user while editing the element or its contents
 
@@ -1449,19 +1739,19 @@ React.ButtonHTMLAttributes.inputMode
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2025
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2025
 
 ___
 
 ### internalRef
 
-• `Optional` **internalRef**: ``null`` \| `string` \| (`instance`: ``null`` \| `HTMLAnchorElement`) => `void` \| `RefObject`\<`HTMLAnchorElement`\> \| (`instance`: ``null`` \| `HTMLButtonElement`) => `void` \| `RefObject`\<`HTMLButtonElement`\>
+• `Optional` **internalRef**: `Ref`\<`HTMLAnchorElement`\> \| `LegacyRef`\<`HTMLButtonElement`\>
 
 The internal prop to pass reference to the component. Use `ref` prop to pass ref.
 
 #### Defined in
 
-app/library/src/components/Button/index.tsx:189
+src/components/Button/index.tsx:189
 
 ___
 
@@ -1481,7 +1771,7 @@ React.ButtonHTMLAttributes.is
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2030
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2030
 
 ___
 
@@ -1495,7 +1785,7 @@ React.ButtonHTMLAttributes.itemID
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2014
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2014
 
 ___
 
@@ -1509,7 +1799,7 @@ React.ButtonHTMLAttributes.itemProp
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2011
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2011
 
 ___
 
@@ -1523,7 +1813,7 @@ React.ButtonHTMLAttributes.itemRef
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2015
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2015
 
 ___
 
@@ -1537,7 +1827,7 @@ React.ButtonHTMLAttributes.itemScope
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2012
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2012
 
 ___
 
@@ -1551,7 +1841,7 @@ React.ButtonHTMLAttributes.itemType
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2013
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2013
 
 ___
 
@@ -1565,7 +1855,7 @@ React.ButtonHTMLAttributes.lang
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1978
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1978
 
 ___
 
@@ -1615,7 +1905,7 @@ link={{ }}
 
 #### Defined in
 
-app/library/src/components/Button/index.tsx:117
+src/components/Button/index.tsx:117
 
 ___
 
@@ -1629,7 +1919,7 @@ React.ButtonHTMLAttributes.name
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2221
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2221
 
 ___
 
@@ -1643,7 +1933,7 @@ React.ButtonHTMLAttributes.nonce
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1979
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1979
 
 ___
 
@@ -1657,7 +1947,7 @@ React.ButtonHTMLAttributes.onAbort
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1511
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1511
 
 ___
 
@@ -1671,7 +1961,7 @@ React.ButtonHTMLAttributes.onAbortCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1512
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1512
 
 ___
 
@@ -1685,7 +1975,7 @@ React.ButtonHTMLAttributes.onAnimationEnd
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1643
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1643
 
 ___
 
@@ -1699,7 +1989,7 @@ React.ButtonHTMLAttributes.onAnimationEndCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1644
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1644
 
 ___
 
@@ -1713,7 +2003,7 @@ React.ButtonHTMLAttributes.onAnimationIteration
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1645
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1645
 
 ___
 
@@ -1727,7 +2017,7 @@ React.ButtonHTMLAttributes.onAnimationIterationCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1646
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1646
 
 ___
 
@@ -1741,7 +2031,7 @@ React.ButtonHTMLAttributes.onAnimationStart
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1641
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1641
 
 ___
 
@@ -1755,7 +2045,7 @@ React.ButtonHTMLAttributes.onAnimationStartCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1642
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1642
 
 ___
 
@@ -1769,7 +2059,7 @@ React.ButtonHTMLAttributes.onAuxClick
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1559
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1559
 
 ___
 
@@ -1783,7 +2073,7 @@ React.ButtonHTMLAttributes.onAuxClickCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1560
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1560
 
 ___
 
@@ -1797,7 +2087,7 @@ React.ButtonHTMLAttributes.onBeforeInput
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1483
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1483
 
 ___
 
@@ -1811,7 +2101,7 @@ React.ButtonHTMLAttributes.onBeforeInputCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1484
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1484
 
 ___
 
@@ -1825,7 +2115,7 @@ React.ButtonHTMLAttributes.onBlur
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1477
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1477
 
 ___
 
@@ -1839,7 +2129,7 @@ React.ButtonHTMLAttributes.onBlurCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1478
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1478
 
 ___
 
@@ -1853,7 +2143,7 @@ React.ButtonHTMLAttributes.onCanPlay
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1513
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1513
 
 ___
 
@@ -1867,7 +2157,7 @@ React.ButtonHTMLAttributes.onCanPlayCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1514
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1514
 
 ___
 
@@ -1881,7 +2171,7 @@ React.ButtonHTMLAttributes.onCanPlayThrough
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1515
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1515
 
 ___
 
@@ -1895,7 +2185,7 @@ React.ButtonHTMLAttributes.onCanPlayThroughCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1516
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1516
 
 ___
 
@@ -1909,7 +2199,7 @@ React.ButtonHTMLAttributes.onChange
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1481
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1481
 
 ___
 
@@ -1923,7 +2213,7 @@ React.ButtonHTMLAttributes.onChangeCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1482
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1482
 
 ___
 
@@ -1939,7 +2229,7 @@ React.ButtonHTMLAttributes.onClick
 
 #### Defined in
 
-app/library/src/components/Button/index.tsx:101
+src/components/Button/index.tsx:101
 
 ___
 
@@ -1953,7 +2243,7 @@ React.ButtonHTMLAttributes.onClickCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1562
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1562
 
 ___
 
@@ -1967,7 +2257,7 @@ React.ButtonHTMLAttributes.onCompositionEnd
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1467
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1467
 
 ___
 
@@ -1981,7 +2271,7 @@ React.ButtonHTMLAttributes.onCompositionEndCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1468
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1468
 
 ___
 
@@ -1995,7 +2285,7 @@ React.ButtonHTMLAttributes.onCompositionStart
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1469
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1469
 
 ___
 
@@ -2009,7 +2299,7 @@ React.ButtonHTMLAttributes.onCompositionStartCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1470
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1470
 
 ___
 
@@ -2023,7 +2313,7 @@ React.ButtonHTMLAttributes.onCompositionUpdate
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1471
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1471
 
 ___
 
@@ -2037,7 +2327,7 @@ React.ButtonHTMLAttributes.onCompositionUpdateCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1472
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1472
 
 ___
 
@@ -2051,7 +2341,7 @@ React.ButtonHTMLAttributes.onContextMenu
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1563
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1563
 
 ___
 
@@ -2065,7 +2355,7 @@ React.ButtonHTMLAttributes.onContextMenuCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1564
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1564
 
 ___
 
@@ -2079,7 +2369,7 @@ React.ButtonHTMLAttributes.onCopy
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1459
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1459
 
 ___
 
@@ -2093,7 +2383,7 @@ React.ButtonHTMLAttributes.onCopyCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1460
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1460
 
 ___
 
@@ -2107,7 +2397,7 @@ React.ButtonHTMLAttributes.onCut
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1461
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1461
 
 ___
 
@@ -2121,7 +2411,7 @@ React.ButtonHTMLAttributes.onCutCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1462
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1462
 
 ___
 
@@ -2135,7 +2425,7 @@ React.ButtonHTMLAttributes.onDoubleClick
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1565
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1565
 
 ___
 
@@ -2149,7 +2439,7 @@ React.ButtonHTMLAttributes.onDoubleClickCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1566
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1566
 
 ___
 
@@ -2163,7 +2453,7 @@ React.ButtonHTMLAttributes.onDrag
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1567
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1567
 
 ___
 
@@ -2177,7 +2467,7 @@ React.ButtonHTMLAttributes.onDragCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1568
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1568
 
 ___
 
@@ -2191,7 +2481,7 @@ React.ButtonHTMLAttributes.onDragEnd
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1569
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1569
 
 ___
 
@@ -2205,7 +2495,7 @@ React.ButtonHTMLAttributes.onDragEndCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1570
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1570
 
 ___
 
@@ -2219,7 +2509,7 @@ React.ButtonHTMLAttributes.onDragEnter
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1571
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1571
 
 ___
 
@@ -2233,7 +2523,7 @@ React.ButtonHTMLAttributes.onDragEnterCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1572
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1572
 
 ___
 
@@ -2247,7 +2537,7 @@ React.ButtonHTMLAttributes.onDragExit
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1573
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1573
 
 ___
 
@@ -2261,7 +2551,7 @@ React.ButtonHTMLAttributes.onDragExitCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1574
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1574
 
 ___
 
@@ -2275,7 +2565,7 @@ React.ButtonHTMLAttributes.onDragLeave
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1575
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1575
 
 ___
 
@@ -2289,7 +2579,7 @@ React.ButtonHTMLAttributes.onDragLeaveCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1576
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1576
 
 ___
 
@@ -2303,7 +2593,7 @@ React.ButtonHTMLAttributes.onDragOver
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1577
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1577
 
 ___
 
@@ -2317,7 +2607,7 @@ React.ButtonHTMLAttributes.onDragOverCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1578
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1578
 
 ___
 
@@ -2331,7 +2621,7 @@ React.ButtonHTMLAttributes.onDragStart
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1579
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1579
 
 ___
 
@@ -2345,7 +2635,7 @@ React.ButtonHTMLAttributes.onDragStartCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1580
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1580
 
 ___
 
@@ -2359,7 +2649,7 @@ React.ButtonHTMLAttributes.onDrop
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1581
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1581
 
 ___
 
@@ -2373,7 +2663,7 @@ React.ButtonHTMLAttributes.onDropCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1582
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1582
 
 ___
 
@@ -2387,7 +2677,7 @@ React.ButtonHTMLAttributes.onDurationChange
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1517
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1517
 
 ___
 
@@ -2401,7 +2691,7 @@ React.ButtonHTMLAttributes.onDurationChangeCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1518
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1518
 
 ___
 
@@ -2415,7 +2705,7 @@ React.ButtonHTMLAttributes.onEmptied
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1519
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1519
 
 ___
 
@@ -2429,7 +2719,7 @@ React.ButtonHTMLAttributes.onEmptiedCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1520
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1520
 
 ___
 
@@ -2443,7 +2733,7 @@ React.ButtonHTMLAttributes.onEncrypted
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1521
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1521
 
 ___
 
@@ -2457,7 +2747,7 @@ React.ButtonHTMLAttributes.onEncryptedCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1522
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1522
 
 ___
 
@@ -2471,7 +2761,7 @@ React.ButtonHTMLAttributes.onEnded
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1523
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1523
 
 ___
 
@@ -2485,7 +2775,7 @@ React.ButtonHTMLAttributes.onEndedCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1524
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1524
 
 ___
 
@@ -2499,7 +2789,7 @@ React.ButtonHTMLAttributes.onError
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1497
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1497
 
 ___
 
@@ -2513,7 +2803,7 @@ React.ButtonHTMLAttributes.onErrorCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1498
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1498
 
 ___
 
@@ -2527,7 +2817,7 @@ React.ButtonHTMLAttributes.onFocus
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1475
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1475
 
 ___
 
@@ -2541,7 +2831,7 @@ React.ButtonHTMLAttributes.onFocusCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1476
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1476
 
 ___
 
@@ -2555,7 +2845,7 @@ React.ButtonHTMLAttributes.onGotPointerCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1627
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1627
 
 ___
 
@@ -2569,7 +2859,7 @@ React.ButtonHTMLAttributes.onGotPointerCaptureCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1628
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1628
 
 ___
 
@@ -2583,7 +2873,7 @@ React.ButtonHTMLAttributes.onInput
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1485
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1485
 
 ___
 
@@ -2597,7 +2887,7 @@ React.ButtonHTMLAttributes.onInputCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1486
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1486
 
 ___
 
@@ -2611,7 +2901,7 @@ React.ButtonHTMLAttributes.onInvalid
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1491
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1491
 
 ___
 
@@ -2625,7 +2915,7 @@ React.ButtonHTMLAttributes.onInvalidCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1492
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1492
 
 ___
 
@@ -2639,7 +2929,7 @@ React.ButtonHTMLAttributes.onKeyDown
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1501
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1501
 
 ___
 
@@ -2653,7 +2943,7 @@ React.ButtonHTMLAttributes.onKeyDownCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1502
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1502
 
 ___
 
@@ -2669,7 +2959,7 @@ React.ButtonHTMLAttributes.onKeyPress
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1504
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1504
 
 ___
 
@@ -2685,7 +2975,7 @@ React.ButtonHTMLAttributes.onKeyPressCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1506
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1506
 
 ___
 
@@ -2699,7 +2989,7 @@ React.ButtonHTMLAttributes.onKeyUp
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1507
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1507
 
 ___
 
@@ -2713,7 +3003,7 @@ React.ButtonHTMLAttributes.onKeyUpCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1508
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1508
 
 ___
 
@@ -2727,7 +3017,7 @@ React.ButtonHTMLAttributes.onLoad
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1495
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1495
 
 ___
 
@@ -2741,7 +3031,7 @@ React.ButtonHTMLAttributes.onLoadCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1496
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1496
 
 ___
 
@@ -2755,7 +3045,7 @@ React.ButtonHTMLAttributes.onLoadStart
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1529
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1529
 
 ___
 
@@ -2769,7 +3059,7 @@ React.ButtonHTMLAttributes.onLoadStartCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1530
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1530
 
 ___
 
@@ -2783,7 +3073,7 @@ React.ButtonHTMLAttributes.onLoadedData
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1525
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1525
 
 ___
 
@@ -2797,7 +3087,7 @@ React.ButtonHTMLAttributes.onLoadedDataCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1526
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1526
 
 ___
 
@@ -2811,7 +3101,7 @@ React.ButtonHTMLAttributes.onLoadedMetadata
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1527
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1527
 
 ___
 
@@ -2825,7 +3115,7 @@ React.ButtonHTMLAttributes.onLoadedMetadataCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1528
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1528
 
 ___
 
@@ -2839,7 +3129,7 @@ React.ButtonHTMLAttributes.onLostPointerCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1629
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1629
 
 ___
 
@@ -2853,7 +3143,7 @@ React.ButtonHTMLAttributes.onLostPointerCaptureCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1630
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1630
 
 ___
 
@@ -2867,7 +3157,7 @@ React.ButtonHTMLAttributes.onMouseDown
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1583
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1583
 
 ___
 
@@ -2881,7 +3171,7 @@ React.ButtonHTMLAttributes.onMouseDownCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1584
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1584
 
 ___
 
@@ -2895,7 +3185,7 @@ React.ButtonHTMLAttributes.onMouseEnter
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1585
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1585
 
 ___
 
@@ -2909,7 +3199,7 @@ React.ButtonHTMLAttributes.onMouseLeave
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1586
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1586
 
 ___
 
@@ -2923,7 +3213,7 @@ React.ButtonHTMLAttributes.onMouseMove
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1587
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1587
 
 ___
 
@@ -2937,7 +3227,7 @@ React.ButtonHTMLAttributes.onMouseMoveCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1588
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1588
 
 ___
 
@@ -2951,7 +3241,7 @@ React.ButtonHTMLAttributes.onMouseOut
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1589
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1589
 
 ___
 
@@ -2965,7 +3255,7 @@ React.ButtonHTMLAttributes.onMouseOutCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1590
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1590
 
 ___
 
@@ -2979,7 +3269,7 @@ React.ButtonHTMLAttributes.onMouseOver
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1591
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1591
 
 ___
 
@@ -2993,7 +3283,7 @@ React.ButtonHTMLAttributes.onMouseOverCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1592
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1592
 
 ___
 
@@ -3007,7 +3297,7 @@ React.ButtonHTMLAttributes.onMouseUp
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1593
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1593
 
 ___
 
@@ -3021,7 +3311,7 @@ React.ButtonHTMLAttributes.onMouseUpCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1594
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1594
 
 ___
 
@@ -3035,7 +3325,7 @@ React.ButtonHTMLAttributes.onPaste
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1463
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1463
 
 ___
 
@@ -3049,7 +3339,7 @@ React.ButtonHTMLAttributes.onPasteCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1464
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1464
 
 ___
 
@@ -3063,7 +3353,7 @@ React.ButtonHTMLAttributes.onPause
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1531
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1531
 
 ___
 
@@ -3077,7 +3367,7 @@ React.ButtonHTMLAttributes.onPauseCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1532
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1532
 
 ___
 
@@ -3091,7 +3381,7 @@ React.ButtonHTMLAttributes.onPlay
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1533
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1533
 
 ___
 
@@ -3105,7 +3395,7 @@ React.ButtonHTMLAttributes.onPlayCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1534
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1534
 
 ___
 
@@ -3119,7 +3409,7 @@ React.ButtonHTMLAttributes.onPlaying
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1535
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1535
 
 ___
 
@@ -3133,7 +3423,7 @@ React.ButtonHTMLAttributes.onPlayingCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1536
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1536
 
 ___
 
@@ -3147,7 +3437,7 @@ React.ButtonHTMLAttributes.onPointerCancel
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1617
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1617
 
 ___
 
@@ -3161,7 +3451,7 @@ React.ButtonHTMLAttributes.onPointerCancelCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1618
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1618
 
 ___
 
@@ -3175,7 +3465,7 @@ React.ButtonHTMLAttributes.onPointerDown
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1611
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1611
 
 ___
 
@@ -3189,7 +3479,7 @@ React.ButtonHTMLAttributes.onPointerDownCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1612
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1612
 
 ___
 
@@ -3203,7 +3493,7 @@ React.ButtonHTMLAttributes.onPointerEnter
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1619
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1619
 
 ___
 
@@ -3217,7 +3507,7 @@ React.ButtonHTMLAttributes.onPointerEnterCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1620
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1620
 
 ___
 
@@ -3231,7 +3521,7 @@ React.ButtonHTMLAttributes.onPointerLeave
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1621
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1621
 
 ___
 
@@ -3245,7 +3535,7 @@ React.ButtonHTMLAttributes.onPointerLeaveCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1622
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1622
 
 ___
 
@@ -3259,7 +3549,7 @@ React.ButtonHTMLAttributes.onPointerMove
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1613
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1613
 
 ___
 
@@ -3273,7 +3563,7 @@ React.ButtonHTMLAttributes.onPointerMoveCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1614
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1614
 
 ___
 
@@ -3287,7 +3577,7 @@ React.ButtonHTMLAttributes.onPointerOut
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1625
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1625
 
 ___
 
@@ -3301,7 +3591,7 @@ React.ButtonHTMLAttributes.onPointerOutCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1626
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1626
 
 ___
 
@@ -3315,7 +3605,7 @@ React.ButtonHTMLAttributes.onPointerOver
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1623
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1623
 
 ___
 
@@ -3329,7 +3619,7 @@ React.ButtonHTMLAttributes.onPointerOverCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1624
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1624
 
 ___
 
@@ -3343,7 +3633,7 @@ React.ButtonHTMLAttributes.onPointerUp
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1615
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1615
 
 ___
 
@@ -3357,7 +3647,7 @@ React.ButtonHTMLAttributes.onPointerUpCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1616
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1616
 
 ___
 
@@ -3371,7 +3661,7 @@ React.ButtonHTMLAttributes.onProgress
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1537
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1537
 
 ___
 
@@ -3385,7 +3675,7 @@ React.ButtonHTMLAttributes.onProgressCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1538
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1538
 
 ___
 
@@ -3399,7 +3689,7 @@ React.ButtonHTMLAttributes.onRateChange
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1539
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1539
 
 ___
 
@@ -3413,7 +3703,7 @@ React.ButtonHTMLAttributes.onRateChangeCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1540
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1540
 
 ___
 
@@ -3427,7 +3717,7 @@ React.ButtonHTMLAttributes.onReset
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1487
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1487
 
 ___
 
@@ -3441,7 +3731,7 @@ React.ButtonHTMLAttributes.onResetCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1488
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1488
 
 ___
 
@@ -3455,7 +3745,7 @@ React.ButtonHTMLAttributes.onResize
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1541
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1541
 
 ___
 
@@ -3469,7 +3759,7 @@ React.ButtonHTMLAttributes.onResizeCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1542
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1542
 
 ___
 
@@ -3483,7 +3773,7 @@ React.ButtonHTMLAttributes.onScroll
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1633
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1633
 
 ___
 
@@ -3497,7 +3787,7 @@ React.ButtonHTMLAttributes.onScrollCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1634
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1634
 
 ___
 
@@ -3511,7 +3801,7 @@ React.ButtonHTMLAttributes.onSeeked
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1543
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1543
 
 ___
 
@@ -3525,7 +3815,7 @@ React.ButtonHTMLAttributes.onSeekedCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1544
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1544
 
 ___
 
@@ -3539,7 +3829,7 @@ React.ButtonHTMLAttributes.onSeeking
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1545
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1545
 
 ___
 
@@ -3553,7 +3843,7 @@ React.ButtonHTMLAttributes.onSeekingCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1546
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1546
 
 ___
 
@@ -3567,7 +3857,7 @@ React.ButtonHTMLAttributes.onSelect
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1597
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1597
 
 ___
 
@@ -3581,7 +3871,7 @@ React.ButtonHTMLAttributes.onSelectCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1598
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1598
 
 ___
 
@@ -3595,7 +3885,7 @@ React.ButtonHTMLAttributes.onStalled
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1547
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1547
 
 ___
 
@@ -3609,7 +3899,7 @@ React.ButtonHTMLAttributes.onStalledCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1548
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1548
 
 ___
 
@@ -3623,7 +3913,7 @@ React.ButtonHTMLAttributes.onSubmit
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1489
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1489
 
 ___
 
@@ -3637,7 +3927,7 @@ React.ButtonHTMLAttributes.onSubmitCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1490
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1490
 
 ___
 
@@ -3651,7 +3941,7 @@ React.ButtonHTMLAttributes.onSuspend
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1549
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1549
 
 ___
 
@@ -3665,7 +3955,7 @@ React.ButtonHTMLAttributes.onSuspendCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1550
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1550
 
 ___
 
@@ -3679,7 +3969,7 @@ React.ButtonHTMLAttributes.onTimeUpdate
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1551
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1551
 
 ___
 
@@ -3693,7 +3983,7 @@ React.ButtonHTMLAttributes.onTimeUpdateCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1552
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1552
 
 ___
 
@@ -3707,7 +3997,7 @@ React.ButtonHTMLAttributes.onTouchCancel
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1601
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1601
 
 ___
 
@@ -3721,7 +4011,7 @@ React.ButtonHTMLAttributes.onTouchCancelCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1602
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1602
 
 ___
 
@@ -3735,7 +4025,7 @@ React.ButtonHTMLAttributes.onTouchEnd
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1603
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1603
 
 ___
 
@@ -3749,7 +4039,7 @@ React.ButtonHTMLAttributes.onTouchEndCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1604
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1604
 
 ___
 
@@ -3763,7 +4053,7 @@ React.ButtonHTMLAttributes.onTouchMove
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1605
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1605
 
 ___
 
@@ -3777,7 +4067,7 @@ React.ButtonHTMLAttributes.onTouchMoveCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1606
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1606
 
 ___
 
@@ -3791,7 +4081,7 @@ React.ButtonHTMLAttributes.onTouchStart
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1607
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1607
 
 ___
 
@@ -3805,7 +4095,7 @@ React.ButtonHTMLAttributes.onTouchStartCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1608
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1608
 
 ___
 
@@ -3819,7 +4109,7 @@ React.ButtonHTMLAttributes.onTransitionEnd
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1649
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1649
 
 ___
 
@@ -3833,7 +4123,7 @@ React.ButtonHTMLAttributes.onTransitionEndCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1650
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1650
 
 ___
 
@@ -3847,7 +4137,7 @@ React.ButtonHTMLAttributes.onVolumeChange
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1553
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1553
 
 ___
 
@@ -3861,7 +4151,7 @@ React.ButtonHTMLAttributes.onVolumeChangeCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1554
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1554
 
 ___
 
@@ -3875,7 +4165,7 @@ React.ButtonHTMLAttributes.onWaiting
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1555
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1555
 
 ___
 
@@ -3889,7 +4179,7 @@ React.ButtonHTMLAttributes.onWaitingCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1556
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1556
 
 ___
 
@@ -3903,7 +4193,7 @@ React.ButtonHTMLAttributes.onWheel
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1637
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1637
 
 ___
 
@@ -3917,7 +4207,7 @@ React.ButtonHTMLAttributes.onWheelCapture
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1638
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1638
 
 ___
 
@@ -3929,7 +4219,7 @@ The outline state of the button
 
 #### Defined in
 
-app/library/src/components/Button/index.tsx:73
+src/components/Button/index.tsx:73
 
 ___
 
@@ -3943,7 +4233,7 @@ React.ButtonHTMLAttributes.prefix
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1998
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1998
 
 ___
 
@@ -3957,7 +4247,7 @@ React.ButtonHTMLAttributes.property
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1999
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1999
 
 ___
 
@@ -3971,7 +4261,7 @@ React.ButtonHTMLAttributes.radioGroup
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1988
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1988
 
 ___
 
@@ -3985,7 +4275,7 @@ React.ButtonHTMLAttributes.rel
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2000
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2000
 
 ___
 
@@ -3999,7 +4289,7 @@ React.ButtonHTMLAttributes.resource
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2001
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2001
 
 ___
 
@@ -4013,7 +4303,7 @@ React.ButtonHTMLAttributes.results
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2016
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2016
 
 ___
 
@@ -4027,7 +4317,7 @@ React.ButtonHTMLAttributes.rev
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2002
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2002
 
 ___
 
@@ -4041,7 +4331,7 @@ React.ButtonHTMLAttributes.role
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1991
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1991
 
 ___
 
@@ -4055,7 +4345,7 @@ React.ButtonHTMLAttributes.security
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2017
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2017
 
 ___
 
@@ -4071,7 +4361,7 @@ The size of the button,
 
 #### Defined in
 
-app/library/src/components/Button/index.tsx:85
+src/components/Button/index.tsx:85
 
 ___
 
@@ -4085,7 +4375,7 @@ React.ButtonHTMLAttributes.slot
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1980
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1980
 
 ___
 
@@ -4099,7 +4389,7 @@ React.ButtonHTMLAttributes.spellCheck
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1981
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1981
 
 ___
 
@@ -4111,7 +4401,7 @@ The loading state of the button
 
 #### Defined in
 
-app/library/src/components/Button/index.tsx:81
+src/components/Button/index.tsx:81
 
 ___
 
@@ -4125,7 +4415,7 @@ React.ButtonHTMLAttributes.style
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1982
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1982
 
 ___
 
@@ -4139,7 +4429,7 @@ React.ButtonHTMLAttributes.suppressContentEditableWarning
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1965
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1965
 
 ___
 
@@ -4153,7 +4443,7 @@ React.ButtonHTMLAttributes.suppressHydrationWarning
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1966
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1966
 
 ___
 
@@ -4167,7 +4457,7 @@ React.ButtonHTMLAttributes.tabIndex
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1983
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1983
 
 ___
 
@@ -4181,7 +4471,7 @@ React.ButtonHTMLAttributes.title
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1984
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1984
 
 ___
 
@@ -4195,29 +4485,7 @@ React.ButtonHTMLAttributes.translate
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1985
-
-___
-
-### tw
-
-• `Optional` **tw**: `string`
-
-Specify styles using Tailwind CSS classes. This feature is currently experimental.
-If `style` prop is also specified, styles generated with `tw` prop will be overridden.
-
-Example:
-- `tw='w-full h-full bg-blue-200'`
-- `tw='text-9xl'`
-- `tw='text-[80px]'`
-
-#### Inherited from
-
-React.ButtonHTMLAttributes.tw
-
-#### Defined in
-
-node_modules/.pnpm/next@14.0.4_@babel+core@7.23.7_react-dom@18.2.0_react@18.2.0_sass@1.69.7/node_modules/next/dist/compiled/@vercel/og/types.d.ts:62
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:1985
 
 ___
 
@@ -4237,7 +4505,7 @@ React.ButtonHTMLAttributes.type
 
 #### Defined in
 
-app/library/src/components/Button/index.tsx:93
+src/components/Button/index.tsx:93
 
 ___
 
@@ -4251,13 +4519,13 @@ React.ButtonHTMLAttributes.typeof
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2003
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2003
 
 ___
 
 ### unselectable
 
-• `Optional` **unselectable**: ``"on"`` \| ``"off"``
+• `Optional` **unselectable**: ``"off"`` \| ``"on"``
 
 #### Inherited from
 
@@ -4265,7 +4533,7 @@ React.ButtonHTMLAttributes.unselectable
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2018
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2018
 
 ___
 
@@ -4279,13 +4547,13 @@ React.ButtonHTMLAttributes.value
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2223
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2223
 
 ___
 
 ### variant
 
-• `Optional` **variant**: ``"primary"`` \| ``"link"`` \| ``"secondary"`` \| ``"success"`` \| ``"warning"`` \| ``"danger"`` \| ``"info"`` \| ``"neutral"``
+• `Optional` **variant**: ``"link"`` \| ``"success"`` \| ``"primary"`` \| ``"secondary"`` \| ``"warning"`` \| ``"danger"`` \| ``"info"`` \| ``"neutral"``
 
 The variant of the button,
 
@@ -4295,7 +4563,7 @@ The variant of the button,
 
 #### Defined in
 
-app/library/src/components/Button/index.tsx:69
+src/components/Button/index.tsx:69
 
 ___
 
@@ -4309,4 +4577,4 @@ React.ButtonHTMLAttributes.vocab
 
 #### Defined in
 
-node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2004
+../../node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:2004

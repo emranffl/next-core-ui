@@ -1,4 +1,19 @@
+[next-core-ui](../README.md) / [Exports](../modules.md) / ChipProps
+
 # Interface: ChipProps
+
+## Table of contents
+
+### Properties
+
+- [className](ChipProps.md#classname)
+- [id](ChipProps.md#id)
+- [internalRef](ChipProps.md#internalref)
+- [onCloseIconClick](ChipProps.md#oncloseiconclick)
+- [shape](ChipProps.md#shape)
+- [size](ChipProps.md#size)
+- [text](ChipProps.md#text)
+- [variant](ChipProps.md#variant)
 
 ## Properties
 
@@ -10,7 +25,7 @@ Additional class names
 
 #### Defined in
 
-app/library/src/components/Chip/index.tsx:65
+src/components/Chip/index.tsx:65
 
 ___
 
@@ -22,7 +37,7 @@ The id of the component
 
 #### Defined in
 
-app/library/src/components/Chip/index.tsx:73
+src/components/Chip/index.tsx:73
 
 ___
 
@@ -34,7 +49,7 @@ The internal prop to pass reference to the component. Use `ref` prop to pass ref
 
 #### Defined in
 
-app/library/src/components/Chip/index.tsx:77
+src/components/Chip/index.tsx:77
 
 ___
 
@@ -46,7 +61,7 @@ The function to be called when the close icon is clicked
 
 #### Defined in
 
-app/library/src/components/Chip/index.tsx:69
+src/components/Chip/index.tsx:69
 
 ___
 
@@ -70,7 +85,7 @@ rounded
 
 #### Defined in
 
-app/library/src/components/Chip/index.tsx:52
+src/components/Chip/index.tsx:52
 
 ___
 
@@ -94,7 +109,7 @@ md
 
 #### Defined in
 
-app/library/src/components/Chip/index.tsx:42
+src/components/Chip/index.tsx:42
 
 ___
 
@@ -106,13 +121,13 @@ The text to be displayed
 
 #### Defined in
 
-app/library/src/components/Chip/index.tsx:32
+src/components/Chip/index.tsx:32
 
 ___
 
 ### variant
 
-• `Optional` **variant**: ``"primary"`` \| ``"secondary"`` \| ``"success"`` \| ``"warning"`` \| ``"danger"`` \| ``"info"`` \| ``"neutral"``
+• `Optional` **variant**: ``"success"`` \| ``"primary"`` \| ``"secondary"`` \| ``"warning"`` \| ``"danger"`` \| ``"info"`` \| ``"neutral"``
 
 The variant of the chip
 
@@ -130,4 +145,4 @@ neutral
 
 #### Defined in
 
-app/library/src/components/Chip/index.tsx:61
+src/components/Chip/index.tsx:61

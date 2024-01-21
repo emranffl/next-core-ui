@@ -1,4 +1,22 @@
+[next-core-ui](../README.md) / [Exports](../modules.md) / ToastParams
+
 # Interface: ToastParams
+
+## Table of contents
+
+### Properties
+
+- [autoClose](ToastParams.md#autoclose)
+- [children](ToastParams.md#children)
+- [className](ToastParams.md#classname)
+- [closeButtonVisibility](ToastParams.md#closebuttonvisibility)
+- [closeOnClick](ToastParams.md#closeonclick)
+- [icon](ToastParams.md#icon)
+- [id](ToastParams.md#id)
+- [message](ToastParams.md#message)
+- [onClose](ToastParams.md#onclose)
+- [position](ToastParams.md#position)
+- [variant](ToastParams.md#variant)
 
 ## Properties
 
@@ -16,7 +34,7 @@ The duration for which the toast should be visible in milliseconds, or `false` t
 
 #### Defined in
 
-app/library/src/components/Toast/index.tsx:59
+src/components/Toast/index.tsx:59
 
 ___
 
@@ -28,7 +46,7 @@ Any React nodes to be displayed in the toast instead of the message
 
 #### Defined in
 
-app/library/src/components/Toast/index.tsx:34
+src/components/Toast/index.tsx:34
 
 ___
 
@@ -40,7 +58,7 @@ Additional class names to be applied to the toast container element
 
 #### Defined in
 
-app/library/src/components/Toast/index.tsx:38
+src/components/Toast/index.tsx:38
 
 ___
 
@@ -52,7 +70,7 @@ Whether to display a close button for the toast
 
 #### Defined in
 
-app/library/src/components/Toast/index.tsx:50
+src/components/Toast/index.tsx:50
 
 ___
 
@@ -64,7 +82,7 @@ Whether to close the toast when it is clicked
 
 #### Defined in
 
-app/library/src/components/Toast/index.tsx:46
+src/components/Toast/index.tsx:46
 
 ___
 
@@ -80,7 +98,7 @@ Icon to be displayed in the toast,
 
 #### Defined in
 
-app/library/src/components/Toast/index.tsx:54
+src/components/Toast/index.tsx:54
 
 ___
 
@@ -92,7 +110,7 @@ The ID of the toast element
 
 #### Defined in
 
-app/library/src/components/Toast/index.tsx:71
+src/components/Toast/index.tsx:71
 
 ___
 
@@ -104,7 +122,7 @@ The message to be displayed in the toast
 
 #### Defined in
 
-app/library/src/components/Toast/index.tsx:30
+src/components/Toast/index.tsx:30
 
 ___
 
@@ -116,7 +134,7 @@ A function to be called when the toast is closed
 
 #### Defined in
 
-app/library/src/components/Toast/index.tsx:67
+src/components/Toast/index.tsx:67
 
 ___
 
@@ -132,13 +150,13 @@ The position of the toast on the screen,
 
 #### Defined in
 
-app/library/src/components/Toast/index.tsx:63
+src/components/Toast/index.tsx:63
 
 ___
 
 ### variant
 
-• `Optional` **variant**: ``"primary"`` \| ``"secondary"`` \| ``"success"`` \| ``"warning"`` \| ``"danger"`` \| ``"info"``
+• `Optional` **variant**: ``"success"`` \| ``"primary"`` \| ``"secondary"`` \| ``"warning"`` \| ``"danger"`` \| ``"info"``
 
 The variant of toast to display,
 
@@ -148,4 +166,4 @@ The variant of toast to display,
 
 #### Defined in
 
-app/library/src/components/Toast/index.tsx:42
+src/components/Toast/index.tsx:42

@@ -1,4 +1,14 @@
+[next-core-ui](../README.md) / [Exports](../modules.md) / BUTTON\_TYPES
+
 # Enumeration: BUTTON\_TYPES
+
+## Table of contents
+
+### Enumeration Members
+
+- [button](BUTTON_TYPES.md#button)
+- [reset](BUTTON_TYPES.md#reset)
+- [submit](BUTTON_TYPES.md#submit)
 
 ## Enumeration Members
 
@@ -8,7 +18,7 @@
 
 #### Defined in
 
-app/library/src/components/Button/index.tsx:41
+src/components/Button/index.tsx:41
 
 ___
 
@@ -18,7 +28,7 @@ ___
 
 #### Defined in
 
-app/library/src/components/Button/index.tsx:42
+src/components/Button/index.tsx:42
 
 ___
 
@@ -28,4 +38,4 @@ ___
 
 #### Defined in
 
-app/library/src/components/Button/index.tsx:43
+src/components/Button/index.tsx:43

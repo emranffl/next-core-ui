@@ -1,11 +1,11 @@
 {
-    "basePath": "../",
-    "cleanOutputDir": true,
-    "hideGenerator": true,
-    "entryPoints": ["../src/index.ts"],
-    "out": "../docs",
-    "compilerOptions": {
-        "hideBreadcrumbs": true,
-        "hideInPageTOC": true,
-    },
+  "basePath": "../",
+  "cleanOutputDir": true,
+  "hideGenerator": true,
+  "entryPoints": ["../src/index.ts"],
+  "out": "../docs",
+  "compilerOptions": {
+    "hideBreadcrumbs": true,
+    "hideInPageTOC": true
+  }
 }

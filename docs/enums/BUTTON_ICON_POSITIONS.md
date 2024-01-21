@@ -1,4 +1,13 @@
+[next-core-ui](../README.md) / [Exports](../modules.md) / BUTTON\_ICON\_POSITIONS
+
 # Enumeration: BUTTON\_ICON\_POSITIONS
+
+## Table of contents
+
+### Enumeration Members
+
+- [left](BUTTON_ICON_POSITIONS.md#left)
+- [right](BUTTON_ICON_POSITIONS.md#right)
 
 ## Enumeration Members
 
@@ -8,7 +17,7 @@
 
 #### Defined in
 
-app/library/src/components/Button/index.tsx:36
+src/components/Button/index.tsx:36
 
 ___
 
@@ -18,4 +27,4 @@ ___
 
 #### Defined in
 
-app/library/src/components/Button/index.tsx:37
+src/components/Button/index.tsx:37

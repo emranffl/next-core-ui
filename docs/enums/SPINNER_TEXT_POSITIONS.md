@@ -1,4 +1,13 @@
+[next-core-ui](../README.md) / [Exports](../modules.md) / SPINNER\_TEXT\_POSITIONS
+
 # Enumeration: SPINNER\_TEXT\_POSITIONS
+
+## Table of contents
+
+### Enumeration Members
+
+- [bottom](SPINNER_TEXT_POSITIONS.md#bottom)
+- [top](SPINNER_TEXT_POSITIONS.md#top)
 
 ## Enumeration Members
 
@@ -8,7 +17,7 @@
 
 #### Defined in
 
-app/library/src/components/Spinner/index.tsx:22
+src/components/Spinner/index.tsx:22
 
 ___
 
@@ -18,4 +27,4 @@ ___
 
 #### Defined in
 
-app/library/src/components/Spinner/index.tsx:21
+src/components/Spinner/index.tsx:21

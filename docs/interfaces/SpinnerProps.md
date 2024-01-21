@@ -1,4 +1,18 @@
+[next-core-ui](../README.md) / [Exports](../modules.md) / SpinnerProps
+
 # Interface: SpinnerProps
+
+## Table of contents
+
+### Properties
+
+- [className](SpinnerProps.md#classname)
+- [id](SpinnerProps.md#id)
+- [internalRef](SpinnerProps.md#internalref)
+- [size](SpinnerProps.md#size)
+- [text](SpinnerProps.md#text)
+- [trackColor](SpinnerProps.md#trackcolor)
+- [variant](SpinnerProps.md#variant)
 
 ## Properties
 
@@ -10,7 +24,7 @@ The class names of the spinner
 
 #### Defined in
 
-app/library/src/components/Spinner/index.tsx:43
+src/components/Spinner/index.tsx:43
 
 ___
 
@@ -22,7 +36,7 @@ The id of the spinner
 
 #### Defined in
 
-app/library/src/components/Spinner/index.tsx:60
+src/components/Spinner/index.tsx:60
 
 ___
 
@@ -34,7 +48,7 @@ The internal prop to pass reference to the component. Use `ref` prop to pass ref
 
 #### Defined in
 
-app/library/src/components/Spinner/index.tsx:64
+src/components/Spinner/index.tsx:64
 
 ___
 
@@ -46,7 +60,7 @@ The size of the spinner in pixels
 
 #### Defined in
 
-app/library/src/components/Spinner/index.tsx:34
+src/components/Spinner/index.tsx:34
 
 ___
 
@@ -65,13 +79,13 @@ The text to show with the spinner
 
 #### Defined in
 
-app/library/src/components/Spinner/index.tsx:47
+src/components/Spinner/index.tsx:47
 
 ___
 
 ### trackColor
 
-• `Optional` **trackColor**: ``"white"`` \| ``"light"`` \| ``"dark"``
+• `Optional` **trackColor**: ``"white"`` \| ``"dark"`` \| ``"light"``
 
 The track color of the spinner,
 
@@ -87,13 +101,13 @@ The track color of the spinner,
 
 #### Defined in
 
-app/library/src/components/Spinner/index.tsx:39
+src/components/Spinner/index.tsx:39
 
 ___
 
 ### variant
 
-• `Optional` **variant**: ``"primary"`` \| ``"secondary"`` \| ``"success"`` \| ``"warning"`` \| ``"danger"`` \| ``"info"`` \| ``"neutral"``
+• `Optional` **variant**: ``"success"`` \| ``"primary"`` \| ``"secondary"`` \| ``"warning"`` \| ``"danger"`` \| ``"info"`` \| ``"neutral"``
 
 The variant of the spinner,
 
@@ -109,4 +123,4 @@ The variant of the spinner,
 
 #### Defined in
 
-app/library/src/components/Spinner/index.tsx:30
+src/components/Spinner/index.tsx:30

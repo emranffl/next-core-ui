@@ -1,4 +1,16 @@
+[next-core-ui](../README.md) / [Exports](../modules.md) / BadgeIconProps
+
 # Interface: BadgeIconProps
+
+## Table of contents
+
+### Properties
+
+- [className](BadgeIconProps.md#classname)
+- [icon](BadgeIconProps.md#icon)
+- [id](BadgeIconProps.md#id)
+- [internalRef](BadgeIconProps.md#internalref)
+- [variant](BadgeIconProps.md#variant)
 
 ## Properties
 
@@ -10,7 +22,7 @@ The class names for the badge component
 
 #### Defined in
 
-app/library/src/components/Badge/BadgeIcon.tsx:18
+src/components/Badge/BadgeIcon.tsx:18
 
 ___
 
@@ -26,7 +38,7 @@ Icon props {} to render an icon inside the button,
 
 #### Defined in
 
-app/library/src/components/Badge/BadgeIcon.tsx:10
+src/components/Badge/BadgeIcon.tsx:10
 
 ___
 
@@ -38,7 +50,7 @@ The id for the badge component
 
 #### Defined in
 
-app/library/src/components/Badge/BadgeIcon.tsx:22
+src/components/Badge/BadgeIcon.tsx:22
 
 ___
 
@@ -50,13 +62,13 @@ The internal prop to pass reference to the component. Use `ref` prop to pass ref
 
 #### Defined in
 
-app/library/src/components/Badge/BadgeIcon.tsx:26
+src/components/Badge/BadgeIcon.tsx:26
 
 ___
 
 ### variant
 
-• `Optional` **variant**: ``"primary"`` \| ``"secondary"`` \| ``"success"`` \| ``"warning"`` \| ``"danger"`` \| ``"info"`` \| ``"neutral"``
+• `Optional` **variant**: ``"success"`` \| ``"primary"`` \| ``"secondary"`` \| ``"warning"`` \| ``"danger"`` \| ``"info"`` \| ``"neutral"``
 
 The visual variant of the badge,
 
@@ -66,4 +78,4 @@ The visual variant of the badge,
 
 #### Defined in
 
-app/library/src/components/Badge/BadgeIcon.tsx:14
+src/components/Badge/BadgeIcon.tsx:14

@@ -1,4 +1,18 @@
+[next-core-ui](../README.md) / [Exports](../modules.md) / SPINNER\_VARIANTS
+
 # Enumeration: SPINNER\_VARIANTS
+
+## Table of contents
+
+### Enumeration Members
+
+- [danger](SPINNER_VARIANTS.md#danger)
+- [info](SPINNER_VARIANTS.md#info)
+- [neutral](SPINNER_VARIANTS.md#neutral)
+- [primary](SPINNER_VARIANTS.md#primary)
+- [secondary](SPINNER_VARIANTS.md#secondary)
+- [success](SPINNER_VARIANTS.md#success)
+- [warning](SPINNER_VARIANTS.md#warning)
 
 ## Enumeration Members
 
@@ -8,7 +22,7 @@
 
 #### Defined in
 
-app/library/src/components/Spinner/index.tsx:9
+src/components/Spinner/index.tsx:9
 
 ___
 
@@ -18,7 +32,7 @@ ___
 
 #### Defined in
 
-app/library/src/components/Spinner/index.tsx:10
+src/components/Spinner/index.tsx:10
 
 ___
 
@@ -28,7 +42,7 @@ ___
 
 #### Defined in
 
-app/library/src/components/Spinner/index.tsx:11
+src/components/Spinner/index.tsx:11
 
 ___
 
@@ -38,7 +52,7 @@ ___
 
 #### Defined in
 
-app/library/src/components/Spinner/index.tsx:5
+src/components/Spinner/index.tsx:5
 
 ___
 
@@ -48,7 +62,7 @@ ___
 
 #### Defined in
 
-app/library/src/components/Spinner/index.tsx:6
+src/components/Spinner/index.tsx:6
 
 ___
 
@@ -58,7 +72,7 @@ ___
 
 #### Defined in
 
-app/library/src/components/Spinner/index.tsx:7
+src/components/Spinner/index.tsx:7
 
 ___
 
@@ -68,4 +82,4 @@ ___
 
 #### Defined in
 
-app/library/src/components/Spinner/index.tsx:8
+src/components/Spinner/index.tsx:8

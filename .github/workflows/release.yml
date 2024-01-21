@@ -75,7 +75,7 @@ jobs:
           cache: "pnpm"
       - run: pnpm install --no-frozen-lockfile
       # - run: pnpm rollup
-      - run: pnpm docify
+      # - run: pnpm docify
       - run: pnpm semantic-release
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

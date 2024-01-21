@@ -1,10 +1,19 @@
+[next-core-ui](../README.md) / [Exports](../modules.md) / ToastContextProps
+
 # Interface: ToastContextProps
+
+## Table of contents
+
+### Properties
+
+- [renderToast](ToastContextProps.md#rendertoast)
+- [toastProps](ToastContextProps.md#toastprops)
 
 ## Properties
 
 ### renderToast
 
-• **renderToast**: (`toastPropsData`: ``null`` \| [`ToastProps`](../modules.md#toastprops)[]) => `void`
+• **renderToast**: (`toastPropsData`: [`ToastProps`](../modules.md#toastprops)[]) => `void`
 
 #### Type declaration
 
@@ -14,7 +23,7 @@
 
 | Name | Type |
 | :------ | :------ |
-| `toastPropsData` | ``null`` \| [`ToastProps`](../modules.md#toastprops)[] |
+| `toastPropsData` | [`ToastProps`](../modules.md#toastprops)[] |
 
 ##### Returns
 
@@ -22,14 +31,14 @@
 
 #### Defined in
 
-app/library/src/components/Toast/Context.tsx:8
+src/components/Toast/Context.tsx:8
 
 ___
 
 ### toastProps
 
-• **toastProps**: ``null`` \| [`ToastProps`](../modules.md#toastprops)[]
+• **toastProps**: [`ToastProps`](../modules.md#toastprops)[]
 
 #### Defined in
 
-app/library/src/components/Toast/Context.tsx:7
+src/components/Toast/Context.tsx:7

@@ -1,4 +1,14 @@
+[next-core-ui](../README.md) / [Exports](../modules.md) / CHIP\_SIZES
+
 # Enumeration: CHIP\_SIZES
+
+## Table of contents
+
+### Enumeration Members
+
+- [lg](CHIP_SIZES.md#lg)
+- [md](CHIP_SIZES.md#md)
+- [sm](CHIP_SIZES.md#sm)
 
 ## Enumeration Members
 
@@ -8,7 +18,7 @@
 
 #### Defined in
 
-app/library/src/components/Chip/index.tsx:10
+src/components/Chip/index.tsx:10
 
 ___
 
@@ -18,7 +28,7 @@ ___
 
 #### Defined in
 
-app/library/src/components/Chip/index.tsx:9
+src/components/Chip/index.tsx:9
 
 ___
 
@@ -28,4 +38,4 @@ ___
 
 #### Defined in
 
-app/library/src/components/Chip/index.tsx:8
+src/components/Chip/index.tsx:8

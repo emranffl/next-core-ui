@@ -1,4 +1,14 @@
+[next-core-ui](../README.md) / [Exports](../modules.md) / BUTTON\_SIZES
+
 # Enumeration: BUTTON\_SIZES
+
+## Table of contents
+
+### Enumeration Members
+
+- [lg](BUTTON_SIZES.md#lg)
+- [md](BUTTON_SIZES.md#md)
+- [sm](BUTTON_SIZES.md#sm)
 
 ## Enumeration Members
 
@@ -8,7 +18,7 @@
 
 #### Defined in
 
-app/library/src/components/Button/index.tsx:32
+src/components/Button/index.tsx:32
 
 ___
 
@@ -18,7 +28,7 @@ ___
 
 #### Defined in
 
-app/library/src/components/Button/index.tsx:31
+src/components/Button/index.tsx:31
 
 ___
 
@@ -28,4 +38,4 @@ ___
 
 #### Defined in
 
-app/library/src/components/Button/index.tsx:30
+src/components/Button/index.tsx:30

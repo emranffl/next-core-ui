@@ -1,4 +1,22 @@
+[next-core-ui](../README.md) / [Exports](../modules.md) / ModalProps
+
 # Interface: ModalProps
+
+## Table of contents
+
+### Properties
+
+- [backdropVisibility](ModalProps.md#backdropvisibility)
+- [children](ModalProps.md#children)
+- [className](ModalProps.md#classname)
+- [closeButtonVisibility](ModalProps.md#closebuttonvisibility)
+- [closeOnExternalClick](ModalProps.md#closeonexternalclick)
+- [containerClassName](ModalProps.md#containerclassname)
+- [onClose](ModalProps.md#onclose)
+- [setVisibility](ModalProps.md#setvisibility)
+- [size](ModalProps.md#size)
+- [verticalAlign](ModalProps.md#verticalalign)
+- [visibility](ModalProps.md#visibility)
 
 ## Properties
 
@@ -14,7 +32,7 @@ The visibility state of the backdrop
 
 #### Defined in
 
-app/library/src/components/Modal/index.tsx:42
+src/components/Modal/index.tsx:42
 
 ___
 
@@ -36,7 +54,7 @@ The content of the modal
 
 #### Defined in
 
-app/library/src/components/Modal/index.tsx:29
+src/components/Modal/index.tsx:29
 
 ___
 
@@ -48,7 +66,7 @@ The classes of the modal
 
 #### Defined in
 
-app/library/src/components/Modal/index.tsx:65
+src/components/Modal/index.tsx:65
 
 ___
 
@@ -64,7 +82,7 @@ The visibility state of the close button
 
 #### Defined in
 
-app/library/src/components/Modal/index.tsx:57
+src/components/Modal/index.tsx:57
 
 ___
 
@@ -80,7 +98,7 @@ Disposing of the modal interface on external interaction
 
 #### Defined in
 
-app/library/src/components/Modal/index.tsx:74
+src/components/Modal/index.tsx:74
 
 ___
 
@@ -92,13 +110,15 @@ The classes of the modal container
 
 #### Defined in
 
-app/library/src/components/Modal/index.tsx:61
+src/components/Modal/index.tsx:61
 
 ___
 
 ### onClose
 
 • `Optional` **onClose**: () => `void`
+
+The function to be called when the modal is closed
 
 #### Type declaration
 
@@ -112,7 +132,7 @@ The function to be called when the modal is closed
 
 #### Defined in
 
-app/library/src/components/Modal/index.tsx:69
+src/components/Modal/index.tsx:69
 
 ___
 
@@ -124,13 +144,13 @@ The function to set the visibility state of the modal
 
 #### Defined in
 
-app/library/src/components/Modal/index.tsx:37
+src/components/Modal/index.tsx:37
 
 ___
 
 ### size
 
-• `Optional` **size**: ``"sm"`` \| ``"md"`` \| ``"lg"`` \| ``"full"``
+• `Optional` **size**: ``"full"`` \| ``"sm"`` \| ``"md"`` \| ``"lg"``
 
 The size of the modal,
 
@@ -144,7 +164,7 @@ The size of the modal,
 
 #### Defined in
 
-app/library/src/components/Modal/index.tsx:47
+src/components/Modal/index.tsx:47
 
 ___
 
@@ -160,7 +180,7 @@ The vertical alignment of the modal
 
 #### Defined in
 
-app/library/src/components/Modal/index.tsx:52
+src/components/Modal/index.tsx:52
 
 ___
 
@@ -172,4 +192,4 @@ The visibility state of the modal
 
 #### Defined in
 
-app/library/src/components/Modal/index.tsx:33
+src/components/Modal/index.tsx:33

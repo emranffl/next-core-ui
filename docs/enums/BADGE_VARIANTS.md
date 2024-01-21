@@ -1,4 +1,18 @@
+[next-core-ui](../README.md) / [Exports](../modules.md) / BADGE\_VARIANTS
+
 # Enumeration: BADGE\_VARIANTS
+
+## Table of contents
+
+### Enumeration Members
+
+- [danger](BADGE_VARIANTS.md#danger)
+- [info](BADGE_VARIANTS.md#info)
+- [neutral](BADGE_VARIANTS.md#neutral)
+- [primary](BADGE_VARIANTS.md#primary)
+- [secondary](BADGE_VARIANTS.md#secondary)
+- [success](BADGE_VARIANTS.md#success)
+- [warning](BADGE_VARIANTS.md#warning)
 
 ## Enumeration Members
 
@@ -8,7 +22,7 @@
 
 #### Defined in
 
-app/library/src/components/Badge/index.tsx:11
+src/components/Badge/index.tsx:11
 
 ___
 
@@ -18,7 +32,7 @@ ___
 
 #### Defined in
 
-app/library/src/components/Badge/index.tsx:8
+src/components/Badge/index.tsx:8
 
 ___
 
@@ -28,7 +42,7 @@ ___
 
 #### Defined in
 
-app/library/src/components/Badge/index.tsx:12
+src/components/Badge/index.tsx:12
 
 ___
 
@@ -38,7 +52,7 @@ ___
 
 #### Defined in
 
-app/library/src/components/Badge/index.tsx:6
+src/components/Badge/index.tsx:6
 
 ___
 
@@ -48,7 +62,7 @@ ___
 
 #### Defined in
 
-app/library/src/components/Badge/index.tsx:7
+src/components/Badge/index.tsx:7
 
 ___
 
@@ -58,7 +72,7 @@ ___
 
 #### Defined in
 
-app/library/src/components/Badge/index.tsx:9
+src/components/Badge/index.tsx:9
 
 ___
 
@@ -68,4 +82,4 @@ ___
 
 #### Defined in
 
-app/library/src/components/Badge/index.tsx:10
+src/components/Badge/index.tsx:10
