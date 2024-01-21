@@ -11,6 +11,7 @@
 - [CHIP\_SHAPES](enums/CHIP_SHAPES.md)
 - [CHIP\_SIZES](enums/CHIP_SIZES.md)
 - [CHIP\_VARIANTS](enums/CHIP_VARIANTS.md)
+- [MODAL\_SIZES](enums/MODAL_SIZES.md)
 - [SPINNER\_TEXT\_POSITIONS](enums/SPINNER_TEXT_POSITIONS.md)
 - [SPINNER\_TRACK\_COLORS](enums/SPINNER_TRACK_COLORS.md)
 - [SPINNER\_VARIANTS](enums/SPINNER_VARIANTS.md)
@@ -25,6 +26,7 @@
 - [ButtonParams](interfaces/ButtonParams.md)
 - [ChipProps](interfaces/ChipProps.md)
 - [IconProps](interfaces/IconProps.md)
+- [ModalProps](interfaces/ModalProps.md)
 - [SpinnerProps](interfaces/SpinnerProps.md)
 - [ToastContextProps](interfaces/ToastContextProps.md)
 - [ToastParams](interfaces/ToastParams.md)
@@ -37,7 +39,7 @@
 
 #### Defined in
 
-app/library/src/components/Button/index.tsx:210
+app/library/src/components/Button/index.tsx:192
 
 ___
 
@@ -47,7 +49,7 @@ ___
 
 #### Defined in
 
-app/library/src/components/Toast/index.tsx:77
+app/library/src/components/Toast/index.tsx:78
 
 ## Variables
 
@@ -216,6 +218,28 @@ node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:388
 
 ___
 
+### Modal
+
+▸ **Modal**(`props`): `ReactNode`
+
+**NOTE**: Exotic components are not callable.
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `props` | [`ModalProps`](interfaces/ModalProps.md) |
+
+#### Returns
+
+`ReactNode`
+
+#### Defined in
+
+node_modules/.pnpm/@types+react@18.2.47/node_modules/@types/react/index.d.ts:388
+
+___
+
 ### Spinner
 
 ▸ **Spinner**(`props`): `ReactNode`
@@ -304,4 +328,4 @@ Emran
 
 #### Defined in
 
-app/library/src/components/Toast/index.tsx:130
+app/library/src/components/Toast/index.tsx:131

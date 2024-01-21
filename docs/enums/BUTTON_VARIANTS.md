@@ -8,7 +8,7 @@
 
 #### Defined in
 
-app/library/src/components/Button/index.tsx:25
+app/library/src/components/Button/index.tsx:24
 
 ___
 
@@ -18,7 +18,7 @@ ___
 
 #### Defined in
 
-app/library/src/components/Button/index.tsx:22
+app/library/src/components/Button/index.tsx:21
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 #### Defined in
 
-app/library/src/components/Button/index.tsx:27
+app/library/src/components/Button/index.tsx:26
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 #### Defined in
 
-app/library/src/components/Button/index.tsx:26
+app/library/src/components/Button/index.tsx:25
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 #### Defined in
 
-app/library/src/components/Button/index.tsx:20
+app/library/src/components/Button/index.tsx:19
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 #### Defined in
 
-app/library/src/components/Button/index.tsx:21
+app/library/src/components/Button/index.tsx:20
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 #### Defined in
 
-app/library/src/components/Button/index.tsx:23
+app/library/src/components/Button/index.tsx:22
 
 ___
 
@@ -78,4 +78,4 @@ ___
 
 #### Defined in
 
-app/library/src/components/Button/index.tsx:24
+app/library/src/components/Button/index.tsx:23

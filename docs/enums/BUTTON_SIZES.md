@@ -8,7 +8,7 @@
 
 #### Defined in
 
-app/library/src/components/Button/index.tsx:33
+app/library/src/components/Button/index.tsx:32
 
 ___
 
@@ -18,7 +18,7 @@ ___
 
 #### Defined in
 
-app/library/src/components/Button/index.tsx:32
+app/library/src/components/Button/index.tsx:31
 
 ___
 
@@ -28,4 +28,4 @@ ___
 
 #### Defined in
 
-app/library/src/components/Button/index.tsx:31
+app/library/src/components/Button/index.tsx:30

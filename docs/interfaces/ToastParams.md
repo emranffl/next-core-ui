@@ -16,7 +16,7 @@ The duration for which the toast should be visible in milliseconds, or `false` t
 
 #### Defined in
 
-app/library/src/components/Toast/index.tsx:58
+app/library/src/components/Toast/index.tsx:59
 
 ___
 
@@ -28,7 +28,7 @@ Any React nodes to be displayed in the toast instead of the message
 
 #### Defined in
 
-app/library/src/components/Toast/index.tsx:33
+app/library/src/components/Toast/index.tsx:34
 
 ___
 
@@ -40,7 +40,7 @@ Additional class names to be applied to the toast container element
 
 #### Defined in
 
-app/library/src/components/Toast/index.tsx:37
+app/library/src/components/Toast/index.tsx:38
 
 ___
 
@@ -52,7 +52,7 @@ Whether to display a close button for the toast
 
 #### Defined in
 
-app/library/src/components/Toast/index.tsx:49
+app/library/src/components/Toast/index.tsx:50
 
 ___
 
@@ -64,7 +64,7 @@ Whether to close the toast when it is clicked
 
 #### Defined in
 
-app/library/src/components/Toast/index.tsx:45
+app/library/src/components/Toast/index.tsx:46
 
 ___
 
@@ -80,7 +80,7 @@ Icon to be displayed in the toast,
 
 #### Defined in
 
-app/library/src/components/Toast/index.tsx:53
+app/library/src/components/Toast/index.tsx:54
 
 ___
 
@@ -92,7 +92,7 @@ The ID of the toast element
 
 #### Defined in
 
-app/library/src/components/Toast/index.tsx:70
+app/library/src/components/Toast/index.tsx:71
 
 ___
 
@@ -104,19 +104,19 @@ The message to be displayed in the toast
 
 #### Defined in
 
-app/library/src/components/Toast/index.tsx:29
+app/library/src/components/Toast/index.tsx:30
 
 ___
 
 ### onClose
 
-• `Optional` **onClose**: `MouseEventHandler`\<`MouseEvent`\>
+• `Optional` **onClose**: `MouseEventHandler`\<`HTMLButtonElement`\>
 
 A function to be called when the toast is closed
 
 #### Defined in
 
-app/library/src/components/Toast/index.tsx:66
+app/library/src/components/Toast/index.tsx:67
 
 ___
 
@@ -132,7 +132,7 @@ The position of the toast on the screen,
 
 #### Defined in
 
-app/library/src/components/Toast/index.tsx:62
+app/library/src/components/Toast/index.tsx:63
 
 ___
 
@@ -148,4 +148,4 @@ The variant of toast to display,
 
 #### Defined in
 
-app/library/src/components/Toast/index.tsx:41
+app/library/src/components/Toast/index.tsx:42
