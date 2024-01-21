@@ -32,10 +32,23 @@ pnpm add next-core-ui
 
 - [Spinner](./docs/interfaces/SpinnerProps.md)
 - [Icon](./docs/interfaces/IconProps.md)
+- [Chip](./docs/interfaces/ChipProps.md)
+
+### Button
+
 - [Button](./docs/interfaces/ButtonParams.md)
 - [ButtonIcon](./docs/interfaces/ButtonIconProps.md)
+
+### Badge
+
 - [Badge](./docs/interfaces/BadgeProps.md)
 - [BadgeIcon](./docs/interfaces/BadgeIconProps.md)
-- [Chip](./docs/interfaces/ChipProps.md)
+
+### Toast
+
 - [Toast](./docs/interfaces/ToastParams.md)
 - [Toast Context](./docs/interfaces/ToastContextProps.md)
+
+### Modal
+
+- [Modal](./docs/interfaces/ModalProps.md)
