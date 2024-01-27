@@ -19,7 +19,7 @@
 
 #### Defined in
 
-src/components/Modal/index.tsx:14
+src/components/Modal/index.tsx:13
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 #### Defined in
 
-src/components/Modal/index.tsx:13
+src/components/Modal/index.tsx:12
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 #### Defined in
 
-src/components/Modal/index.tsx:12
+src/components/Modal/index.tsx:11
 
 ___
 
@@ -49,4 +49,4 @@ ___
 
 #### Defined in
 
-src/components/Modal/index.tsx:11
+src/components/Modal/index.tsx:10

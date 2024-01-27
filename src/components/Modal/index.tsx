@@ -1,10 +1,9 @@
 "use client"
 
-import { Fragment, useRef, memo } from "react"
+import React, { Fragment, useRef, memo } from "react"
 import { Dialog, Transition } from "@headlessui/react"
 import ButtonIcon from "../Button/ButtonIcon"
 import { cn } from "tailwind-cn"
-import React from "react"
 import { Z_INDEX } from "../z-index.config"
 
 export enum MODAL_SIZES {

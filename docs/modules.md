@@ -15,6 +15,8 @@
 - [CHIP\_SHAPES](enums/CHIP_SHAPES.md)
 - [CHIP\_SIZES](enums/CHIP_SIZES.md)
 - [CHIP\_VARIANTS](enums/CHIP_VARIANTS.md)
+- [INPUT\_SHAPES](enums/INPUT_SHAPES.md)
+- [INPUT\_SIZES](enums/INPUT_SIZES.md)
 - [MODAL\_SIZES](enums/MODAL_SIZES.md)
 - [SPINNER\_TEXT\_POSITIONS](enums/SPINNER_TEXT_POSITIONS.md)
 - [SPINNER\_TRACK\_COLORS](enums/SPINNER_TRACK_COLORS.md)
@@ -30,6 +32,7 @@
 - [ButtonParams](interfaces/ButtonParams.md)
 - [ChipProps](interfaces/ChipProps.md)
 - [IconProps](interfaces/IconProps.md)
+- [InputProps](interfaces/InputProps.md)
 - [ModalProps](interfaces/ModalProps.md)
 - [SpinnerProps](interfaces/SpinnerProps.md)
 - [ToastContextProps](interfaces/ToastContextProps.md)
@@ -52,6 +55,7 @@
 - [ButtonIcon](modules.md#buttonicon)
 - [Chip](modules.md#chip)
 - [Icon](modules.md#icon)
+- [Input](modules.md#input)
 - [LibraryContextProviderWrapper](modules.md#librarycontextproviderwrapper)
 - [Modal](modules.md#modal)
 - [Spinner](modules.md#spinner)
@@ -221,6 +225,28 @@ src/components/Icon/index.tsx:166
 
 ___
 
+### Input
+
+▸ **Input**(`props`): `ReactNode`
+
+**NOTE**: Exotic components are not callable.
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `props` | [`InputProps`](interfaces/InputProps.md) & `RefAttributes`\<`HTMLInputElement`\> |
+
+#### Returns
+
+`ReactNode`
+
+#### Defined in
+
+src/components/FormElements/Input/index.tsx:47
+
+___
+
 ### LibraryContextProviderWrapper
 
 ▸ **LibraryContextProviderWrapper**(`props`): `ReactNode`
@@ -262,7 +288,7 @@ ___
 
 #### Defined in
 
-src/components/Modal/index.tsx:195
+src/components/Modal/index.tsx:194
 
 ___
 

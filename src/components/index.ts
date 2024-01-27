@@ -43,3 +43,7 @@ export type { ModalProps } from "./Modal"
 
 // + Layout component - 9
 export { default as LibraryContextProviderWrapper } from "./Layout/ContextProviderWrapper"
+
+// + Form Input component - 10
+export { default as Input, INPUT_SIZES, INPUT_SHAPES } from "./FormElements/Input"
+export type { InputProps } from "./FormElements/Input"

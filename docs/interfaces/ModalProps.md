@@ -32,7 +32,7 @@ The visibility state of the backdrop
 
 #### Defined in
 
-src/components/Modal/index.tsx:42
+src/components/Modal/index.tsx:41
 
 ___
 
@@ -54,7 +54,7 @@ The content of the modal
 
 #### Defined in
 
-src/components/Modal/index.tsx:29
+src/components/Modal/index.tsx:28
 
 ___
 
@@ -66,7 +66,7 @@ The classes of the modal
 
 #### Defined in
 
-src/components/Modal/index.tsx:65
+src/components/Modal/index.tsx:64
 
 ___
 
@@ -82,7 +82,7 @@ The visibility state of the close button
 
 #### Defined in
 
-src/components/Modal/index.tsx:57
+src/components/Modal/index.tsx:56
 
 ___
 
@@ -98,7 +98,7 @@ Disposing of the modal interface on external interaction
 
 #### Defined in
 
-src/components/Modal/index.tsx:74
+src/components/Modal/index.tsx:73
 
 ___
 
@@ -110,7 +110,7 @@ The classes of the modal container
 
 #### Defined in
 
-src/components/Modal/index.tsx:61
+src/components/Modal/index.tsx:60
 
 ___
 
@@ -132,7 +132,7 @@ The function to be called when the modal is closed
 
 #### Defined in
 
-src/components/Modal/index.tsx:69
+src/components/Modal/index.tsx:68
 
 ___
 
@@ -144,7 +144,7 @@ The function to set the visibility state of the modal
 
 #### Defined in
 
-src/components/Modal/index.tsx:37
+src/components/Modal/index.tsx:36
 
 ___
 
@@ -164,7 +164,7 @@ The size of the modal,
 
 #### Defined in
 
-src/components/Modal/index.tsx:47
+src/components/Modal/index.tsx:46
 
 ___
 
@@ -180,7 +180,7 @@ The vertical alignment of the modal
 
 #### Defined in
 
-src/components/Modal/index.tsx:52
+src/components/Modal/index.tsx:51
 
 ___
 
@@ -192,4 +192,4 @@ The visibility state of the modal
 
 #### Defined in
 
-src/components/Modal/index.tsx:33
+src/components/Modal/index.tsx:32
